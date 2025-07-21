@@ -42,6 +42,7 @@ export default function Home() {
             <Link href="/sertifikalar" className={`text-white hover:text-blue-300 transition ${currentPath === '/sertifikalar' ? 'font-bold border-b-[3px] border-blue-300 pb-1' : ''}`}>Sertifikalarım</Link>
             <Link href="/kurslar" className={`text-white hover:text-blue-300 transition ${currentPath === '/kurslar' ? 'font-bold border-b-[3px] border-blue-300 pb-1' : ''}`}>Aldığım Kurslar</Link>
             <Link href="/beceriler" className={`text-white hover:text-blue-300 transition ${currentPath === '/beceriler' ? 'font-bold border-b-[3px] border-blue-300 pb-1' : ''}`}>Becerilerim</Link>
+            <Link href="/testler" className={`text-white hover:text-blue-300 transition ${currentPath === '/testler' ? 'font-bold border-b-[3px] border-blue-300 pb-1' : ''}`}>Test Otomasyonu</Link>
           </div>
           }
           
@@ -59,6 +60,7 @@ export default function Home() {
             <Link href="/sertifikalar" className={`text-white hover:text-blue-300 transition ${currentPath === '/sertifikalar' ? 'font-bold border-b-[3px] border-blue-300 pb-1 w-fit' : ''}`}>Sertifikalarım</Link>
             <Link href="/kurslar" className={`text-white hover:text-blue-300 transition ${currentPath === '/kurslar' ? 'font-bold border-b-[3px] border-blue-300 pb-1 w-fit' : ''}`}>Aldığım Kurslar</Link>
             <Link href="/beceriler" className={`text-white hover:text-blue-300 transition ${currentPath === '/beceriler' ? 'font-bold border-b-[3px] border-blue-300 pb-1 w-fit' : ''}`}>Becerilerim</Link>
+            <Link href="/testler" className={`text-white hover:text-blue-300 transition ${currentPath === '/testler' ? 'font-bold border-b-[3px] border-blue-300 pb-1 w-fit' : ''}`}>Test Otomasyonu</Link>
           </div>
         )}
       </nav>
