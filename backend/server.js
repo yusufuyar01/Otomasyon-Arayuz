@@ -10,7 +10,7 @@ const PORT = process.env.PORT || 3001;
 // CORS ayarları
 app.use(cors({
   origin: process.env.NODE_ENV === 'production' 
-    ? ['https://playwright-frontend.onrender.com', 'https://otomasyon-arayuz.onrender.com']
+    ? ['https://otomasyon-arayuz.vercel.app', 'https://otomasyon-arayuz.onrender.com']
     : ['http://localhost:3000', 'http://192.168.56.1:3000'],
   credentials: true
 }));
