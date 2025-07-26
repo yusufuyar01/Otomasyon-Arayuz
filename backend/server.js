@@ -224,13 +224,6 @@ app.post('/run-test', async (req, res) => {
   }
 
   try {
-    const testPath = path.join(__dirname, '..', 'tests', testFile);
-    
-    // Test dosyasının varlığını kontrol et
-    if (!fs.existsSync(testPath)) {
-      return res.status(404).json({ error: 'Test dosyası bulunamadı' });
-    }
-
     // Test sonucunu hemen döndür (simüle edilmiş)
     const testResult = {
       success: Math.random() > 0.3,
@@ -253,6 +246,7 @@ app.post('/run-test', async (req, res) => {
 
     res.json(testResult);
   } catch (error) {
+    console.error('Test çalıştırma hatası:', error);
     res.status(500).json({ error: 'Sunucu hatası', details: error.message });
   }
 });
