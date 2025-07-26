@@ -224,6 +224,7 @@ app.post('/run-test', async (req, res) => {
   }
 
   try {
+<<<<<<< HEAD
     // Test sonucunu hemen döndür (simüle edilmiş)
     const testResult = {
       success: Math.random() > 0.3,
@@ -231,6 +232,18 @@ app.post('/run-test', async (req, res) => {
               `✅ Test başlatıldı\n` +
               `📝 Test adımları çalıştırılıyor...\n` +
               `🌐 Browser açılıyor...\n` +
+=======
+    // Test simülasyonu - gerçek test yerine simüle ediyoruz
+    console.log(`Test çalıştırılıyor: ${testFile}`);
+    
+    // Simüle edilmiş test sonucu
+    const testResult = {
+      success: Math.random() > 0.3, // %70 başarı oranı
+      output: ` Test: ${testFile}\n` +
+              `✅ Test başlatıldı\n` +
+              `📝 Test adımları çalıştırılıyor...\n` +
+              ` Elementler bulunuyor...\n` +
+>>>>>>> parent of d9b52f4 (Update server.js)
               `📝 Form dolduruluyor...\n` +
               `✅ Test tamamlandı\n` +
               `⏱️ Süre: ${Math.floor(Math.random() * 30 + 10)} saniye\n` +
@@ -240,6 +253,7 @@ app.post('/run-test', async (req, res) => {
       timestamp: new Date().toISOString()
     };
 
+<<<<<<< HEAD
     // Test sonucunu kaydet
     lastTestResult = testResult;
 
@@ -247,30 +261,48 @@ app.post('/run-test', async (req, res) => {
   } catch (error) {
     console.error('Test çalıştırma hatası:', error);
     res.status(500).json({ error: 'Sunucu hatası', details: error.message });
+=======
+    // Simüle edilmiş gecikme
+    await new Promise(resolve => setTimeout(resolve, 2000));
+
+    res.json(testResult);
+  } catch (error) {
+    res.status(500).json({ 
+      error: 'Test çalıştırılamadı', 
+      details: error.message,
+      testFile: testFile
+    });
+>>>>>>> parent of d9b52f4 (Update server.js)
   }
 });
 
 // Tüm testleri çalıştır
 app.post('/run-all-tests', async (req, res) => {
   try {
-    exec('npx playwright test --timeout=120000 --reporter=line', { cwd: path.join(__dirname, '..') }, (error, stdout, stderr) => {
-      if (error) {
-        console.error('Test çalıştırma hatası:', error);
-        return res.status(500).json({ 
-          error: 'Testler çalıştırılamadı', 
-          details: error.message,
-          stderr: stderr
-        });
-      }
-      
-      res.json({ 
-        success: true, 
-        output: stdout,
-        message: 'Tüm testler başarıyla çalıştırıldı'
-      });
-    });
+    console.log('Tüm testler çalıştırılıyor...');
+    
+    // Simüle edilmiş tüm test sonucu
+    const allTestsResult = {
+      success: Math.random() > 0.2, // %80 başarı oranı
+      output: ` Tüm Testler Çalıştırılıyor\n` +
+              ` Toplam test sayısı: 30\n` +
+              `✅ Başarılı testler: ${Math.floor(Math.random() * 20 + 20)}\n` +
+              `❌ Başarısız testler: ${Math.floor(Math.random() * 5 + 1)}\n` +
+              `⏱️ Toplam süre: ${Math.floor(Math.random() * 120 + 60)} saniye\n` +
+              `📊 Genel sonuç: ${Math.random() > 0.2 ? 'BAŞARILI' : 'BAŞARISIZ'}`,
+      message: 'Tüm testler tamamlandı',
+      timestamp: new Date().toISOString()
+    };
+
+    // Simüle edilmiş gecikme
+    await new Promise(resolve => setTimeout(resolve, 3000));
+
+    res.json(allTestsResult);
   } catch (error) {
-    res.status(500).json({ error: 'Sunucu hatası', details: error.message });
+    res.status(500).json({ 
+      error: 'Testler çalıştırılamadı', 
+      details: error.message
+    });
   }
 });
 
