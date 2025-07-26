@@ -17,6 +17,7 @@ interface TestResult {
   error?: string;
   details?: string;
   stderr?: string;
+  timestamp?: string;
 }
 
 // ANSI kodlarını temizleyen fonksiyon
@@ -79,16 +80,93 @@ export default function Home() {
     setTestResults(null);
 
     try {
-      const response = await fetch(`${backendUrl}/run-test`, {
+      // GitHub Actions'ı tetikle
+      const githubToken = process.env.NEXT_PUBLIC_GITHUB_TOKEN;
+      const repo = process.env.NEXT_PUBLIC_GITHUB_REPO; // "username/repo-name"
+      
+      if (!githubToken || !repo) {
+        setTestResults({
+          success: false,
+          output: '',
+          message: 'GitHub Actions yapılandırması eksik. Lütfen GitHub token ve repo bilgilerini ekleyin.',
+          error: 'GitHub token veya repo bilgisi eksik'
+        });
+        return;
+      }
+
+      // GitHub Actions workflow'unu tetikle
+      const workflowResponse = await fetch(`https://api.github.com/repos/${repo}/actions/workflows/playwright.yml/dispatches`, {
         method: 'POST',
         headers: {
+          'Authorization': `token ${githubToken}`,
+          'Accept': 'application/vnd.github.v3+json',
           'Content-Type': 'application/json',
         },
-        body: JSON.stringify({ testFile }),
+        body: JSON.stringify({
+          ref: 'main',
+          inputs: {
+            test_file: testFile,
+            backend_url: backendUrl
+          }
+        })
       });
 
-      const result = await response.json();
-      setTestResults(result);
+      if (!workflowResponse.ok) {
+        throw new Error(`GitHub Actions tetiklenemedi: ${workflowResponse.status}`);
+      }
+
+      // Test sonucunu bekle (polling)
+      let attempts = 0;
+      const maxAttempts = 60; // 5 dakika (5 saniye aralıklarla)
+      
+      const pollResult = async () => {
+        try {
+          const resultResponse = await fetch(`${backendUrl}/last-test-result`);
+          
+          if (resultResponse.ok) {
+            const result = await resultResponse.json();
+            
+            // Test dosyası eşleşiyor mu kontrol et
+            if (result.test_file === testFile) {
+              setTestResults({
+                success: result.result === 'success',
+                output: result.output || '',
+                message: result.message || 'Test tamamlandı',
+                timestamp: result.timestamp
+              });
+              return true;
+            }
+          }
+          
+          attempts++;
+          if (attempts < maxAttempts) {
+            setTimeout(pollResult, 5000); // 5 saniye bekle
+          } else {
+            setTestResults({
+              success: false,
+              output: '',
+              message: 'Test sonucu zaman aşımına uğradı',
+              error: '5 dakika içinde sonuç alınamadı'
+            });
+          }
+        } catch (error) {
+          attempts++;
+          if (attempts < maxAttempts) {
+            setTimeout(pollResult, 5000);
+          } else {
+            setTestResults({
+              success: false,
+              output: '',
+              message: 'Test sonucu alınırken hata oluştu',
+              error: error instanceof Error ? error.message : 'Bilinmeyen hata'
+            });
+          }
+        }
+      };
+
+      // Polling başlat
+      setTimeout(pollResult, 5000); // İlk 5 saniye bekle
+
     } catch (error) {
       setTestResults({
         success: false,

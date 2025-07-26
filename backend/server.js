@@ -7,6 +7,9 @@ const path = require('path');
 const app = express();
 const PORT = process.env.PORT || 3001;
 
+// Son test sonucunu saklamak için global değişken
+let lastTestResult = null;
+
 // CORS ayarları
 app.use(cors({
   origin: process.env.NODE_ENV === 'production' 
@@ -280,6 +283,41 @@ app.post('/run-all-tests', async (req, res) => {
 // Health check endpoint
 app.get('/health', (req, res) => {
   res.json({ status: 'OK', timestamp: new Date().toISOString() });
+});
+
+// Test sonucu al (GitHub Actions veya başka bir yerden)
+app.post('/test-result', (req, res) => {
+  const { test_file, result, message, output, timestamp, workflow_run_id } = req.body;
+  
+  // Son test sonucunu güncelle
+  lastTestResult = {
+    test_file,
+    result,
+    message,
+    output,
+    timestamp,
+    workflow_run_id
+  };
+  
+  console.log('Test sonucu alındı:', {
+    test_file,
+    result,
+    message,
+    output: output ? output.substring(0, 200) + (output.length > 200 ? '...' : '') : '',
+    timestamp,
+    workflow_run_id
+  });
+  
+  res.json({ success: true, message: 'Test sonucu kaydedildi', test_file, result, timestamp, workflow_run_id });
+});
+
+// Son test sonucunu getir
+app.get('/last-test-result', (req, res) => {
+  if (lastTestResult) {
+    res.json(lastTestResult);
+  } else {
+    res.status(404).json({ error: 'Henüz test sonucu yok' });
+  }
 });
 
 app.listen(PORT, () => {

@@ -1,0 +1,71 @@
+name: Playwright Tests
+
+on:
+  workflow_dispatch:
+    inputs:
+      test_file:
+        description: 'Test file to run'
+        required: true
+        default: 'tests/merchant/507-gercek-mukellef-ekleme.spec.ts'
+      backend_url:
+        description: 'Backend URL to send results'
+        required: true
+        default: 'https://otomasyon-arayuz.onrender.com'
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Node.js Kurulumu
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+          
+      - name: Dependencies Yükle
+        run: npm install
+        
+      - name: Playwright Browser'ları Yükle
+        run: npx playwright install --with-deps chromium
+        
+      - name: Test Çalıştır ve Sonucu Kaydet
+        id: test_result
+        run: |
+          # Test çalıştır ve çıktıyı kaydet
+          npx playwright test ${{ github.event.inputs.test_file }} --reporter=line > test_output.txt 2>&1
+          TEST_EXIT_CODE=$?
+          
+          # Test çıktısını oku
+          TEST_OUTPUT=$(cat test_output.txt)
+          
+          # Sonucu belirle
+          if [ $TEST_EXIT_CODE -eq 0 ]; then
+            RESULT="success"
+            MESSAGE="Test başarıyla tamamlandı"
+          else
+            RESULT="failed"
+            MESSAGE="Test başarısız oldu"
+          fi
+          
+          # GitHub Actions output'a kaydet
+          echo "result=$RESULT" >> $GITHUB_OUTPUT
+          echo "message=$MESSAGE" >> $GITHUB_OUTPUT
+          echo "output<<EOF" >> $GITHUB_OUTPUT
+          echo "$TEST_OUTPUT" >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
+          
+      - name: Test Sonucunu Backend'e Gönder
+        run: |
+          # Test sonucunu backend'e gönder
+          curl -X POST ${{ github.event.inputs.backend_url }}/test-result \
+            -H "Content-Type: application/json" \
+            -d '{
+              "test_file": "${{ github.event.inputs.test_file }}",
+              "result": "${{ steps.test_result.outputs.result }}",
+              "message": "${{ steps.test_result.outputs.message }}",
+              "output": "${{ steps.test_result.outputs.output }}",
+              "timestamp": "'$(date -u +"%Y-%m-%dT%H:%M:%S.000Z")'",
+              "workflow_run_id": "${{ github.run_id }}"
+            }'
+        continue-on-error: true 
