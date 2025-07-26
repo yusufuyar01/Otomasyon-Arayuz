@@ -35,7 +35,7 @@ jobs:
           # Test dosyasının varlığını kontrol et
           if [ ! -f "${{ github.event.inputs.test_file }}" ]; then
             echo "❌ Test dosyası bulunamadı: ${{ github.event.inputs.test_file }}"
-            echo "📁 Mevcut dosyalar:"
+            echo "�� Mevcut dosyalar:"
             find . -name "*.spec.ts" -type f | head -10
             echo "result=failed" >> $GITHUB_OUTPUT
             echo "message=Test dosyası bulunamadı" >> $GITHUB_OUTPUT
@@ -83,4 +83,4 @@ jobs:
               "timestamp": "'$(date -u +"%Y-%m-%dT%H:%M:%S.000Z")'",
               "workflow_run_id": "${{ github.run_id }}"
             }'
-        continue-on-error: true 
+        continue-on-error: true
