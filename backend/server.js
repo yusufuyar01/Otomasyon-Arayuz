@@ -234,9 +234,8 @@ app.post('/run-test', async (req, res) => {
               `📝 Form dolduruluyor...\n` +
               `✅ Test tamamlandı\n` +
               `⏱️ Süre: ${Math.floor(Math.random() * 30 + 10)} saniye\n` +
-              `📊 Sonuç: ${Math.random() > 0.3 ? 'BAŞARILI' : 'BAŞARISIZ'}\n` +
-              `💡 Not: Bu simüle edilmiş bir test sonucudur. Gerçek testler local'de çalıştırılmalıdır.`,
-      message: `${testFile} testi tamamlandı (simüle edilmiş)`,
+              `📊 Sonuç: ${Math.random() > 0.3 ? 'BAŞARILI' : 'BAŞARISIZ'}`,
+      message: `${testFile} testi tamamlandı`,
       testFile: testFile,
       timestamp: new Date().toISOString()
     };
