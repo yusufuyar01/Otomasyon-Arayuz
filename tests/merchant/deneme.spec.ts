@@ -5,7 +5,7 @@ import { rastgeleString } from '../../helpers/stringUret';
 import { ePostaUret } from '../../helpers/ePostaUret';
 import { telNoUret } from '../../helpers/telNoUret';
 import { zoom } from '../../helpers/zoom';
-import { cihazEkle, cihazGuncelle, cihazSil  } from '../../helpers/cihazIslemleri';
+import { cihazEkle, cihazGuncelle, cihazSil , cihazUyeIseyerindenGeriAl, cihazUyeIseyerineAta, cihazlariBayiyeAta, cihazlariBayidenGeriAl, cihaziBayiyeAta, cihaziOperasyonelBayiyeAta, cihaziBayidenGeriAl, cihaziBayiyeAta2, cihaziBayiyeAta3, cihaziOperasyonelBayiyeBoşAta} from '../../helpers/cihazIslemleri';
 
 
 test('Deneme', async ({ page }) => {
@@ -16,15 +16,44 @@ test('Deneme', async ({ page }) => {
   // Zoom işlemi
   await zoom(page);
 
-  // Cihaz İşlemleri menü linkini bul ve tıkla
-  await cihazEkle(page);
+   // Cihaz yönetimi bul ve tıkla
+   const cihazYonetimi = page.locator('text="Cihaz Yönetimi"'); 
+   await cihazYonetimi.click();
+   await page.waitForTimeout(1000);
+ 
+   // Cihaz İşlemleri menü linkini bul ve tıkla
+   const cihazIslemleri = page.getByRole('link', { name: ' Cihaz İşlemleri' });
+   await cihazIslemleri.click();
+   await page.waitForTimeout(2000);
 
-  // Cihaz güncelleme
-  await cihazGuncelle(page);
+
+
+   // cihaz ekle
+   await cihazEkle(page);
+   await cihazEkle(page);
+
+
+   
+
 
   // Cihaz silme
-  await cihazSil(page);
-  await cihazSil(page);
+  // await cihazSil(page);
+  // await cihazSil(page);
+  // await cihazSil(page);
+  // await cihazSil(page);
+  // await cihazSil(page);
+  // await cihazSil(page);
+  // await cihazSil(page);
+  // await cihazSil(page);
+  // await cihazSil(page);
+  // await cihazSil(page);
+  // await cihazSil(page);
+  // await cihazSil(page);
+
+
+
+
+
 
 
   // // Test sonunda ekranın kapanmasını engellemek için pause
