@@ -171,10 +171,11 @@ export default function Home() {
               <div className="flex flex-wrap gap-4">
                 <button
                   onClick={runAllTests}
-                  disabled={runningTest !== null}
-                  className="bg-green-600 text-white px-6 py-3 rounded-lg hover:bg-green-700 transition disabled:opacity-50 disabled:cursor-not-allowed"
+                  disabled={true}
+                  className="bg-gray-600 text-white px-6 py-3 rounded-lg transition opacity-50 cursor-not-allowed"
+                  title="Bu özellik şu anda devre dışı"
                 >
-                  {runningTest === 'all' ? '🔄 Çalışıyor...' : '🚀 Tüm Testleri Çalıştır'}
+                  🚀 Tüm Testleri Çalıştır (Devre Dışı)
                 </button>
                 <button
                   onClick={fetchTests}

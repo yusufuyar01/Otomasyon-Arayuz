@@ -44,7 +44,7 @@ export default function TestDosyalari({ tests, loading, runningTest, onRunTest }
                 <h3 className="text-xl font-semibold text-blue-300 border-b border-gray-600 pb-2">
                   📁 {category}
                 </h3>
-                <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
+                <div className="grid gap-4 grid-cols-1 md:grid-cols-2">
                   {categoryTests.map((test) => (
                     <TestDosyasi
                       key={test.file}

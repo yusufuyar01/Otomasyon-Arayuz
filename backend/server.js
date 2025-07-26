@@ -198,8 +198,8 @@ app.get('/tests', (req, res) => {
       },
       {
         name: 'Üye işyerine atanmamış cihazları seçip E-Belge ayarları yapılmamış 507 üye işyerine ata',
-        file: 'device/cihazlari-507-uye-isyerine-ata-e-belge-var.spec.ts',
-        path: 'tests/device/cihazlari-507-uye-isyerine-ata-e-belge-var.spec.ts',
+        file: 'device/cihazlari-507-uye-isyerine-ata-e-belge-yok.spec.ts',
+        path: 'tests/device/cihazlari-507-uye-isyerine-ata-e-belge-yok.spec.ts',
         category: 'device'
       }
 
