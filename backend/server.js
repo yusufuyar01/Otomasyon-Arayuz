@@ -7,13 +7,10 @@ const path = require('path');
 const app = express();
 const PORT = process.env.PORT || 3001;
 
-// Son test sonucunu saklamak için global değişken
-let lastTestResult = null;
-
 // CORS ayarları
 app.use(cors({
   origin: process.env.NODE_ENV === 'production' 
-    ? ['https://otomasyon-arayuz.vercel.app']
+    ? ['https://playwright-frontend.onrender.com', 'https://otomasyon-arayuz.onrender.com']
     : ['http://localhost:3000', 'http://192.168.56.1:3000'],
   credentials: true
 }));
@@ -205,6 +202,8 @@ app.get('/tests', (req, res) => {
         path: 'tests/device/cihazlari-507-uye-isyerine-ata-e-belge-var.spec.ts',
         category: 'device'
       }
+
+      
     ];
 
     res.json(testFiles);
@@ -222,28 +221,34 @@ app.post('/run-test', async (req, res) => {
   }
 
   try {
-    // Test sonucunu hemen döndür (simüle edilmiş)
-    const testResult = {
-      success: Math.random() > 0.3,
-      output: ` Test: ${testFile}\n` +
-              `✅ Test başlatıldı\n` +
-              `📝 Test adımları çalıştırılıyor...\n` +
-              `🌐 Browser açılıyor...\n` +
-              `📝 Form dolduruluyor...\n` +
-              `✅ Test tamamlandı\n` +
-              `⏱️ Süre: ${Math.floor(Math.random() * 30 + 10)} saniye\n` +
-              `📊 Sonuç: ${Math.random() > 0.3 ? 'BAŞARILI' : 'BAŞARISIZ'}`,
-      message: `${testFile} testi tamamlandı`,
-      testFile: testFile,
-      timestamp: new Date().toISOString()
-    };
+    const testPath = path.join(__dirname, '..', 'tests', testFile);
+    
+    // Test dosyasının varlığını kontrol et
+    if (!fs.existsSync(testPath)) {
+      return res.status(404).json({ error: 'Test dosyası bulunamadı' });
+    }
 
-    // Test sonucunu kaydet
-    lastTestResult = testResult;
-
-    res.json(testResult);
+    // Playwright testini çalıştır (timeout artırıldı) - Terminal çıktısı için line reporter kullan
+    exec(`npx playwright test tests/${testFile} --headed --timeout=120000 --reporter=line`, { cwd: path.join(__dirname, '..') }, (error, stdout, stderr) => {
+              if (error) {
+          console.error('Test çalıştırma hatası:', error);
+          return res.status(500).json({ 
+            error: 'Test çalıştırılamadı', 
+            details: error.message,
+            stdout: stdout,
+            stderr: stderr,
+            command: `npx playwright test tests/${testFile} --headed --timeout=120000`
+          });
+        }
+      
+      res.json({ 
+        success: true, 
+        output: stdout,
+        stderr: stderr,
+        message: 'Test başarıyla çalıştırıldı'
+      });
+    });
   } catch (error) {
-    console.error('Test çalıştırma hatası:', error);
     res.status(500).json({ error: 'Sunucu hatası', details: error.message });
   }
 });
@@ -251,71 +256,30 @@ app.post('/run-test', async (req, res) => {
 // Tüm testleri çalıştır
 app.post('/run-all-tests', async (req, res) => {
   try {
-    console.log('Tüm testler çalıştırılıyor...');
-    
-    // Simüle edilmiş tüm test sonucu
-    const allTestsResult = {
-      success: Math.random() > 0.2, // %80 başarı oranı
-      output: ` Tüm Testler Çalıştırılıyor\n` +
-              ` Toplam test sayısı: 30\n` +
-              `✅ Başarılı testler: ${Math.floor(Math.random() * 20 + 20)}\n` +
-              `❌ Başarısız testler: ${Math.floor(Math.random() * 5 + 1)}\n` +
-              `⏱️ Toplam süre: ${Math.floor(Math.random() * 120 + 60)} saniye\n` +
-              `📊 Genel sonuç: ${Math.random() > 0.2 ? 'BAŞARILI' : 'BAŞARISIZ'}`,
-      message: 'Tüm testler tamamlandı',
-      timestamp: new Date().toISOString()
-    };
-
-    // Simüle edilmiş gecikme
-    await new Promise(resolve => setTimeout(resolve, 3000));
-
-    res.json(allTestsResult);
-  } catch (error) {
-    res.status(500).json({ 
-      error: 'Testler çalıştırılamadı', 
-      details: error.message
+    exec('npx playwright test --timeout=120000 --reporter=line', { cwd: path.join(__dirname, '..') }, (error, stdout, stderr) => {
+      if (error) {
+        console.error('Test çalıştırma hatası:', error);
+        return res.status(500).json({ 
+          error: 'Testler çalıştırılamadı', 
+          details: error.message,
+          stderr: stderr
+        });
+      }
+      
+      res.json({ 
+        success: true, 
+        output: stdout,
+        message: 'Tüm testler başarıyla çalıştırıldı'
+      });
     });
+  } catch (error) {
+    res.status(500).json({ error: 'Sunucu hatası', details: error.message });
   }
 });
 
 // Health check endpoint
 app.get('/health', (req, res) => {
   res.json({ status: 'OK', timestamp: new Date().toISOString() });
-});
-
-// Test sonucu al (GitHub Actions veya başka bir yerden)
-app.post('/test-result', (req, res) => {
-  const { test_file, result, message, output, timestamp, workflow_run_id } = req.body;
-  
-  // Son test sonucunu güncelle
-  lastTestResult = {
-    test_file,
-    result,
-    message,
-    output,
-    timestamp,
-    workflow_run_id
-  };
-  
-  console.log('Test sonucu alındı:', {
-    test_file,
-    result,
-    message,
-    output: output ? output.substring(0, 200) + (output.length > 200 ? '...' : '') : '',
-    timestamp,
-    workflow_run_id
-  });
-  
-  res.json({ success: true, message: 'Test sonucu kaydedildi', test_file, result, timestamp, workflow_run_id });
-});
-
-// Son test sonucunu getir
-app.get('/last-test-result', (req, res) => {
-  if (lastTestResult) {
-    res.json(lastTestResult);
-  } else {
-    res.status(404).json({ error: 'Henüz test sonucu yok' });
-  }
 });
 
 app.listen(PORT, () => {
