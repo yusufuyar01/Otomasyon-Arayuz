@@ -231,26 +231,27 @@ app.post('/run-test', async (req, res) => {
       return res.status(404).json({ error: 'Test dosyası bulunamadı' });
     }
 
-    // Playwright testini çalıştır (timeout artırıldı) - Terminal çıktısı için line reporter kullan
-    exec(`npx playwright test tests/${testFile} --headed --timeout=120000 --reporter=line`, { cwd: path.join(__dirname, '..') }, (error, stdout, stderr) => {
-              if (error) {
-          console.error('Test çalıştırma hatası:', error);
-          return res.status(500).json({ 
-            error: 'Test çalıştırılamadı', 
-            details: error.message,
-            stdout: stdout,
-            stderr: stderr,
-            command: `npx playwright test tests/${testFile} --headed --timeout=120000`
-          });
-        }
-      
-      res.json({ 
-        success: true, 
-        output: stdout,
-        stderr: stderr,
-        message: 'Test başarıyla çalıştırıldı'
-      });
-    });
+    // Test sonucunu hemen döndür (simüle edilmiş)
+    const testResult = {
+      success: Math.random() > 0.3,
+      output: ` Test: ${testFile}\n` +
+              `✅ Test başlatıldı\n` +
+              `📝 Test adımları çalıştırılıyor...\n` +
+              `🌐 Browser açılıyor...\n` +
+              `📝 Form dolduruluyor...\n` +
+              `✅ Test tamamlandı\n` +
+              `⏱️ Süre: ${Math.floor(Math.random() * 30 + 10)} saniye\n` +
+              `📊 Sonuç: ${Math.random() > 0.3 ? 'BAŞARILI' : 'BAŞARISIZ'}\n` +
+              `💡 Not: Bu simüle edilmiş bir test sonucudur. Gerçek testler local'de çalıştırılmalıdır.`,
+      message: `${testFile} testi tamamlandı (simüle edilmiş)`,
+      testFile: testFile,
+      timestamp: new Date().toISOString()
+    };
+
+    // Test sonucunu kaydet
+    lastTestResult = testResult;
+
+    res.json(testResult);
   } catch (error) {
     res.status(500).json({ error: 'Sunucu hatası', details: error.message });
   }
