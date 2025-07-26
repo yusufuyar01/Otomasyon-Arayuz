@@ -2,6 +2,7 @@
 import Image from "next/image";
 import Link from "next/link";
 <<<<<<< HEAD
+<<<<<<< HEAD
 import TestDosyalari from "./components/testDosyalari";
 
 interface TestFile {
@@ -26,6 +27,9 @@ function stripAnsi(str: string) {
   // eslint-disable-next-line no-control-regex
   return str.replace(/[\u001b\u009b][[()#;?]*(?:[0-9]{1,4}(?:;[0-9]{0,4})*)?[0-9A-ORZcf-nqry=><]/g, '');
 }
+=======
+import { useState, useEffect } from "react";
+>>>>>>> parent of f518868 (Arayüz oluşturuldu)
 =======
 import { useState, useEffect } from "react";
 >>>>>>> parent of f518868 (Arayüz oluşturuldu)
@@ -117,6 +121,7 @@ export default function Home() {
             </p>
           </section>
 <<<<<<< HEAD
+<<<<<<< HEAD
 
           {/* Test Controls */}
           <section className="mb-8">
@@ -203,6 +208,8 @@ export default function Home() {
               </div>
             </section>
           )}
+=======
+>>>>>>> parent of f518868 (Arayüz oluşturuldu)
 =======
 >>>>>>> parent of f518868 (Arayüz oluşturuldu)
         </main>

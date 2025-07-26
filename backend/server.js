@@ -14,8 +14,13 @@ let lastTestResult = null;
 app.use(cors({
   origin: process.env.NODE_ENV === 'production' 
 <<<<<<< HEAD
+<<<<<<< HEAD
     ? [process.env.FRONTEND_URL || 'https://otomasyon-arayuz.vercel.app']
     : ['http://localhost:3000', 'http://192.168.56.1:3000'],
+=======
+    ? ['https://playwright-frontend.onrender.com', 'https://otomasyon-arayuz.onrender.com']
+    : 'http://localhost:3000',
+>>>>>>> parent of f518868 (Arayüz oluşturuldu)
 =======
     ? ['https://playwright-frontend.onrender.com', 'https://otomasyon-arayuz.onrender.com']
     : 'http://localhost:3000',
@@ -82,11 +87,14 @@ app.post('/run-test', async (req, res) => {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     // Test sonucunu kaydet
     lastTestResult = testResult;
 
     res.json(testResult);
 =======
+=======
+>>>>>>> parent of f518868 (Arayüz oluşturuldu)
     // Playwright testini çalıştır
     exec(`npx playwright test "${testPath}" --reporter=json`, (error, stdout, stderr) => {
       if (error) {
@@ -127,6 +135,7 @@ app.post('/run-test', async (req, res) => {
 app.post('/run-all-tests', async (req, res) => {
   try {
 <<<<<<< HEAD
+<<<<<<< HEAD
     console.log('Tüm testler çalıştırılıyor...');
     
     // Simüle edilmiş tüm test sonucu
@@ -147,6 +156,8 @@ app.post('/run-all-tests', async (req, res) => {
 
     res.json(allTestsResult);
 =======
+=======
+>>>>>>> parent of f518868 (Arayüz oluşturuldu)
     exec('npx playwright test --reporter=json', (error, stdout, stderr) => {
       if (error) {
         console.error('Test çalıştırma hatası:', error);
