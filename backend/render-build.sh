@@ -7,9 +7,9 @@ echo "🚀 Render.com build script başlatılıyor..."
 echo "📦 Dependencies yükleniyor..."
 npm install
 
-# Playwright browser'ları yükle
-echo "🌐 Playwright browser'ları yükleniyor..."
-npx playwright install --with-deps chromium
+# Playwright browser'larını yüklemeyi dene ama hata olursa devam et
+echo " Playwright browser'ları yüklenmeye çalışılıyor..."
+npx playwright install --with-deps chromium || echo "⚠️ Browser yükleme başarısız, devam ediliyor..."
 
 # Build tamamlandı
 echo "✅ Build tamamlandı!" 
