@@ -32,12 +32,27 @@ jobs:
       - name: Test Çalıştır ve Sonucu Kaydet
         id: test_result
         run: |
+          # Test dosyasının varlığını kontrol et
+          if [ ! -f "${{ github.event.inputs.test_file }}" ]; then
+            echo "❌ Test dosyası bulunamadı: ${{ github.event.inputs.test_file }}"
+            echo "📁 Mevcut dosyalar:"
+            find . -name "*.spec.ts" -type f | head -10
+            echo "result=failed" >> $GITHUB_OUTPUT
+            echo "message=Test dosyası bulunamadı" >> $GITHUB_OUTPUT
+            echo "output=Test dosyası bulunamadı: ${{ github.event.inputs.test_file }}" >> $GITHUB_OUTPUT
+            exit 1
+          fi
+          
+          echo "✅ Test dosyası bulundu: ${{ github.event.inputs.test_file }}"
+          
           # Test çalıştır ve çıktıyı kaydet
-          npx playwright test ${{ github.event.inputs.test_file }} --reporter=line > test_output.txt 2>&1
+          npx playwright test "${{ github.event.inputs.test_file }}" --reporter=line > test_output.txt 2>&1
           TEST_EXIT_CODE=$?
           
           # Test çıktısını oku
           TEST_OUTPUT=$(cat test_output.txt)
+          echo "📄 Test çıktısı:"
+          echo "$TEST_OUTPUT"
           
           # Sonucu belirle
           if [ $TEST_EXIT_CODE -eq 0 ]; then
@@ -45,7 +60,7 @@ jobs:
             MESSAGE="Test başarıyla tamamlandı"
           else
             RESULT="failed"
-            MESSAGE="Test başarısız oldu"
+            MESSAGE="Test başarısız oldu (Exit code: $TEST_EXIT_CODE)"
           fi
           
           # GitHub Actions output'a kaydet
