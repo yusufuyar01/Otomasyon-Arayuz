@@ -13,9 +13,10 @@ const nextConfig = {
       },
     ],
   },
-  output: 'export',
-  assetPrefix: '/',
-  trailingSlash: true,
+  output: 'standalone',
+  experimental: {
+    outputFileTracingRoot: undefined,
+  },
   webpack: (config) => {
     config.resolve.fallback = { fs: false };
     return config;

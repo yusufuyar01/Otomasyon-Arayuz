@@ -7,7 +7,10 @@
     "dev": "nodemon server.js",
     "test": "npx playwright test",
     "install-browsers": "npx playwright install",
-    "build": "npm install && npx playwright install --with-deps chromium"
+    "build": "npm install && npx playwright install --with-deps chromium",
+    "docker:build": "docker build -t otomasyon-backend .",
+    "docker:run": "docker run -p 8080:8080 otomasyon-backend",
+    "railway:deploy": "railway up"
   },
   "keywords": ["playwright", "automation", "testing"],
   "author": "",
