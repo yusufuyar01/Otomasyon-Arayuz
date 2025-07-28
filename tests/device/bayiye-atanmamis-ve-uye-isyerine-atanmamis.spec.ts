@@ -135,8 +135,6 @@ test('Bayiye Atanmamış ve Üye İşyerine Atanmamış Cihazları Test Etme', a
   } catch (error) {
     console.log('⚠️ Her iki filtre birlikte uygulanamadı');
   }
-  
-  // Test sonunda ekranın kapanmasını engellemek için pause
-  await page.pause();
+
 
 }); 

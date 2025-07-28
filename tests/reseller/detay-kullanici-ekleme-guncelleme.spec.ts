@@ -136,9 +136,4 @@ test('Detay Kullanıcı Ekleme ve Güncelleme', async ({ page }) => {
   } catch (error) {
     console.log('❌ Kullanıcı güncelleme başarı mesajı kontrol edilirken hata oluştu:', error.message);
   }
-  
-
-  // Test sonunda ekranın kapanmasını engellemek için pause
-  await page.pause();
-
 }); 
