@@ -42,7 +42,5 @@ test('Üye İşyerine Atalı Cihazları Bayiden Geri Alma', async ({ page }) => 
   await page.waitForTimeout(1000);
   await cihazSil(page);
 
-  // Test sonunda ekranın kapanmasını engellemek için pause
-  await page.pause();
 
 }); 
