@@ -6,10 +6,7 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "docker:build": "docker build -t otomasyon-frontend .",
-    "docker:run": "docker run -p 3000:3000 otomasyon-frontend",
-    "railway:deploy": "railway up"
+    "lint": "next lint"
   },
   "dependencies": {
     "@heroicons/react": "^2.2.0",
