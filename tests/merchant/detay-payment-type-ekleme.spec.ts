@@ -1,5 +1,9 @@
 import { test, expect } from '@playwright/test';
 import { login } from '../../helpers/login';
+import { vknUret } from '../../helpers/vknUret';
+import { rastgeleString } from '../../helpers/stringUret';
+import { ePostaUret } from '../../helpers/ePostaUret';
+import { telNoUret } from '../../helpers/telNoUret';
 import { zoom } from '../../helpers/zoom';
 
 test('Detay Payment type Ekleme', async ({ page }) => {
@@ -57,4 +61,15 @@ test('Detay Payment type Ekleme', async ({ page }) => {
   await olusturButton.click();
   console.log('✅ Başarılı: Ödeme Tipi eklendi!');
   await page.waitForTimeout(1000);
+
+
+
+
+
+
+
+  
+  // Test sonunda ekranın kapanmasını engellemek için pause
+  await page.pause();
+
 }); 

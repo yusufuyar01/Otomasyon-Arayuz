@@ -187,4 +187,8 @@ test('Tüzel Kişi Bayi Ekleme', async ({ page }) => {
    } catch (error) {
      console.log('❌ Başarı mesajı kontrol edilirken hata oluştu:', error.message);
    }
+
+  // Test sonunda ekranın kapanmasını engellemek için pause
+  await page.pause();
+
 }); 

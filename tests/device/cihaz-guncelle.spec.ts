@@ -86,5 +86,7 @@ test('Cihaz Güncelleme', async ({ page }) => {
     console.log('⚠️ Başarı mesajı görünmedi, cihaz güncellenmiş olabilir');
   }
 
+  // Test sonunda ekranın kapanmasını engellemek için pause
+  await page.pause();
 
 }); 

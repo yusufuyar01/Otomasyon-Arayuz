@@ -3,6 +3,8 @@ import { login } from '../../helpers/login';
 import { vknUret } from '../../helpers/vknUret';
 import { tcknUret } from '../../helpers/tcknUret';
 import { rastgeleString } from '../../helpers/stringUret';
+import { ePostaUret } from '../../helpers/ePostaUret';
+import { telNoUret } from '../../helpers/telNoUret';
 import { zoom } from '../../helpers/zoom';
 
 test('Tip, Vergi Tipi ve Yetkili bayi Değiştirme', async ({ page }) => {
@@ -130,5 +132,11 @@ test('Tip, Vergi Tipi ve Yetkili bayi Değiştirme', async ({ page }) => {
   }
 
   await page.waitForTimeout(2000);
+
+
+
+
+  // Test sonunda ekranın kapanmasını engellemek için pause
+  await page.pause();
 
 }); 

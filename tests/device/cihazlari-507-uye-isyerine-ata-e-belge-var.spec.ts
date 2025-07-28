@@ -81,5 +81,7 @@ test('Cihazları 507 Üye İşyerine Atama (E-Belge Var)', async ({ page }) => {
   await cihazSil(page);
   await cihazSil(page);
 
+  // Test sonunda ekranın kapanmasını engellemek için pause
+  await page.pause();
 
 }); 

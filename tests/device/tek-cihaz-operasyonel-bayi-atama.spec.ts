@@ -43,5 +43,7 @@ test('Tek cihazı operasyonel bayiye atama işlemi', async ({ page }) => {
   // Cihaz silme
    await cihazSil(page);
 
+        
+  await page.pause();
 
 });

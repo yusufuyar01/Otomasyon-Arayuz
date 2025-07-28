@@ -45,5 +45,7 @@ test('Üye İşyeri Olan Cihazları Bayiye Atama', async ({ page }) => {
   await cihazSil(page);
   await cihazSil(page);
 
+  // Test sonunda ekranın kapanmasını engellemek için pause
+  await page.pause();
 
 }); 

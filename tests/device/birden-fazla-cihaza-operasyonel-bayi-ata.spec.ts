@@ -41,4 +41,9 @@ test('Birden fazla cihaza operasyonel bayi atama işlemi', async ({ page }) => {
   await cihazSil(page);
   await cihazSil(page);
 
+  await page.pause();
+
+
+
+
   });

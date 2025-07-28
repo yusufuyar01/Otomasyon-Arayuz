@@ -68,4 +68,7 @@ test('Yeni Cihaz Ekleme', async ({ page }) => {
     console.log('⚠️ Başarı mesajı görünmedi, cihaz eklenmiş olabilir');
   }
 
+  // Test sonunda ekranın kapanmasını engellemek için pause
+  await page.pause();
+
 }); 

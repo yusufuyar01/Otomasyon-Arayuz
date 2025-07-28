@@ -1,5 +1,6 @@
 import { test, expect } from '@playwright/test';
 import { login } from '../../helpers/login';
+import { ePostaUret } from '../../helpers/ePostaUret';
 import { telNoUret } from '../../helpers/telNoUret';
 import { rastgeleString } from '../../helpers/stringUret';
 import { zoom } from '../../helpers/zoom';
@@ -175,4 +176,10 @@ test('Detay İletişim Bilgileri Ekleme ve Güncelleme', async ({ page }) => {
       } catch (error) {
         console.log('❌ İletişim bilgisi güncelleme başarı mesajı kontrol edilirken hata oluştu:', error.message);
       }
+    
+
+
+  // Test sonunda ekranın kapanmasını engellemek için pause
+  await page.pause();
+
 }); 
