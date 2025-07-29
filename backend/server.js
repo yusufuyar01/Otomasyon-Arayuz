@@ -201,8 +201,13 @@ app.get('/tests', (req, res) => {
         file: 'device/cihazlari-507-uye-isyerine-ata-e-belge-yok.spec.ts',
         path: 'tests/device/cihazlari-507-uye-isyerine-ata-e-belge-yok.spec.ts',
         category: 'device'
+      },
+      {
+        name: 'Üye işyerine atanmamış cihazları seçip E-Belge ayarları yapılmamış 509 üye işyerine ata',
+        file: 'device/cihazlari-509-uye-isyerine-ata-e-belge-yok.spec.ts',
+        path: 'tests/device/cihazlari-509-uye-isyerine-ata-e-belge-yok.spec.ts',
+        category: 'sales-terminal'
       }
-
       
     ];
 
