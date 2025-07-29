@@ -203,9 +203,27 @@ app.get('/tests', (req, res) => {
         category: 'device'
       },
       {
-        name: 'Üye işyerine atanmamış cihazları seçip E-Belge ayarları yapılmamış 509 üye işyerine ata',
-        file: 'device/cihazlari-509-uye-isyerine-ata-e-belge-yok.spec.ts',
-        path: 'tests/device/cihazlari-509-uye-isyerine-ata-e-belge-yok.spec.ts',
+        name: 'Terminal Güncelle',
+        file: 'sales-terminal/terminal-guncelle.spec.ts',
+        path: 'tests/sales-terminal/terminal-guncelle.spec.ts',
+        category: 'sales-terminal'
+      },
+      {
+        name: 'Detay menüde Mediator ekleme güncelleme silme ve parametre ekleme güncelleme silme',
+        file: 'sales-terminal/detay-mediator-islemleri.spec.ts',
+        path: 'tests/sales-terminal/detay-mediator-islemleri.spec.ts',
+        category: 'sales-terminal'
+      },
+      {
+        name: 'Detay menüde Dokuman on eki ekleme güncelleme silme',
+        file: 'sales-terminal/detay-dokuman-on-eki-islemleri.spec.ts',
+        path: 'tests/sales-terminal/detay-dokuman-on-eki-islemleri.spec.ts',
+        category: 'sales-terminal'
+      },
+      {
+        name: 'Satışlarım Ekranında Filtreleme Yap',
+        file: 'sales-terminal/satislarim-filtrele.spec.ts',
+        path: 'tests/sales-terminal/satislarim-filtrele.spec.ts',
         category: 'sales-terminal'
       }
       
