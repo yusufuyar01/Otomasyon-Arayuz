@@ -106,7 +106,6 @@ test('Cihazları Bayiye Atama (checkbox işaretli)', async ({ page }) => {
   if (await uyarı.isVisible()) {
     console.log('❌ DENEME veya GÜNCELLE cihazı seçilmedi');    
     console.log('🛑 Test durduruldu.');
-    await page.pause(); // Testi durdur
     return; // Testi sonlandır
   }
 

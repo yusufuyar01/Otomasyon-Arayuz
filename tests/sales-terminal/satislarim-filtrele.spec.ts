@@ -1,7 +1,6 @@
 import { test, expect } from '@playwright/test';
 import { login } from '../../helpers/login';
 import { zoom } from '../../helpers/zoom';
-import { terminaliGetir } from '../../helpers/satisYerminaliIslemleri';
 
 test('Satışlarım Filtreleme İşlemleri', async ({ page }) => {
 
@@ -39,7 +38,6 @@ test('Satışlarım Filtreleme İşlemleri', async ({ page }) => {
     
     if (isKayitBulunamadiVisible) {
         console.log('❌ Kayıt bulunamadı');
-        await page.pause();
         return;
     }
 
@@ -74,5 +72,4 @@ test('Satışlarım Filtreleme İşlemleri', async ({ page }) => {
     }
 
     await page.pause();
-
 }); 

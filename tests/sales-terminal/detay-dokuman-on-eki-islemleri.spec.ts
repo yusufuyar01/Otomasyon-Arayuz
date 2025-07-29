@@ -31,6 +31,4 @@ test('Doküman Ön Eki İşlemleri - Ekleme, Güncelleme ve Silme', async ({ pag
     // Doküman ön eki sil
     await dokumanOnEkiSil(page);
     
-    await page.pause();
-
 }); 

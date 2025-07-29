@@ -34,10 +34,4 @@ test('Mediator İşlemleri - Ekleme, Güncelleme ve Silme', async ({ page }) => 
     // Ödeme Aracısı sil
     await mediatorSil(page);
 
-
-
- 
-
-    await page.pause();
-
 }); 

@@ -35,7 +35,4 @@ test('Terminal bilgilerini güncelleme', async ({ page }) => {
         console.log('❌ Terminal güncellenemedi');
     }
 
-
-    await page.pause();
-
 });
