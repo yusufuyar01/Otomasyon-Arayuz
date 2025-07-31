@@ -225,6 +225,42 @@ app.get('/tests', (req, res) => {
         file: 'sales-terminal/satislarim-filtrele.spec.ts',
         path: 'tests/sales-terminal/satislarim-filtrele.spec.ts',
         category: 'sales-terminal'
+      },
+      {
+        name: 'Grup Ata ve Terminal Güncelle',
+        file: 'techpos/grup-ata-ve-terminal-guncelle.spec.ts',
+        path: 'tests/techpos/grup-ata-ve-terminal-guncelle.spec.ts',
+        category: 'techpos'
+      },
+      {
+        name: 'Techpos İşlemleri Ekranında Filtreleme Yap',
+        file: 'techpos/techpos-islemleri-ekrani-filtre.spec.ts',
+        path: 'tests/techpos/techpos-islemleri-ekrani-filtre.spec.ts',
+        category: 'techpos'
+      },
+      {
+        name: 'Techpos Batch Ekranında Filtreleme Yap',
+        file: 'techpos/techpos-batch-ekrani-filtre.spec.ts',
+        path: 'tests/techpos/techpos-batch-ekrani-filtre.spec.ts',
+        category: 'techpos'
+      },
+      {
+        name: 'Batch Özet ve İşlemler Ekranında Özet tablosu Kontrolü Yap',
+        file: 'techpos/batch-ozet-ve-islemler.spec.ts',
+        path: 'tests/techpos/batch-ozet-ve-islemler.spec.ts',
+        category: 'techpos'
+      },
+      {
+        name: 'Batch Özet ve İşlemler Ekranında Filtreleme Yap',
+        file: 'techpos/techpos-grup-ekrani-crud.spec.ts',
+        path: 'tests/techpos/techpos-grup-ekrani-crud.spec.ts',
+        category: 'techpos'
+      },
+      {
+        name: 'Techpos Terminalde Tanımlı Banka Listesi Ekranında Liste Kontrolü Yap',
+        file: 'techpos/techpos-terminalde-tanimli-banka-listesi.spec.ts',
+        path: 'tests/techpos/techpos-terminalde-tanimli-banka-listesi.spec.ts',
+        category: 'techpos'
       }
       
     ];
