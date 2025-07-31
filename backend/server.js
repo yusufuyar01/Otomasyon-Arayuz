@@ -77,12 +77,6 @@ app.get('/tests', (req, res) => {
         category: 'merchant'
       },
       {
-        name: 'deneme',
-        file: 'merchant/deneme.spec.ts',
-        path: 'tests/merchant/deneme.spec.ts',
-        category: 'merchant'
-      },
-      {
         name: 'Bayi Güncelle',
         file: 'reseller/bayi-guncelle.spec.ts',
         path: 'tests/reseller/bayi-guncelle.spec.ts',
