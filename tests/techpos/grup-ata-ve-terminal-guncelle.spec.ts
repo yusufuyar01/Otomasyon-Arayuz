@@ -68,4 +68,5 @@ test('TechPOS - Grup Ata ve Terminal Güncelle', async ({ page }) => {
         console.log('❌ Techpos terminal güncelleme başarısız');
     }
     
+    await page.pause();
 });

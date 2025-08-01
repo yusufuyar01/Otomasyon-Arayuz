@@ -92,10 +92,12 @@ test('TechPOS - Batch Ekranı Filtre', async ({ page }) => {
 
     if (isGunUyarisiVisible) {
         console.log('❌ Seçilecek maksimum gün aralığı: 30');
+        await page.pause();
         return;
     }
     else if (isKayitBulunamadiVisible) {
         console.log('❌ Kayıt bulunamadı');
+        await page.pause();
         return;
     }
 
@@ -146,6 +148,7 @@ test('TechPOS - Batch Ekranı Filtre', async ({ page }) => {
         await page.locator(`tr:nth-child(${doluSatirNumarasi}) > .k-hierarchy-cell`).click();
     }
     await page.waitForTimeout(1000);
+
     // Özet tablosundaki belirli hücrenin değerini oku
     try {
         const ozetBulunamadi = page.getByText('Kayıt bulunamadı');
@@ -162,4 +165,5 @@ test('TechPOS - Batch Ekranı Filtre', async ({ page }) => {
         console.log(`❌ Hücre okuma hatası: ${error}`);
     }
     
+    await page.pause();
 }); 
