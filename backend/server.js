@@ -255,6 +255,18 @@ app.get('/tests', (req, res) => {
         file: 'techpos/techpos-terminalde-tanimli-banka-listesi.spec.ts',
         path: 'tests/techpos/techpos-terminalde-tanimli-banka-listesi.spec.ts',
         category: 'techpos'
+      },
+      {
+        name: 'Techpos Seri No Ekranında Liste Kontrolü Yap',
+        file: 'techpos/techpos-seri-no.spec.ts',
+        path: 'tests/techpos/techpos-seri-no.spec.ts',
+        category: 'techpos'
+      },
+      {
+        name: 'Techpos BKM Banka PF İşlem Listesi Ekranında Liste Kontrolü Yap',
+        file: 'techpos/BKM-techpos-banka-pf-islem-listesi.spec.ts',
+        path: 'tests/techpos/BKM-techpos-banka-pf-islem-listesi.spec.ts',
+        category: 'techpos'
       }
       
     ];
