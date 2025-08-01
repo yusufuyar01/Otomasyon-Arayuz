@@ -106,12 +106,10 @@ test('TechPOS - İşlemleri Ekranı Filtre', async ({ page }) => {
 
     if (isGunUyarisiVisible) {
         console.log('❌ Seçilecek maksimum gün aralığı: 30');
-        await page.pause();
         return;
     }
     else if (isKayitBulunamadiVisible) {
         console.log('❌ Kayıt bulunamadı');
-        await page.pause();
         return;
     }
 
@@ -207,7 +205,4 @@ test('TechPOS - İşlemleri Ekranı Filtre', async ({ page }) => {
         console.log('❌ Filtreleme sonucu üye işyeri eşleşmedi');
     }
 
-
-    
-    await page.pause();
 }); 

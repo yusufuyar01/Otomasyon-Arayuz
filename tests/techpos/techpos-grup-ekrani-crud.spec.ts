@@ -71,6 +71,4 @@ test('TechPOS Grup Ekranı CRUD İşlemleri', async ({ page }) => {
     }
 
 
-    
-    await page.pause();
 }); 

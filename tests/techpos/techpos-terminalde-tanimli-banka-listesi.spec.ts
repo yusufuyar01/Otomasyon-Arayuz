@@ -36,9 +36,4 @@ test('TechPOS Terminalde Tanımlı Banka Listesi', async ({ page }) => {
         console.log('❌ Bir sorun oluştu');
     }
 
-    
-
-
-
-    await page.pause();
 }); 

@@ -66,7 +66,6 @@ test('TechPOS - Seri No Grid Filtre', async ({ page }) => {
 
     if (await page.getByText('Kayıt bulunamadı').isVisible()) {
         console.log(' ❌ Kayıt bulunamadı');
-        await page.pause();
     } else {
         console.log(' ✅ Kayıtlar bulundu');
 
@@ -80,7 +79,6 @@ test('TechPOS - Seri No Grid Filtre', async ({ page }) => {
 
         if (await page.getByText('Kayıt bulunamadı').isVisible()) {
             console.log(' ❌ Kayıt bulunamadı');
-            await page.pause();
         } else {
             console.log(' ✅ Grid filtre ile Kayıt bulundu');
     
@@ -99,5 +97,4 @@ test('TechPOS - Seri No Grid Filtre', async ({ page }) => {
         }   
     }
 
-    await page.pause();
 }); 

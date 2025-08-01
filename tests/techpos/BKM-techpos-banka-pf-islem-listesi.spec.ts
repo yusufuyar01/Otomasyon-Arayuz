@@ -74,7 +74,6 @@ test('BKM TechPOS - Banka PF İşlem Listesi', async ({ page }) => {
 
     if (isKayitBulunamadiVisible) {
         console.log('❌ Kayıt bulunamadı');
-        await page.pause();
     } else {
         console.log('✅ Kayıtlar bulundu');
 
@@ -109,7 +108,6 @@ test('BKM TechPOS - Banka PF İşlem Listesi', async ({ page }) => {
 
     if (isKayitBulunamadiVisible) {
         console.log('❌ Kayıt bulunamadı');
-        await page.pause();
     } else {
         console.log('✅ Kayıtlar bulundu');
 
@@ -132,5 +130,4 @@ test('BKM TechPOS - Banka PF İşlem Listesi', async ({ page }) => {
 }
 
 
-    await page.pause();
 }); 
