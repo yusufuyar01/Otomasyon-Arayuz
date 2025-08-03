@@ -58,13 +58,19 @@ export default function Home() {
     };
 
     window.addEventListener("resize", handleResize);
-    fetchTests();
-    fetchTestHistory();
+    fetchTestHistory(); // Sadece test geçmişini yükle
 
     return () => {
       window.removeEventListener("resize", handleResize);
     };
   }, []);
+
+  // testHistory değiştiğinde fetchTests'i çağır
+  useEffect(() => {
+    if (Object.keys(testHistory).length > 0) {
+      fetchTests();
+    }
+  }, [testHistory]);
 
   const fetchTestHistory = async () => {
     try {

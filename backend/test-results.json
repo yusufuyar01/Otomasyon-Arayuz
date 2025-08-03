@@ -28,5 +28,15 @@
     "endTime": "2025-08-03T08:40:41.428Z",
     "duration": 28,
     "lastRun": "2025-08-03T08:40:41.428Z"
+  },
+  "merchant/509-tuzel-mukellef-ekleme.spec.ts": {
+    "success": true,
+    "output": "\nRunning 1 test using 1 worker\n\n\u001b[1A\u001b[2K[1/1] tests\\merchant\\509-tuzel-mukellef-ekleme.spec.ts:10:5 › 509 Tüzel Mükellef Ekleme Testleri\n\u001b[1A\u001b[2Ktests\\merchant\\509-tuzel-mukellef-ekleme.spec.ts:10:5 › 509 Tüzel Mükellef Ekleme Testleri\nÜretilen VKN: 5173364999\n\n\u001b[1A\u001b[2KÜretilen E-posta: fazo3bj3m3@gmail.com\n\n\u001b[1A\u001b[2KÜretilen Telefon Numarası: +90 51 955 52 26\n\n\u001b[1A\u001b[2K✅ Başarılı: Üye İşyeri başarıyla eklendi! (509-Tüzel Mükellef)\n\n\u001b[1A\u001b[2K✅ Başarılı: Üye İşyeri başarıyla silindi!\n\n\u001b[1A\u001b[2K  1 passed (27.0s)\n",
+    "stderr": "",
+    "error": null,
+    "startTime": "2025-08-03T08:46:22.756Z",
+    "endTime": "2025-08-03T08:46:51.418Z",
+    "duration": 29,
+    "lastRun": "2025-08-03T08:46:51.418Z"
   }
 }
