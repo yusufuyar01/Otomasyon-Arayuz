@@ -48,5 +48,205 @@
     "endTime": "2025-08-03T08:49:34.953Z",
     "duration": 86,
     "lastRun": "2025-08-03T08:49:34.953Z"
+  },
+  "merchant/detay-e-belge-ayarlari.spec.ts": {
+    "success": true,
+    "output": "\nRunning 1 test using 1 worker\n\n\u001b[1A\u001b[2K[1/1] tests\\merchant\\detay-e-belge-ayarlari.spec.ts:6:5 › Detay E-Belge Ayarları\n\u001b[1A\u001b[2Ktests\\merchant\\detay-e-belge-ayarlari.spec.ts:6:5 › Detay E-Belge Ayarları\n🎯 Rastgele seçilen satır numarası: 9\n\n\u001b[1A\u001b[2K✅ Entegratör mesajı görünmedi, E-Belge Ayarları devam ediyor...\n\n\u001b[1A\u001b[2K✅ Seçilen Belge Türü: E-Fatura\n\n\u001b[1A\u001b[2K✅ Üye İşyeri E-Belge Ayarları başarıyla oluşturuldu\n\n\u001b[1A\u001b[2K  1 passed (18.5s)\n",
+    "stderr": "",
+    "error": null,
+    "startTime": "2025-08-03T11:42:40.006Z",
+    "endTime": "2025-08-03T11:43:07.786Z",
+    "duration": 28,
+    "lastRun": "2025-08-03T11:43:07.786Z"
+  },
+  "merchant/detay-entegrator-ekleme.spec.ts": {
+    "success": true,
+    "output": "\nRunning 1 test using 1 worker\n\n\u001b[1A\u001b[2K[1/1] tests\\merchant\\detay-entegrator-ekleme.spec.ts:5:5 › Entegratör Ekleme\n\u001b[1A\u001b[2Ktests\\merchant\\detay-entegrator-ekleme.spec.ts:5:5 › Entegratör Ekleme\n🎯 Rastgele seçilen satır numarası: 6\n\n\u001b[1A\u001b[2K🎯 Rastgele seçilen entegratör:  test entegratörü \n\n\u001b[1A\u001b[2K✅ Entegratör başarıyla eklendi\n\n\u001b[1A\u001b[2K  1 passed (16.8s)\n",
+    "stderr": "",
+    "error": null,
+    "startTime": "2025-08-03T11:43:41.440Z",
+    "endTime": "2025-08-03T11:44:00.282Z",
+    "duration": 19,
+    "lastRun": "2025-08-03T11:44:00.282Z"
+  },
+  "merchant/detay-payment-type-ekleme.spec.ts": {
+    "success": true,
+    "output": "\nRunning 1 test using 1 worker\n\n\u001b[1A\u001b[2K[1/1] tests\\merchant\\detay-payment-type-ekleme.spec.ts:5:5 › Detay Payment type Ekleme\n\u001b[1A\u001b[2Ktests\\merchant\\detay-payment-type-ekleme.spec.ts:5:5 › Detay Payment type Ekleme\n✅ Başarılı: Ödeme Tipi eklendi!\n\n\u001b[1A\u001b[2K  1 passed (17.7s)\n",
+    "stderr": "",
+    "error": null,
+    "startTime": "2025-08-03T11:47:38.604Z",
+    "endTime": "2025-08-03T11:47:58.035Z",
+    "duration": 19,
+    "lastRun": "2025-08-03T11:47:58.035Z"
+  },
+  "merchant/tip-vergi-tipi-ve-yetkili-bayi-degistirme.spec.ts": {
+    "success": false,
+    "output": "\nRunning 1 test using 1 worker\n\n\u001b[1A\u001b[2K[1/1] tests\\merchant\\tip-vergi-tipi-ve-yetkili-bayi-degistirme.spec.ts:8:5 › Tip, Vergi Tipi ve Yetkili bayi Değiştirme\n\u001b[1A\u001b[2Ktests\\merchant\\tip-vergi-tipi-ve-yetkili-bayi-degistirme.spec.ts:8:5 › Tip, Vergi Tipi ve Yetkili bayi Değiştirme\n🎯 Rastgele seçilen satır numarası: 10\n\n\u001b[1A\u001b[2KÜretilen TC No: 22121884468\n\n\u001b[1A\u001b[2K  1) tests\\merchant\\tip-vergi-tipi-ve-yetkili-bayi-degistirme.spec.ts:8:5 › Tip, Vergi Tipi ve Yetkili bayi Değiştirme \n\n    Error: locator.click: Error: strict mode violation: getByText('/509-Mükellefi') resolved to 18 elements:\n        1) <td colspan=\"1\" role=\"gridcell\" kendogridcell=\"\" aria-colindex=\"8\" kendogridlogicalcell=\"\" data-kendo-grid-column-index=\"6\" class=\"k-table-td k-touch-action-auto\">…</td> aka locator('tr:nth-child(4) > td:nth-child(8)')\n        2) <td colspan=\"1\" role=\"gridcell\" kendogridcell=\"\" aria-colindex=\"8\" kendogridlogicalcell=\"\" data-kendo-grid-column-index=\"6\" class=\"k-table-td k-touch-action-auto\">…</td> aka locator('tr:nth-child(5) > td:nth-child(8)')\n        3) <td colspan=\"1\" role=\"gridcell\" kendogridcell=\"\" aria-colindex=\"8\" kendogridlogicalcell=\"\" data-kendo-grid-column-index=\"6\" class=\"k-table-td k-touch-action-auto\">…</td> aka locator('tr:nth-child(6) > td:nth-child(8)')\n        4) <td colspan=\"1\" role=\"gridcell\" kendogridcell=\"\" aria-colindex=\"8\" kendogridlogicalcell=\"\" data-kendo-grid-column-index=\"6\" class=\"k-table-td k-touch-action-auto\">…</td> aka locator('tr:nth-child(7) > td:nth-child(8)')\n        5) <td colspan=\"1\" role=\"gridcell\" kendogridcell=\"\" aria-colindex=\"8\" kendogridlogicalcell=\"\" data-kendo-grid-column-index=\"6\" class=\"k-table-td k-touch-action-auto\">…</td> aka locator('tr:nth-child(8) > td:nth-child(8)')\n        6) <td colspan=\"1\" role=\"gridcell\" kendogridcell=\"\" aria-colindex=\"8\" kendogridlogicalcell=\"\" data-kendo-grid-column-index=\"6\" class=\"k-table-td k-touch-action-auto\">…</td> aka locator('tr:nth-child(9) > td:nth-child(8)')\n        7) <td colspan=\"1\" role=\"gridcell\" kendogridcell=\"\" aria-colindex=\"8\" kendogridlogicalcell=\"\" data-kendo-grid-column-index=\"6\" class=\"k-table-td k-touch-action-auto\">…</td> aka locator('tr:nth-child(10) > td:nth-child(8)')\n        8) <td colspan=\"1\" role=\"gridcell\" kendogridcell=\"\" aria-colindex=\"8\" kendogridlogicalcell=\"\" data-kendo-grid-column-index=\"6\" class=\"k-table-td k-touch-action-auto\">…</td> aka locator('tr:nth-child(11) > td:nth-child(8)')\n        9) <td colspan=\"1\" role=\"gridcell\" kendogridcell=\"\" aria-colindex=\"8\" kendogridlogicalcell=\"\" data-kendo-grid-column-index=\"6\" class=\"k-table-td k-touch-action-auto\">…</td> aka locator('tr:nth-child(12) > td:nth-child(8)')\n        10) <td colspan=\"1\" role=\"gridcell\" kendogridcell=\"\" aria-colindex=\"8\" kendogridlogicalcell=\"\" data-kendo-grid-column-index=\"6\" class=\"k-table-td k-touch-action-auto\">…</td> aka locator('tr:nth-child(13) > td:nth-child(8)')\n        ...\n\n    Call log:\n    \u001b[2m  - waiting for getByText('/509-Mükellefi')\u001b[22m\n\n\n      92 |     await page.getByRole('option').nth(0).click();\n      93 |   } else if (await page.locator('ot-dropdown-entry').filter({ hasText: 'Tip507/509-Mükellefi' }).isVisible()) {\n    > 94 |     await page.getByText('/509-Mükellefi').click();\n         |                                            ^\n      95 |     await page.getByRole('option').getByText('507-Mükellefi').click();\n      96 |   }\n      97 |\n        at C:\\Users\\uyary\\Desktop\\Otomasyon-Arayuz\\tests\\merchant\\tip-vergi-tipi-ve-yetkili-bayi-degistirme.spec.ts:94:44\n\n    Error Context: ..\\..\\test-results\\tests-merchant-tip-vergi-t-3928b--ve-Yetkili-bayi-Değiştirme\\error-context.md\n\n\n\u001b[1A\u001b[2K  1 failed\n    tests\\merchant\\tip-vergi-tipi-ve-yetkili-bayi-degistirme.spec.ts:8:5 › Tip, Vergi Tipi ve Yetkili bayi Değiştirme \n",
+    "stderr": "",
+    "error": "Command failed: npx playwright test tests/merchant/tip-vergi-tipi-ve-yetkili-bayi-degistirme.spec.ts --headed --timeout=120000 --reporter=line\n",
+    "startTime": "2025-08-03T11:48:02.563Z",
+    "endTime": "2025-08-03T11:48:26.892Z",
+    "duration": 24,
+    "lastRun": "2025-08-03T11:48:26.892Z"
+  },
+  "reseller/bayi-guncelle.spec.ts": {
+    "success": true,
+    "output": "\nRunning 1 test using 1 worker\n\n\u001b[1A\u001b[2K[1/1] tests\\reseller\\bayi-guncelle.spec.ts:10:5 › Bayi Güncelleme\n\u001b[1A\u001b[2Ktests\\reseller\\bayi-guncelle.spec.ts:10:5 › Bayi Güncelleme\nÜretilen Bayi Adı: DENEMEN9AM4\n\n\u001b[1A\u001b[2KÜretilen VKN: 1178782563\n\n\u001b[1A\u001b[2KÜretilen E-posta: f28qd9@gmail.com\n\n\u001b[1A\u001b[2KÜretilen Telefon Numarası: +90 52 653 55 58\n\n\u001b[1A\u001b[2K✅ Başarılı: Bayi başarıyla eklendi! (Tüzel Kişi)\n\n\u001b[1A\u001b[2KÜretilen TC No: 90050366324\n\n\u001b[1A\u001b[2K✅ Başarılı! Bayi güncelleme işlemi başarıyla gerçekleştirildi\n\n\u001b[1A\u001b[2K✅ Başarılı: Bayi başarıyla silindi!\n\n\u001b[1A\u001b[2K  1 passed (30.8s)\n",
+    "stderr": "",
+    "error": null,
+    "startTime": "2025-08-03T11:52:23.112Z",
+    "endTime": "2025-08-03T11:52:55.509Z",
+    "duration": 32,
+    "lastRun": "2025-08-03T11:52:55.509Z"
+  },
+  "reseller/detay-iletisim-bilgileri-ekleme-guncelleme.spec.ts": {
+    "success": true,
+    "output": "\nRunning 1 test using 1 worker\n\n\u001b[1A\u001b[2K[1/1] tests\\reseller\\detay-iletisim-bilgileri-ekleme-guncelleme.spec.ts:7:5 › Detay İletişim Bilgileri Ekleme ve Güncelleme\n\u001b[1A\u001b[2Ktests\\reseller\\detay-iletisim-bilgileri-ekleme-guncelleme.spec.ts:7:5 › Detay İletişim Bilgileri Ekleme ve Güncelleme\n🎯 Rastgele seçilen satır numarası: 8\n\n\u001b[1A\u001b[2K🎯 Ana iletişim seçilen: Web\n\n\u001b[1A\u001b[2K✅ Başarılı: İletişim bilgisi başarıyla eklendi!\n\n\u001b[1A\u001b[2KYeni web adresi: HtdmGkvwRj\n\n\u001b[1A\u001b[2K❌ İletişim bilgisi güncelleme başarı mesajı kontrol edilirken hata oluştu: locator.waitFor: Error: strict mode violation: getByText('Başarılı Bayi İletişim başarı') resolved to 2 elements:\n    1) <div toast-component=\"\" class=\"ng-tns-c2308121496-3 ng-star-inserted ng-trigger ng-trigger-flyInOut ngx-toastr toast-success\">…</div> aka getByText('Başarılı Bayi İletişim başarıyla güncellendi.')\n    2) <div toast-component=\"\" class=\"ng-tns-c2308121496-2 ng-star-inserted ng-trigger ng-trigger-flyInOut ngx-toastr toast-success\">…</div> aka getByText('Başarılı Bayi İletişim başarıyla oluşturuldu.')\n\nCall log:\n\u001b[2m  - waiting for getByText('Başarılı Bayi İletişim başarı') to be visible\u001b[22m\n\n\n\u001b[1A\u001b[2K  1 passed (19.0s)\n",
+    "stderr": "",
+    "error": null,
+    "startTime": "2025-08-03T11:53:20.550Z",
+    "endTime": "2025-08-03T11:53:41.219Z",
+    "duration": 21,
+    "lastRun": "2025-08-03T11:53:41.219Z"
+  },
+  "reseller/detay-kullanici-ekleme-guncelleme.spec.ts": {
+    "success": true,
+    "output": "\nRunning 1 test using 1 worker\n\n\u001b[1A\u001b[2K[1/1] tests\\reseller\\detay-kullanici-ekleme-guncelleme.spec.ts:8:5 › Detay Kullanıcı Ekleme ve Güncelleme\n\u001b[1A\u001b[2Ktests\\reseller\\detay-kullanici-ekleme-guncelleme.spec.ts:8:5 › Detay Kullanıcı Ekleme ve Güncelleme\n🎯 Rastgele seçilen satır numarası: 7\n\n\u001b[1A\u001b[2KAd Soyad: 22JyIXjH96\n\n\u001b[1A\u001b[2KE-posta: z65sqv7n090i@gmail.com\n\n\u001b[1A\u001b[2KTelefon: +90 50 763 22 94\n\n\u001b[1A\u001b[2K✅ Başarılı: Kullanıcı başarıyla eklendi!\n\n\u001b[1A\u001b[2KGüncellenen Ad Soyad: FzWeI6v5rK\n\n\u001b[1A\u001b[2KAd Soyad güncellendi: FzWeI6v5rK\n\n\u001b[1A\u001b[2KGüncellenen E-posta: f95qt7r9c@gmail.com\n\n\u001b[1A\u001b[2KE-posta güncellendi: f95qt7r9c@gmail.com\n\n\u001b[1A\u001b[2KGüncellenen Telefon Numarası: +90 53 772 11 12\n\n\u001b[1A\u001b[2KTelefon Numarası güncellendi: +90 53 772 11 12\n\n\u001b[1A\u001b[2K✅ Başarılı: Kullanıcı başarıyla güncellendi!\n\n\u001b[1A\u001b[2K  1 passed (20.2s)\n",
+    "stderr": "",
+    "error": null,
+    "startTime": "2025-08-03T11:53:46.313Z",
+    "endTime": "2025-08-03T11:54:08.110Z",
+    "duration": 22,
+    "lastRun": "2025-08-03T11:54:08.110Z"
+  },
+  "reseller/gercek-kisi-bayi-ekleme.spec.ts": {
+    "success": true,
+    "output": "\nRunning 1 test using 1 worker\n\n\u001b[1A\u001b[2K[1/1] tests\\reseller\\gercek-kisi-bayi-ekleme.spec.ts:9:5 › Gerçek Kişi Bayi Ekleme\n\u001b[1A\u001b[2Ktests\\reseller\\gercek-kisi-bayi-ekleme.spec.ts:9:5 › Gerçek Kişi Bayi Ekleme\nÜretilen Bayi Adı: DENEMEQCJE7\n\n\u001b[1A\u001b[2KÜretilen TC No: 82689071168\n\n\u001b[1A\u001b[2KÜretilen E-posta: zkyiso1n1hrhnn@gmail.com\n\n\u001b[1A\u001b[2KÜretilen Telefon Numarası: +90 58 506 82 37\n\n\u001b[1A\u001b[2K✅ Başarılı: Bayi başarıyla eklendi! (Gerçek Kişi)\n\n\u001b[1A\u001b[2K✅ Başarılı: Bayi başarıyla silindi!\n\n\u001b[1A\u001b[2K  1 passed (24.2s)\n",
+    "stderr": "",
+    "error": null,
+    "startTime": "2025-08-03T11:54:11.790Z",
+    "endTime": "2025-08-03T11:54:37.607Z",
+    "duration": 26,
+    "lastRun": "2025-08-03T11:54:37.607Z"
+  },
+  "reseller/tuzel-kisi-bayi-ekleme.spec.ts": {
+    "success": true,
+    "output": "\nRunning 1 test using 1 worker\n\n\u001b[1A\u001b[2K[1/1] tests\\reseller\\tuzel-kisi-bayi-ekleme.spec.ts:9:5 › Tüzel Kişi Bayi Ekleme\n\u001b[1A\u001b[2Ktests\\reseller\\tuzel-kisi-bayi-ekleme.spec.ts:9:5 › Tüzel Kişi Bayi Ekleme\nÜretilen Bayi Adı: DENEME6GDWG\n\n\u001b[1A\u001b[2KÜretilen VKN: 5684285149\n\n\u001b[1A\u001b[2KÜretilen E-posta: c06kvpcroot69q@gmail.com\n\n\u001b[1A\u001b[2KÜretilen Telefon Numarası: +90 58 706 27 20\n\n\u001b[1A\u001b[2K✅ Başarılı: Bayi başarıyla eklendi! (Tüzel Kişi)\n\n\u001b[1A\u001b[2K✅ Başarılı: Bayi başarıyla silindi!\n\n\u001b[1A\u001b[2K  1 passed (28.4s)\n",
+    "stderr": "",
+    "error": null,
+    "startTime": "2025-08-03T11:54:41.738Z",
+    "endTime": "2025-08-03T11:55:11.835Z",
+    "duration": 30,
+    "lastRun": "2025-08-03T11:55:11.835Z"
+  },
+  "device/bayiye-atanmamis-ve-uye-isyerine-atanmamis.spec.ts": {
+    "success": true,
+    "output": "\nRunning 1 test using 1 worker\n\n\u001b[1A\u001b[2K[1/1] tests\\device\\bayiye-atanmamis-ve-uye-isyerine-atanmamis.spec.ts:5:5 › Bayiye Atanmamış ve Üye İşyerine Atanmamış Cihazları Test Etme\n\u001b[1A\u001b[2Ktests\\device\\bayiye-atanmamis-ve-uye-isyerine-atanmamis.spec.ts:5:5 › Bayiye Atanmamış ve Üye İşyerine Atanmamış Cihazları Test Etme\n✅ Sadece Bayiye atanmamış cihazlar filtresi uygulandı\n\n\u001b[1A\u001b[2K✅ Filtreleme sonucu ilk 10 satır bayiye atanmamış\n\n\u001b[1A\u001b[2K✅ Sadece Üye işyerine atanmamış cihazlar filtresi uygulandı\n\n\u001b[1A\u001b[2K✅ Filtreleme sonucu ilk 10 satır üye işyerine atanmamış\n\n\u001b[1A\u001b[2K✅ Bayiye ve üye işyerine atanmamış cihazlar filtresi uygulandı\n\n\u001b[1A\u001b[2K✅ Filtreleme sonucu ilk 10 satır hem bayiye hem de üye işyerine atanmamış\n\n\u001b[1A\u001b[2K  1 passed (21.2s)\n",
+    "stderr": "",
+    "error": null,
+    "startTime": "2025-08-03T12:09:02.736Z",
+    "endTime": "2025-08-03T12:09:25.588Z",
+    "duration": 23,
+    "lastRun": "2025-08-03T12:09:25.588Z"
+  },
+  "device/yeni-cihaz-ekle.spec.ts": {
+    "success": true,
+    "output": "\nRunning 1 test using 1 worker\n\n\u001b[1A\u001b[2K[1/1] tests\\device\\yeni-cihaz-ekle.spec.ts:7:5 › Yeni Cihaz Ekleme\n\u001b[1A\u001b[2Ktests\\device\\yeni-cihaz-ekle.spec.ts:7:5 › Yeni Cihaz Ekleme\nÜretilen Cihaz Seri No: PAVDENEMEKNM8D\n\n\u001b[1A\u001b[2K✅ Cihaz başarıyla eklendi\n\n\u001b[1A\u001b[2K🎯 Silinecek cihaz : PAVDENEMEKNM8D\n\n\u001b[1A\u001b[2K✅ 1 Cihaz başarıyla silindi\n\n\u001b[1A\u001b[2K  1 passed (24.5s)\n",
+    "stderr": "",
+    "error": null,
+    "startTime": "2025-08-03T12:09:28.237Z",
+    "endTime": "2025-08-03T12:09:54.426Z",
+    "duration": 26,
+    "lastRun": "2025-08-03T12:09:54.426Z"
+  },
+  "device/cihaz-guncelle.spec.ts": {
+    "success": true,
+    "output": "\nRunning 1 test using 1 worker\n\n\u001b[1A\u001b[2K[1/1] tests\\device\\cihaz-guncelle.spec.ts:7:5 › Cihaz Güncelleme\n\u001b[1A\u001b[2Ktests\\device\\cihaz-guncelle.spec.ts:7:5 › Cihaz Güncelleme\n✅ 1 Cihaz başarıyla eklendi\n\n\u001b[1A\u001b[2K🎯 Ana bayi değeri boş olan PAVDENEME cihazı bulundu: PAVDENEMETJJDW\n\n\u001b[1A\u001b[2KGüncellenen Cihaz Seri No: PAVGUNCELLEME9ZSXP\n\n\u001b[1A\u001b[2K✅ Cihaz başarıyla güncellendi\n\n\u001b[1A\u001b[2K🎯 Silinecek cihaz : PAVGUNCELLEME9ZSXP\n\n\u001b[1A\u001b[2K✅ 1 Cihaz başarıyla silindi\n\n\u001b[1A\u001b[2K  1 passed (25.1s)\n",
+    "stderr": "",
+    "error": null,
+    "startTime": "2025-08-03T12:09:57.293Z",
+    "endTime": "2025-08-03T12:10:24.036Z",
+    "duration": 27,
+    "lastRun": "2025-08-03T12:10:24.036Z"
+  },
+  "device/cihazlari-bayiye-ata-1.spec.ts": {
+    "success": true,
+    "output": "\nRunning 1 test using 1 worker\n\n\u001b[1A\u001b[2K[1/1] tests\\device\\cihazlari-bayiye-ata-1.spec.ts:6:5 › Cihazları Bayiye Atama (checkbox işaretli)\n\u001b[1A\u001b[2Ktests\\device\\cihazlari-bayiye-ata-1.spec.ts:6:5 › Cihazları Bayiye Atama (checkbox işaretli)\n✅ 1 Cihaz başarıyla eklendi\n\n\u001b[1A\u001b[2K✅ 1 Cihaz başarıyla eklendi\n\n\u001b[1A\u001b[2K🎯 PAVDENEME cihazı bulundu: PAVDENEMEFKKDY\n\n\u001b[1A\u001b[2K✅ 1 Cihaz başarıyla güncellendi\n\n\u001b[1A\u001b[2K✅ PAVDENEME cihazı seçildi (1 adet boş Ana Bayi arasından rastgele)\n\n\u001b[1A\u001b[2K✅ PAVGUNCELLE cihazı seçildi (1 adet boş Ana Bayi arasından rastgele)\n\n\u001b[1A\u001b[2K✅ Başarılı: Cihazlar başarıyla bayiye atandı!\n\n\u001b[1A\u001b[2K🎯 Silinecek cihaz : PAVGUNCELLEMEDZ8EETest Bayi DemoTest Bayi Demo\n\n\u001b[1A\u001b[2K✅ 1 Cihaz başarıyla silindi\n\n\u001b[1A\u001b[2K🎯 Silinecek cihaz : PAVDENEME2OCXMTest Bayi DemoTest Bayi Demo\n\n\u001b[1A\u001b[2K✅ 1 Cihaz başarıyla silindi\n\n\u001b[1A\u001b[2K  1 passed (38.9s)\n",
+    "stderr": "",
+    "error": null,
+    "startTime": "2025-08-03T12:10:27.090Z",
+    "endTime": "2025-08-03T12:11:07.622Z",
+    "duration": 41,
+    "lastRun": "2025-08-03T12:11:07.622Z"
+  },
+  "device/cihazlari-bayiye-ata-2.spec.ts": {
+    "success": true,
+    "output": "\nRunning 1 test using 1 worker\n\n\u001b[1A\u001b[2K[1/1] tests\\device\\cihazlari-bayiye-ata-2.spec.ts:6:5 › Cihazları Bayiye Atama (checkbox işaretli değil)\n\u001b[1A\u001b[2Ktests\\device\\cihazlari-bayiye-ata-2.spec.ts:6:5 › Cihazları Bayiye Atama (checkbox işaretli değil)\n✅ 1 Cihaz başarıyla eklendi\n\n\u001b[1A\u001b[2K✅ 1 Cihaz başarıyla eklendi\n\n\u001b[1A\u001b[2K🎯 PAVDENEME cihazı bulundu: PAVDENEME42JQU\n\n\u001b[1A\u001b[2K✅ 1 Cihaz başarıyla güncellendi\n\n\u001b[1A\u001b[2K✅ PAVDENEME cihazı seçildi (1 adet boş Ana Bayi arasından rastgele)\n\n\u001b[1A\u001b[2K✅ PAVGUNCELLE cihazı seçildi (1 adet boş Ana Bayi arasından rastgele)\n\n\u001b[1A\u001b[2K✅ Başarılı: Cihazlar başarıyla bayiye atandı!\n\n\u001b[1A\u001b[2K🎯 Silinecek cihaz : PAVGUNCELLEMESWVNRTest Bayi Demo\n\n\u001b[1A\u001b[2K✅ 1 Cihaz başarıyla silindi\n\n\u001b[1A\u001b[2K🎯 Silinecek cihaz : PAVDENEMEOU4CMTest Bayi Demo\n\n\u001b[1A\u001b[2K✅ 1 Cihaz başarıyla silindi\n\n\u001b[1A\u001b[2K  1 passed (39.8s)\n",
+    "stderr": "",
+    "error": null,
+    "startTime": "2025-08-03T12:11:23.055Z",
+    "endTime": "2025-08-03T12:12:04.598Z",
+    "duration": 42,
+    "lastRun": "2025-08-03T12:12:04.598Z"
+  },
+  "device/uye-isyeri-olan-cihazlari-bayiye-ata.spec.ts": {
+    "success": true,
+    "output": "\nRunning 1 test using 1 worker\n\n\u001b[1A\u001b[2K[1/1] tests\\device\\uye-isyeri-olan-cihazlari-bayiye-ata.spec.ts:6:5 › Üye İşyeri Olan Cihazları Bayiye Atama\n\u001b[1A\u001b[2Ktests\\device\\uye-isyeri-olan-cihazlari-bayiye-ata.spec.ts:6:5 › Üye İşyeri Olan Cihazları Bayiye Atama\n✅ 1 Cihaz başarıyla eklendi\n\n\u001b[1A\u001b[2K✅ 1 Cihaz başarıyla eklendi\n\n\u001b[1A\u001b[2K🎯 PAVDENEME cihazı bulundu: PAVDENEMESKVTK\n\n\u001b[1A\u001b[2K✅ 1 Cihaz başarıyla güncellendi\n\n\u001b[1A\u001b[2K✅ PAVDENEME cihazı seçildi. (Üye işyerine atanacak cihaz)\n\n\u001b[1A\u001b[2K✅ PAVGUNCELLE cihazı seçildi. (Üye işyerine atanacak cihaz)\n\n\u001b[1A\u001b[2K✅ PAVDENEME cihazı seçildi. (Ana Bayiye atanacak cihaz)\n\n\u001b[1A\u001b[2K✅ PAVGUNCELLE cihazı seçildi. (Ana Bayiye atanacak cihaz)\n\n\u001b[1A\u001b[2K❌ Başarısız işlemler görüntülendi\n\n\u001b[1A\u001b[2K----------------------------------------------------------------------------------------------------\n\n\u001b[1A\u001b[2K ⚠️✅ PAVDENEMET4M8U üye işyerine atalıdır. mesajı göründü\n\n\u001b[1A\u001b[2K ⚠️✅ PAVGUNCELLEMESZPJ2 üye işyerine atalıdır. mesajı göründü\n\n\u001b[1A\u001b[2K====================================================================================================\n\n\u001b[1A\u001b[2K✅ PAVDENEME cihazı seçildi. (Üye işyerinden geri alınacak cihaz)\n\n\u001b[1A\u001b[2K✅ PAVGUNCELLE cihazı seçildi. (Üye işyerinden geri alınacak cihaz)\n\n\u001b[1A\u001b[2K🎯 Silinecek cihaz : PAVGUNCELLEMESZPJ2\n\n\u001b[1A\u001b[2K✅ 1 Cihaz başarıyla silindi\n\n\u001b[1A\u001b[2K🎯 Silinecek cihaz : PAVDENEMET4M8U\n\n\u001b[1A\u001b[2K✅ 1 Cihaz başarıyla silindi\n\n\u001b[1A\u001b[2K  1 passed (45.7s)\n",
+    "stderr": "",
+    "error": null,
+    "startTime": "2025-08-03T12:13:30.003Z",
+    "endTime": "2025-08-03T12:14:17.364Z",
+    "duration": 47,
+    "lastRun": "2025-08-03T12:14:17.364Z"
+  },
+  "device/bayiye-atali-cihazlari-bayiden-geri-al.spec.ts": {
+    "success": true,
+    "output": "\nRunning 1 test using 1 worker\n\n\u001b[1A\u001b[2K[1/1] tests\\device\\bayiye-atali-cihazlari-bayiden-geri-al.spec.ts:6:5 › Bayiye Atalı Cihazları Bayiden Geri Alma\n\u001b[1A\u001b[2Ktests\\device\\bayiye-atali-cihazlari-bayiden-geri-al.spec.ts:6:5 › Bayiye Atalı Cihazları Bayiden Geri Alma\n✅ 1 Cihaz başarıyla eklendi\n\n\u001b[1A\u001b[2K✅ 1 Cihaz başarıyla eklendi\n\n\u001b[1A\u001b[2K🎯 PAVDENEME cihazı bulundu: PAVDENEMEIXWRS\n\n\u001b[1A\u001b[2K✅ 1 Cihaz başarıyla güncellendi\n\n\u001b[1A\u001b[2K✅ PAVDENEME cihazı seçildi. (Ana Bayiye atanacak cihaz)\n\n\u001b[1A\u001b[2K✅ PAVGUNCELLE cihazı seçildi. (Ana Bayiye atanacak cihaz)\n\n\u001b[1A\u001b[2K✅ PAVDENEME cihazı seçildi. (Bayiden geri alınacak cihaz)\n\n\u001b[1A\u001b[2K✅ PAVGUNCELLE cihazı seçildi. (Bayiden geri alınacak cihaz)\n\n\u001b[1A\u001b[2K🎯 Silinecek cihaz : PAVGUNCELLEMEOAXQK\n\n\u001b[1A\u001b[2K✅ 1 Cihaz başarıyla silindi\n\n\u001b[1A\u001b[2K🎯 Silinecek cihaz : PAVDENEMEKM0GN\n\n\u001b[1A\u001b[2K✅ 1 Cihaz başarıyla silindi\n\n\u001b[1A\u001b[2K  1 passed (42.1s)\n",
+    "stderr": "",
+    "error": null,
+    "startTime": "2025-08-03T12:15:17.476Z",
+    "endTime": "2025-08-03T12:16:01.167Z",
+    "duration": 44,
+    "lastRun": "2025-08-03T12:16:01.167Z"
+  },
+  "device/uye-isyerine-atali-cihazlari-bayiden-geri-al.spec.ts": {
+    "success": true,
+    "output": "\nRunning 1 test using 1 worker\n\n\u001b[1A\u001b[2K[1/1] tests\\device\\uye-isyerine-atali-cihazlari-bayiden-geri-al.spec.ts:6:5 › Üye İşyerine Atalı Cihazları Bayiden Geri Alma\n\u001b[1A\u001b[2Ktests\\device\\uye-isyerine-atali-cihazlari-bayiden-geri-al.spec.ts:6:5 › Üye İşyerine Atalı Cihazları Bayiden Geri Alma\n✅ 1 Cihaz başarıyla eklendi\n\n\u001b[1A\u001b[2K✅ 1 Cihaz başarıyla eklendi\n\n\u001b[1A\u001b[2K🎯 PAVDENEME cihazı bulundu: PAVDENEMEF1RB1\n\n\u001b[1A\u001b[2K✅ 1 Cihaz başarıyla güncellendi\n\n\u001b[1A\u001b[2K✅ PAVDENEME cihazı seçildi. (Üye işyerine atanacak cihaz)\n\n\u001b[1A\u001b[2K✅ PAVGUNCELLE cihazı seçildi. (Üye işyerine atanacak cihaz)\n\n\u001b[1A\u001b[2K✅ PAVDENEME cihazı seçildi. (Bayiden geri alınacak cihaz)\n\n\u001b[1A\u001b[2K✅ PAVGUNCELLE cihazı seçildi. (Bayiden geri alınacak cihaz)\n\n\u001b[1A\u001b[2K✅ İstenildiği gibi bayiden geri al işlemi yapılamamalıdır\n\n\u001b[1A\u001b[2K✅ PAVDENEME cihazı seçildi. (Üye işyerinden geri alınacak cihaz)\n\n\u001b[1A\u001b[2K✅ PAVGUNCELLE cihazı seçildi. (Üye işyerinden geri alınacak cihaz)\n\n\u001b[1A\u001b[2K🎯 Silinecek cihaz : PAVGUNCELLEMEGOYRC\n\n\u001b[1A\u001b[2K✅ 1 Cihaz başarıyla silindi\n\n\u001b[1A\u001b[2K🎯 Silinecek cihaz : PAVDENEME7JHZZ\n\n\u001b[1A\u001b[2K✅ 1 Cihaz başarıyla silindi\n\n\u001b[1A\u001b[2K  1 passed (47.8s)\n",
+    "stderr": "",
+    "error": null,
+    "startTime": "2025-08-03T12:17:41.238Z",
+    "endTime": "2025-08-03T12:18:30.674Z",
+    "duration": 49,
+    "lastRun": "2025-08-03T12:18:30.674Z"
+  },
+  "device/birden-fazla-cihaza-operasyonel-bayi-ata.spec.ts": {
+    "success": true,
+    "output": "\nRunning 1 test using 1 worker\n\n\u001b[1A\u001b[2K[1/1] tests\\device\\birden-fazla-cihaza-operasyonel-bayi-ata.spec.ts:6:5 › Birden fazla cihaza operasyonel bayi atama işlemi\n\u001b[1A\u001b[2Ktests\\device\\birden-fazla-cihaza-operasyonel-bayi-ata.spec.ts:6:5 › Birden fazla cihaza operasyonel bayi atama işlemi\n✅ 1 Cihaz başarıyla eklendi\n\n\u001b[1A\u001b[2K✅ 1 Cihaz başarıyla eklendi\n\n\u001b[1A\u001b[2K🎯 PAVDENEME cihazı bulundu: PAVDENEMEGJ3EF\n\n\u001b[1A\u001b[2K✅ 1 Cihaz başarıyla güncellendi\n\n\u001b[1A\u001b[2K✅ PAVDENEME cihazı seçildi. (Ana Bayiye atanacak cihaz)\n\n\u001b[1A\u001b[2K✅ PAVGUNCELLE cihazı seçildi. (Ana Bayiye atanacak cihaz)\n\n\u001b[1A\u001b[2K✅ PAVDENEME cihazı seçildi. (Operasyonel Bayiye atanacak cihaz)\n\n\u001b[1A\u001b[2K✅ PAVGUNCELLE cihazı seçildi. (Operasyonel Bayiye atanacak cihaz)\n\n\u001b[1A\u001b[2K✅ \"Uyarı Lütfen yalnızca bir öğe seçiniz\" mesajı görüntülendi\n\n\u001b[1A\u001b[2K✅ PAVDENEME cihazı seçildi. (Bayiden geri alınacak cihaz)\n\n\u001b[1A\u001b[2K✅ PAVGUNCELLE cihazı seçildi. (Bayiden geri alınacak cihaz)\n\n\u001b[1A\u001b[2K🎯 Silinecek cihaz : PAVGUNCELLEMENDCNZ\n\n\u001b[1A\u001b[2K✅ 1 Cihaz başarıyla silindi\n\n\u001b[1A\u001b[2K🎯 Silinecek cihaz : PAVDENEMECEZV7\n\n\u001b[1A\u001b[2K✅ 1 Cihaz başarıyla silindi\n\n\u001b[1A\u001b[2K  1 passed (41.2s)\n",
+    "stderr": "",
+    "error": null,
+    "startTime": "2025-08-03T12:18:33.905Z",
+    "endTime": "2025-08-03T12:19:16.737Z",
+    "duration": 43,
+    "lastRun": "2025-08-03T12:19:16.737Z"
+  },
+  "device/tek-cihaz-operasyonel-bayi-atama.spec.ts": {
+    "success": true,
+    "output": "\nRunning 1 test using 1 worker\n\n\u001b[1A\u001b[2K[1/1] tests\\device\\tek-cihaz-operasyonel-bayi-atama.spec.ts:6:5 › Tek cihazı operasyonel bayiye atama işlemi\n\u001b[1A\u001b[2Ktests\\device\\tek-cihaz-operasyonel-bayi-atama.spec.ts:6:5 › Tek cihazı operasyonel bayiye atama işlemi\n✅ 1 Cihaz başarıyla eklendi\n\n\u001b[1A\u001b[2K✅ PAVDENEME cihazı seçildi. (Ana Bayiye atanacak cihaz)\n\n\u001b[1A\u001b[2K✅ PAVDENEME cihazı seçildi. (Bayiye atanacak cihaz)\n\n\u001b[1A\u001b[2K✅ PAVDENEME cihazı seçildi. (Alt Bayiye atanacak cihaz)\n\n\u001b[1A\u001b[2K✅ PAVDENEME cihazı seçildi. (Operasyonel Bayiye atanacak cihaz)\n\n\u001b[1A\u001b[2K✅ PAVDENEME cihazı seçildi. (Operasyonel Bayiye boş şekilde atanacak cihaz)\n\n\u001b[1A\u001b[2K🎯 Silinecek cihaz : PAVDENEMEVCRLVTest Bayi DemoTest BayiTEST\n\n\u001b[1A\u001b[2K✅ 1 Cihaz başarıyla silindi\n\n\u001b[1A\u001b[2K  1 passed (35.9s)\n",
+    "stderr": "",
+    "error": null,
+    "startTime": "2025-08-03T12:20:21.982Z",
+    "endTime": "2025-08-03T12:20:59.468Z",
+    "duration": 37,
+    "lastRun": "2025-08-03T12:20:59.468Z"
+  },
+  "device/uye-isyerine-atanmis-cihazlari-uye-isyerine-ata.spec.ts": {
+    "success": true,
+    "output": "\nRunning 1 test using 1 worker\n\n\u001b[1A\u001b[2K[1/1] tests\\device\\uye-isyerine-atanmis-cihazlari-uye-isyerine-ata.spec.ts:6:5 › Üye İşyerine Atanmış Cihazları Üye İşyerine Ata\n\u001b[1A\u001b[2Ktests\\device\\uye-isyerine-atanmis-cihazlari-uye-isyerine-ata.spec.ts:6:5 › Üye İşyerine Atanmış Cihazları Üye İşyerine Ata\n✅ 1 Cihaz başarıyla eklendi\n\n\u001b[1A\u001b[2K✅ 1 Cihaz başarıyla eklendi\n\n\u001b[1A\u001b[2K🎯 PAVDENEME cihazı bulundu: PAVDENEMER63WM\n\n\u001b[1A\u001b[2K✅ 1 Cihaz başarıyla güncellendi\n\n\u001b[1A\u001b[2K✅ PAVDENEME cihazı seçildi. (Üye işyerine atanacak cihaz)\n\n\u001b[1A\u001b[2K✅ PAVGUNCELLE cihazı seçildi. (Üye işyerine atanacak cihaz)\n\n\u001b[1A\u001b[2K✅ PAVDENEME cihazı seçildi. (Üye işyerine atanacak cihaz)\n\n\u001b[1A\u001b[2K✅ PAVGUNCELLE cihazı seçildi. (Üye işyerine atanacak cihaz)\n\n\u001b[1A\u001b[2K❌ Başarısız işlemler görüntülendi\n\n\u001b[1A\u001b[2K----------------------------------------------------------------------------------------------------\n\n\u001b[1A\u001b[2K ✅ PAVDENEMEMS9NC üye işyerine atalıdır. mesajı göründü\n\n\u001b[1A\u001b[2K ✅ PAVGUNCELLEMEQIC5V üye işyerine atalıdır. mesajı göründü\n\n\u001b[1A\u001b[2K====================================================================================================\n\n\u001b[1A\u001b[2K✅ PAVDENEME cihazı seçildi. (Üye işyerinden geri alınacak cihaz)\n\n\u001b[1A\u001b[2K✅ PAVGUNCELLE cihazı seçildi. (Üye işyerinden geri alınacak cihaz)\n\n\u001b[1A\u001b[2K🎯 Silinecek cihaz : PAVGUNCELLEMEQIC5V\n\n\u001b[1A\u001b[2K✅ 1 Cihaz başarıyla silindi\n\n\u001b[1A\u001b[2K🎯 Silinecek cihaz : PAVDENEMEMS9NC\n\n\u001b[1A\u001b[2K✅ 1 Cihaz başarıyla silindi\n\n\u001b[1A\u001b[2K  1 passed (49.7s)\n",
+    "stderr": "",
+    "error": null,
+    "startTime": "2025-08-03T12:27:00.185Z",
+    "endTime": "2025-08-03T12:27:51.550Z",
+    "duration": 51,
+    "lastRun": "2025-08-03T12:27:51.550Z"
   }
 }
