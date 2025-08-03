@@ -1,13 +1,13 @@
 {
   "merchant/507-gercek-mukellef-ekleme.spec.ts": {
     "success": true,
-    "output": "\nRunning 1 test using 1 worker\n\n\u001b[1A\u001b[2K[1/1] tests\\merchant\\507-gercek-mukellef-ekleme.spec.ts:9:5 › 507 Gerçek Mükellef Ekleme\n\u001b[1A\u001b[2Ktests\\merchant\\507-gercek-mukellef-ekleme.spec.ts:9:5 › 507 Gerçek Mükellef Ekleme\nÜretilen TC No: 65369699654\n\n\u001b[1A\u001b[2KÜretilen E-posta: 6key4gdcanjn@gmail.com\n\n\u001b[1A\u001b[2KÜretilen Telefon Numarası: +90 57 829 26 86\n\n\u001b[1A\u001b[2K✅ Başarılı: Üye İşyeri başarıyla eklendi! (507-Gerçek Mükellef)\n\n\u001b[1A\u001b[2K✅ Başarılı: Üye İşyeri başarıyla silindi!\n\n\u001b[1A\u001b[2K  1 passed (38.9s)\n",
+    "output": "\nRunning 1 test using 1 worker\n\n\u001b[1A\u001b[2K[1/1] tests\\merchant\\507-gercek-mukellef-ekleme.spec.ts:9:5 › 507 Gerçek Mükellef Ekleme\n\u001b[1A\u001b[2Ktests\\merchant\\507-gercek-mukellef-ekleme.spec.ts:9:5 › 507 Gerçek Mükellef Ekleme\nÜretilen TC No: 49906812492\n\n\u001b[1A\u001b[2KÜretilen E-posta: raig5j@gmail.com\n\n\u001b[1A\u001b[2KÜretilen Telefon Numarası: +90 51 583 13 12\n\n\u001b[1A\u001b[2K✅ Başarılı: Üye İşyeri başarıyla eklendi! (507-Gerçek Mükellef)\n\n\u001b[1A\u001b[2K✅ Başarılı: Üye İşyeri başarıyla silindi!\n\n\u001b[1A\u001b[2K  1 passed (37.0s)\n",
     "stderr": "",
     "error": null,
-    "startTime": "2025-08-03T08:38:05.329Z",
-    "endTime": "2025-08-03T08:38:46.280Z",
-    "duration": 41,
-    "lastRun": "2025-08-03T08:38:46.280Z"
+    "startTime": "2025-08-03T08:47:18.729Z",
+    "endTime": "2025-08-03T08:47:57.713Z",
+    "duration": 39,
+    "lastRun": "2025-08-03T08:47:57.713Z"
   },
   "merchant/507-tuzel-mukellef-ekleme.spec.ts": {
     "success": true,
@@ -38,5 +38,15 @@
     "endTime": "2025-08-03T08:46:51.418Z",
     "duration": 29,
     "lastRun": "2025-08-03T08:46:51.418Z"
+  },
+  "merchant/detay-belge-ekleme-guncelleme-goruntuleme-silme.spec.ts": {
+    "success": false,
+    "output": "\nRunning 1 test using 1 worker\n\n\u001b[1A\u001b[2K[1/1] tests\\merchant\\detay-belge-ekleme-guncelleme-goruntuleme-silme.spec.ts:5:5 › Detay Belge Ekleme, Güncelleme, Görüntüleme ve Silme\n\u001b[1A\u001b[2Ktests\\merchant\\detay-belge-ekleme-guncelleme-goruntuleme-silme.spec.ts:5:5 › Detay Belge Ekleme, Güncelleme, Görüntüleme ve Silme\n🎯 Rastgele seçilen satır numarası: 3\n\n\u001b[1A\u001b[2K✅ \"Güncelle\" butonu görünüyor, belge güncelleme, goruntuleme, silme yapılıyor...\n\n\u001b[1A\u001b[2K📄 İlk hücredeki değer:   \n\n\u001b[1A\u001b[2K✅ Güncelleme yapıldı\n\n\u001b[1A\u001b[2K  1) tests\\merchant\\detay-belge-ekleme-guncelleme-goruntuleme-silme.spec.ts:5:5 › Detay Belge Ekleme, Güncelleme, Görüntüleme ve Silme \n\n    Error: locator.click: Target page, context or browser has been closed\n    Call log:\n    \u001b[2m  - waiting for getByRole('row', { name: '   ', exact: true }).getByRole('gridcell').first()\u001b[22m\n\n\n      110 |\n      111 |         // Görüntüleme butonuna tıkla\n    > 112 |         await page.getByRole('row', { name: ` ${ilkDeger}`, exact: true }).getByRole('gridcell').first().click();\n          |                                                                                                           ^\n      113 |\n      114 |         // preview butonuna tıkla\n      115 |         await page.getByRole('button', { name: '' }).first().click();\n        at C:\\Users\\uyary\\Desktop\\Otomasyon-Arayuz\\tests\\merchant\\detay-belge-ekleme-guncelleme-goruntuleme-silme.spec.ts:112:107\n\n\n\u001b[1A\u001b[2K  1 failed\n    tests\\merchant\\detay-belge-ekleme-guncelleme-goruntuleme-silme.spec.ts:5:5 › Detay Belge Ekleme, Güncelleme, Görüntüleme ve Silme \n",
+    "stderr": "",
+    "error": "Command failed: npx playwright test tests/merchant/detay-belge-ekleme-guncelleme-goruntuleme-silme.spec.ts --headed --timeout=120000 --reporter=line\n",
+    "startTime": "2025-08-03T08:48:08.850Z",
+    "endTime": "2025-08-03T08:49:34.953Z",
+    "duration": 86,
+    "lastRun": "2025-08-03T08:49:34.953Z"
   }
 }
