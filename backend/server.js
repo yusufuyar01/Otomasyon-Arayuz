@@ -7,6 +7,9 @@ const path = require('path');
 const app = express();
 const PORT = process.env.PORT || 3001;
 
+// Test sonuçlarını saklamak için dosya yolu
+const TEST_RESULTS_FILE = path.join(__dirname, 'test-results.json');
+
 // CORS ayarları
 app.use(cors({
   origin: process.env.NODE_ENV === 'production' 
@@ -16,6 +19,38 @@ app.use(cors({
 }));
 
 app.use(express.json());
+
+// Test sonuçlarını yükle
+function loadTestResults() {
+  try {
+    if (fs.existsSync(TEST_RESULTS_FILE)) {
+      const data = fs.readFileSync(TEST_RESULTS_FILE, 'utf8');
+      return JSON.parse(data);
+    }
+  } catch (error) {
+    console.error('Test sonuçları yüklenirken hata:', error);
+  }
+  return {};
+}
+
+// Test sonuçlarını kaydet
+function saveTestResults(results) {
+  try {
+    fs.writeFileSync(TEST_RESULTS_FILE, JSON.stringify(results, null, 2));
+  } catch (error) {
+    console.error('Test sonuçları kaydedilirken hata:', error);
+  }
+}
+
+// Test sonuçlarını getir
+app.get('/test-results', (req, res) => {
+  try {
+    const results = loadTestResults();
+    res.json(results);
+  } catch (error) {
+    res.status(500).json({ error: 'Test sonuçları alınamadı', details: error.message });
+  }
+});
 
 // Test dosyalarını listele
 app.get('/tests', (req, res) => {
@@ -288,29 +323,50 @@ app.post('/run-test', async (req, res) => {
   try {
     const testPath = path.join(__dirname, '..', 'tests', testFile);
     
-    // Test dosyasının varlığını kontrol et
     if (!fs.existsSync(testPath)) {
       return res.status(404).json({ error: 'Test dosyası bulunamadı' });
     }
 
-    // Playwright testini çalıştır (timeout artırıldı) - Terminal çıktısı için line reporter kullan
+    const startTime = new Date();
+    
     exec(`npx playwright test tests/${testFile} --headed --timeout=120000 --reporter=line`, { cwd: path.join(__dirname, '..') }, (error, stdout, stderr) => {
-              if (error) {
-          console.error('Test çalıştırma hatası:', error);
-          return res.status(500).json({ 
-            error: 'Test çalıştırılamadı', 
-            details: error.message,
-            stdout: stdout,
-            stderr: stderr,
-            command: `npx playwright test tests/${testFile} --headed --timeout=120000`
-          });
-        }
+      const endTime = new Date();
+      const duration = Math.round((endTime.getTime() - startTime.getTime()) / 1000);
+      
+      const testResult = {
+        success: !error,
+        output: stdout || '',
+        stderr: stderr || '',
+        error: error ? error.message : null,
+        startTime: startTime.toISOString(),
+        endTime: endTime.toISOString(),
+        duration: duration,
+        lastRun: endTime.toISOString()
+      };
+
+      // Test sonuçlarını kaydet
+      const results = loadTestResults();
+      results[testFile] = testResult;
+      saveTestResults(results);
+
+      if (error) {
+        console.error('Test çalıştırma hatası:', error);
+        return res.status(500).json({ 
+          error: 'Test çalıştırılamadı', 
+          details: error.message,
+          stdout: stdout,
+          stderr: stderr,
+          command: `npx playwright test tests/${testFile} --headed --timeout=120000`,
+          ...testResult
+        });
+      }
       
       res.json({ 
         success: true, 
         output: stdout,
         stderr: stderr,
-        message: 'Test başarıyla çalıştırıldı'
+        message: 'Test başarıyla çalıştırıldı',
+        ...testResult
       });
     });
   } catch (error) {

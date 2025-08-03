@@ -1,0 +1,32 @@
+{
+  "merchant/507-gercek-mukellef-ekleme.spec.ts": {
+    "success": true,
+    "output": "\nRunning 1 test using 1 worker\n\n\u001b[1A\u001b[2K[1/1] tests\\merchant\\507-gercek-mukellef-ekleme.spec.ts:9:5 › 507 Gerçek Mükellef Ekleme\n\u001b[1A\u001b[2Ktests\\merchant\\507-gercek-mukellef-ekleme.spec.ts:9:5 › 507 Gerçek Mükellef Ekleme\nÜretilen TC No: 65369699654\n\n\u001b[1A\u001b[2KÜretilen E-posta: 6key4gdcanjn@gmail.com\n\n\u001b[1A\u001b[2KÜretilen Telefon Numarası: +90 57 829 26 86\n\n\u001b[1A\u001b[2K✅ Başarılı: Üye İşyeri başarıyla eklendi! (507-Gerçek Mükellef)\n\n\u001b[1A\u001b[2K✅ Başarılı: Üye İşyeri başarıyla silindi!\n\n\u001b[1A\u001b[2K  1 passed (38.9s)\n",
+    "stderr": "",
+    "error": null,
+    "startTime": "2025-08-03T08:38:05.329Z",
+    "endTime": "2025-08-03T08:38:46.280Z",
+    "duration": 41,
+    "lastRun": "2025-08-03T08:38:46.280Z"
+  },
+  "merchant/507-tuzel-mukellef-ekleme.spec.ts": {
+    "success": true,
+    "output": "\nRunning 1 test using 1 worker\n\n\u001b[1A\u001b[2K[1/1] tests\\merchant\\507-tuzel-mukellef-ekleme.spec.ts:9:5 › 507 Tüzel Mükellef Ekleme\n\u001b[1A\u001b[2Ktests\\merchant\\507-tuzel-mukellef-ekleme.spec.ts:9:5 › 507 Tüzel Mükellef Ekleme\nÜretilen VKN: 6116260699\n\n\u001b[1A\u001b[2KÜretilen E-posta: 9ako9tff2kwctu@gmail.com\n\n\u001b[1A\u001b[2KÜretilen Telefon Numarası: +90 54 427 70 34\n\n\u001b[1A\u001b[2K✅ Başarılı: Üye İşyeri başarıyla eklendi! (507-Tüzel Mükellef)\n\n\u001b[1A\u001b[2K✅ Başarılı: Üye İşyeri başarıyla silindi!\n\n\u001b[1A\u001b[2K  1 passed (37.9s)\n",
+    "stderr": "",
+    "error": null,
+    "startTime": "2025-08-03T08:39:20.898Z",
+    "endTime": "2025-08-03T08:40:00.519Z",
+    "duration": 40,
+    "lastRun": "2025-08-03T08:40:00.519Z"
+  },
+  "merchant/509-gercek-mukellef-ekleme.spec.ts": {
+    "success": true,
+    "output": "\nRunning 1 test using 1 worker\n\n\u001b[1A\u001b[2K[1/1] tests\\merchant\\509-gercek-mukellef-ekleme.spec.ts:9:5 › 509 Gerçek Mükellef Ekleme\n\u001b[1A\u001b[2Ktests\\merchant\\509-gercek-mukellef-ekleme.spec.ts:9:5 › 509 Gerçek Mükellef Ekleme\nÜretilen TC No: 67293219830\n\n\u001b[1A\u001b[2KÜretilen E-posta: 8t1xig@gmail.com\n\n\u001b[1A\u001b[2KÜretilen Telefon Numarası: +90 50 738 96 91\n\n\u001b[1A\u001b[2K✅ Başarılı: Üye İşyeri başarıyla eklendi! (509-Gerçek Mükellef)\n\n\u001b[1A\u001b[2K✅ Başarılı: Üye İşyeri başarıyla silindi!\n\n\u001b[1A\u001b[2K  1 passed (26.4s)\n",
+    "stderr": "",
+    "error": null,
+    "startTime": "2025-08-03T08:40:13.350Z",
+    "endTime": "2025-08-03T08:40:41.428Z",
+    "duration": 28,
+    "lastRun": "2025-08-03T08:40:41.428Z"
+  }
+}

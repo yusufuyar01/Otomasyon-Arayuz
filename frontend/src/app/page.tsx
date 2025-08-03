@@ -8,6 +8,11 @@ interface TestFile {
   file: string;
   path: string;
   category: string;
+  lastRun?: string;
+  lastResult?: {
+    success: boolean;
+    duration: number;
+  };
 }
 
 interface TestResult {
@@ -17,6 +22,10 @@ interface TestResult {
   error?: string;
   details?: string;
   stderr?: string;
+  startTime?: string;
+  endTime?: string;
+  duration?: number;
+  lastRun?: string;
 }
 
 // ANSI kodlarını temizleyen fonksiyon
@@ -30,6 +39,7 @@ export default function Home() {
   const [loading, setLoading] = useState(true);
   const [runningTest, setRunningTest] = useState<string | null>(null);
   const [testResults, setTestResults] = useState<TestResult | null>(null);
+  const [testHistory, setTestHistory] = useState<Record<string, TestResult>>({});
   const [isPhone, setIsPhone] = useState(false);
   const [currentPath, setCurrentPath] = useState("");
   const [isOpen, setIsOpen] = useState(false);
@@ -49,11 +59,24 @@ export default function Home() {
 
     window.addEventListener("resize", handleResize);
     fetchTests();
+    fetchTestHistory();
 
     return () => {
       window.removeEventListener("resize", handleResize);
     };
   }, []);
+
+  const fetchTestHistory = async () => {
+    try {
+      const response = await fetch(`${backendUrl}/test-results`);
+      if (response.ok) {
+        const data = await response.json();
+        setTestHistory(data);
+      }
+    } catch (error) {
+      console.error('Test geçmişi alınırken hata:', error);
+    }
+  };
 
   const fetchTests = async () => {
     try {
@@ -63,7 +86,18 @@ export default function Home() {
       if (response.ok) {
         const data = await response.json();
         console.log('Test data:', data);
-        setTests(data);
+        
+        // Test geçmişini test dosyalarına ekle
+        const testsWithHistory = data.map((test: TestFile) => ({
+          ...test,
+          lastRun: testHistory[test.file]?.lastRun,
+          lastResult: testHistory[test.file] ? {
+            success: testHistory[test.file].success,
+            duration: testHistory[test.file].duration
+          } : undefined
+        }));
+        
+        setTests(testsWithHistory);
       } else {
         console.error('Test dosyaları alınamadı, status:', response.status);
       }
@@ -89,6 +123,10 @@ export default function Home() {
 
       const result = await response.json();
       setTestResults(result);
+      
+      // Test geçmişini güncelle
+      await fetchTestHistory();
+      await fetchTests();
     } catch (error) {
       setTestResults({
         success: false,

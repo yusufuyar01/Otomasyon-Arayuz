@@ -5,6 +5,11 @@ interface TestFile {
   file: string;
   path: string;
   category: string;
+  lastRun?: string;
+  lastResult?: {
+    success: boolean;
+    duration: number;
+  };
 }
 
 interface TestDosyalariProps {
@@ -53,6 +58,8 @@ export default function TestDosyalari({ tests, loading, runningTest, onRunTest }
                       onRunTest={onRunTest}
                       isRunning={runningTest === test.file}
                       runningTest={runningTest}
+                      lastRun={test.lastRun}
+                      lastResult={test.lastResult}
                     />
                   ))}
                 </div>
