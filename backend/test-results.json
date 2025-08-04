@@ -350,14 +350,14 @@
     "lastRun": "2025-08-03T12:53:31.913Z"
   },
   "techpos/techpos-batch-ekrani-filtre.spec.ts": {
-    "success": false,
-    "output": "\nRunning 1 test using 1 worker\n\n\u001b[1A\u001b[2K[1/1] tests\\techpos\\techpos-batch-ekrani-filtre.spec.ts:5:5 › TechPOS - Batch Ekranı Filtre\n\u001b[1A\u001b[2Ktests\\techpos\\techpos-batch-ekrani-filtre.spec.ts:5:5 › TechPOS - Batch Ekranı Filtre\n📅 Bugünün tarihi: 3 Ağustos 2025 Pazar\n\n\u001b[1A\u001b[2K📅 20 gün öncesi: 14 Temmuz 2025 Pazartesi\n\n\u001b[1A\u001b[2K🔍 Seçilecek başlangıç tarihi: \"14 Temmuz 2025 Pazartesi\"\n\n\u001b[1A\u001b[2K  1) tests\\techpos\\techpos-batch-ekrani-filtre.spec.ts:5:5 › TechPOS - Batch Ekranı Filtre ─────────\n\n    Error: locator.click: Target page, context or browser has been closed\n    Call log:\n    \u001b[2m  - waiting for getByRole('option', { name: 'PAV860066571' })\u001b[22m\n\n\n       98 |     // await page.waitForTimeout(1000);\n       99 |     await page.waitForTimeout(1000);\n    > 100 |     await page.getByRole('option', { name: 'PAV860066571' }).click();\n          |                                                              ^\n      101 |     \n      102 |     // Üye işyeri doldur\n      103 |     await page.locator('kendo-combobox').getByRole('combobox').click();\n        at C:\\Users\\uyary\\Desktop\\Otomasyon-Arayuz\\tests\\techpos\\techpos-batch-ekrani-filtre.spec.ts:100:62\n\n\n\u001b[1A\u001b[2K  1 failed\n    tests\\techpos\\techpos-batch-ekrani-filtre.spec.ts:5:5 › TechPOS - Batch Ekranı Filtre ──────────\n",
+    "success": true,
+    "output": "\nRunning 1 test using 1 worker\n\n\u001b[1A\u001b[2K[1/1] tests\\techpos\\techpos-batch-ekrani-filtre.spec.ts:5:5 › TechPOS - Batch Ekranı Filtre\n\u001b[1A\u001b[2Ktests\\techpos\\techpos-batch-ekrani-filtre.spec.ts:5:5 › TechPOS - Batch Ekranı Filtre\n📅 Bugünün tarihi: 4 Ağustos 2025 Pazartesi\n\n\u001b[1A\u001b[2K📅 20 gün öncesi: 15 Temmuz 2025 Salı\n\n\u001b[1A\u001b[2K🔍 Seçilecek başlangıç tarihi: \"15 Temmuz 2025 Salı\"\n\n\u001b[1A\u001b[2K✅ Filtreleme sonucu terminal id eşleşti\n\n\u001b[1A\u001b[2K✅ Filtreleme sonucu BKM Seri No eşleşti\n\n\u001b[1A\u001b[2K✅ Filtreleme sonucu üye işyeri eşleşti\n\n\u001b[1A\u001b[2K  1 passed (38.7s)\n",
     "stderr": "",
-    "error": "Command failed: npx playwright test tests/techpos/techpos-batch-ekrani-filtre.spec.ts --headed --timeout=120000 --reporter=line\n",
-    "startTime": "2025-08-03T12:54:42.234Z",
-    "endTime": "2025-08-03T12:55:59.660Z",
-    "duration": 77,
-    "lastRun": "2025-08-03T12:55:59.660Z"
+    "error": null,
+    "startTime": "2025-08-04T13:31:45.804Z",
+    "endTime": "2025-08-04T13:32:26.495Z",
+    "duration": 41,
+    "lastRun": "2025-08-04T13:32:26.495Z"
   },
   "techpos/batch-ozet-ve-islemler.spec.ts": {
     "success": true,
