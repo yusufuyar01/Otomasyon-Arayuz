@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test';
 import { login } from '../../helpers/login';
 import { zoom } from '../../helpers/zoom';
-import { cihazEkle, cihazGuncelle, cihaziBayiyeAta, cihazlariBayidenGeriAl, cihazlariBayiyeAta, cihazlariBayiyeAta2, cihazlariBayiyeAta3, cihazSil, cihazUyeIseyerindenGeriAl, UyeIseyerineAta509 } from '../../helpers/cihazIslemleri';
+import { cihazEkle, cihazGuncelle, cihaziBayiyeAta, cihazSil, cihazUyeIseyerindenGeriAl, UyeIseyerineAta509 } from '../../helpers/cihazIslemleri';
 
 test('Cihazları 509 Üye İşyerine Atama', async ({ page }) => {
 
@@ -60,17 +60,6 @@ test('Cihazları 509 Üye İşyerine Atama', async ({ page }) => {
     // { state: 'visible' }
     if (await basarisizIslemler.isVisible()) {
       console.log('❌ Başarısız işlemler görüntülendi');
-      
-      // Tablo başlıklarını yazdır
-      const headers = [
-        'Seri Numarası',
-        'Cihaz Adı', 
-        'Cihaz Modeli',
-        'Cihaz Tipi',
-        'Marka',
-        'Error Message'
-      ];
-      console.log('-'.repeat(100));
       
       // Tablodaki tüm satırları oku
       const rows = page.locator('.k-grid-content .k-master-row');
