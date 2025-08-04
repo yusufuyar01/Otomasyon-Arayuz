@@ -40,14 +40,14 @@
     "lastRun": "2025-08-03T08:46:51.418Z"
   },
   "merchant/detay-belge-ekleme-guncelleme-goruntuleme-silme.spec.ts": {
-    "success": false,
-    "output": "\nRunning 1 test using 1 worker\n\n\u001b[1A\u001b[2K[1/1] tests\\merchant\\detay-belge-ekleme-guncelleme-goruntuleme-silme.spec.ts:5:5 › Detay Belge Ekleme, Güncelleme, Görüntüleme ve Silme\n\u001b[1A\u001b[2Ktests\\merchant\\detay-belge-ekleme-guncelleme-goruntuleme-silme.spec.ts:5:5 › Detay Belge Ekleme, Güncelleme, Görüntüleme ve Silme\n🎯 Rastgele seçilen satır numarası: 3\n\n\u001b[1A\u001b[2K✅ \"Güncelle\" butonu görünüyor, belge güncelleme, goruntuleme, silme yapılıyor...\n\n\u001b[1A\u001b[2K📄 İlk hücredeki değer:   \n\n\u001b[1A\u001b[2K✅ Güncelleme yapıldı\n\n\u001b[1A\u001b[2K  1) tests\\merchant\\detay-belge-ekleme-guncelleme-goruntuleme-silme.spec.ts:5:5 › Detay Belge Ekleme, Güncelleme, Görüntüleme ve Silme \n\n    Error: locator.click: Target page, context or browser has been closed\n    Call log:\n    \u001b[2m  - waiting for getByRole('row', { name: '   ', exact: true }).getByRole('gridcell').first()\u001b[22m\n\n\n      110 |\n      111 |         // Görüntüleme butonuna tıkla\n    > 112 |         await page.getByRole('row', { name: ` ${ilkDeger}`, exact: true }).getByRole('gridcell').first().click();\n          |                                                                                                           ^\n      113 |\n      114 |         // preview butonuna tıkla\n      115 |         await page.getByRole('button', { name: '' }).first().click();\n        at C:\\Users\\uyary\\Desktop\\Otomasyon-Arayuz\\tests\\merchant\\detay-belge-ekleme-guncelleme-goruntuleme-silme.spec.ts:112:107\n\n\n\u001b[1A\u001b[2K  1 failed\n    tests\\merchant\\detay-belge-ekleme-guncelleme-goruntuleme-silme.spec.ts:5:5 › Detay Belge Ekleme, Güncelleme, Görüntüleme ve Silme \n",
+    "success": true,
+    "output": "\nRunning 1 test using 1 worker\n\n\u001b[1A\u001b[2K[1/1] tests\\merchant\\detay-belge-ekleme-guncelleme-goruntuleme-silme.spec.ts:9:5 › Detay Belge Ekleme, Güncelleme, Görüntüleme ve Silme\n\u001b[1A\u001b[2Ktests\\merchant\\detay-belge-ekleme-guncelleme-goruntuleme-silme.spec.ts:9:5 › Detay Belge Ekleme, Güncelleme, Görüntüleme ve Silme\nÜretilen VKN: 5594702743\n\n\u001b[1A\u001b[2KÜretilen E-posta: vtd2iaafn3lq2r@gmail.com\n\n\u001b[1A\u001b[2KÜretilen Telefon Numarası: +90 55 956 42 64\n\n\u001b[1A\u001b[2K✅ Başarılı: Üye İşyeri başarıyla eklendi! (507-Tüzel Mükellef)\n\n\u001b[1A\u001b[2K🎯 Seçilen üye işyeri: DENEMEBNGUR\n\n\u001b[1A\u001b[2K✅ \"+ Yeni\" butonu görünüyor, belge ekleme yapılıyor...\n\n\u001b[1A\u001b[2K✅ Belge başarıyla eklendi\n\n\u001b[1A\u001b[2K✅ \"Güncelle\" butonu görünüyor, belge güncelleme, goruntuleme, silme yapılıyor...\n\n\u001b[1A\u001b[2K📄 İlk hücredeki değer:  ornek-png \n\n\u001b[1A\u001b[2K✅ Belge Güncelleme yapıldı\n\n\u001b[1A\u001b[2K✅ Belge Görüntüleme yapıldı\n\n\u001b[1A\u001b[2K✅ Belge Silme işlemi yapıldı\n\n\u001b[1A\u001b[2K✅ Başarılı: Üye İşyeri başarıyla silindi!\n\n\u001b[1A\u001b[2K  1 passed (58.0s)\n",
     "stderr": "",
-    "error": "Command failed: npx playwright test tests/merchant/detay-belge-ekleme-guncelleme-goruntuleme-silme.spec.ts --headed --timeout=120000 --reporter=line\n",
-    "startTime": "2025-08-03T08:48:08.850Z",
-    "endTime": "2025-08-03T08:49:34.953Z",
-    "duration": 86,
-    "lastRun": "2025-08-03T08:49:34.953Z"
+    "error": null,
+    "startTime": "2025-08-04T09:43:07.028Z",
+    "endTime": "2025-08-04T09:44:07.036Z",
+    "duration": 60,
+    "lastRun": "2025-08-04T09:44:07.036Z"
   },
   "merchant/detay-e-belge-ayarlari.spec.ts": {
     "success": true,
