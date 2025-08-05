@@ -15,15 +15,15 @@ test('TechPOS - Batch Ekranı Filtre', async ({ page }) => {
     console.log(`📅 Bugünün tarihi: ${tarihString}`);
 
     // 20 gün öncesinin tarihini konsola yazdır
-    const yirmiGunOncesi = new Date();
-    yirmiGunOncesi.setDate(bugun.getDate() - 20);
-    const yirmiGunOncesiString = yirmiGunOncesi.toLocaleDateString('tr-TR', {
+    const otuzGunOncesi = new Date();
+    otuzGunOncesi.setDate(bugun.getDate() - 30);
+    const otuzGunOncesiString = otuzGunOncesi.toLocaleDateString('tr-TR', {
         year: 'numeric',
         month: 'long',
         day: 'numeric',
         weekday: 'long'
     });
-    console.log(`📅 20 gün öncesi: ${yirmiGunOncesiString}`);
+    console.log(`📅 30 gün öncesi: ${otuzGunOncesiString}`);
 
     // Ay numarasını ay adına çeviren fonksiyon
     const ayAdiGetirTam = (ayNumarasi: number): string => {
@@ -59,24 +59,32 @@ test('TechPOS - Batch Ekranı Filtre', async ({ page }) => {
     await page.waitForTimeout(1000);
 
 
-    // Tarih string'ini daha basit formatta oluştur (sadece gün)
-    const gun = yirmiGunOncesi.getDate();
-    const ay = yirmiGunOncesi.getMonth() + 1;
+    // Tarih string'ini oluştur
+    const gun = otuzGunOncesi.getDate();
+    const ay = otuzGunOncesi.getMonth() + 1;
+    const yıl = otuzGunOncesi.getFullYear();
     
     // Gün adını al
-    const gunAdi = gunAdiGetir(yirmiGunOncesi.getDay());
+    await page.waitForTimeout(1000);
+
+    // Tarih seçimi - GG.AA.YYYY formatında (numara olarak)
+    console.log(`🔍  30 Gün Öncesi Seçildi`);
+    const tarih = gun.toString() + ay.toString() + yıl.toString();
+    
+    // Tarih string'ini karakterlerine ayır ve her birini ayrı ayrı bas
+    for (let i = 0; i < tarih.length; i++) {
+        await page.locator('#datepicker-1').press(tarih[i]);
+        await page.waitForTimeout(300); // Her karakter arasında kısa bekleme
+    }
+    
+    // Gün adını al
+    const gunAdi = gunAdiGetir(otuzGunOncesi.getDay());
     await page.waitForTimeout(1000);
 
     // Tarih seçimi
-    const titleText = `${gun} ${ayAdiGetirTam(ay)} ${yirmiGunOncesi.getFullYear()} ${gunAdi}`;
+    const titleText = `${gun} ${ayAdiGetirTam(ay)} ${otuzGunOncesi.getFullYear()} ${gunAdi}`;
     console.log(`🔍 Seçilecek başlangıç tarihi: "${titleText}"`);
 
-    await page.locator('#datepicker-1').fill(gun.toString());
-    await page.locator('#datepicker-1').fill(ay.toString());
-    await page.locator('#datepicker-1').fill(yirmiGunOncesi.getFullYear().toString());
-
-
-    // await page.getByTitle(titleText).locator('span').click();
     await page.waitForTimeout(1000);
    
     // Bitiş tarihi seçimi
@@ -90,9 +98,10 @@ test('TechPOS - Batch Ekranı Filtre', async ({ page }) => {
     await page.locator('ot-data-entry-template').filter({ hasText: 'Terminal' }).getByRole('combobox').fill('7730');
     await page.getByRole('option', { name: '77301' }).click();
     
+
     // BKM Seri No doldur
     await page.locator('ot-data-entry-template').filter({ hasText: 'BKM Seri No' }).getByRole('combobox').click();
-    await page.waitForTimeout(10000);
+    await page.waitForTimeout(15000);
 
     await page.locator('ot-data-entry-template').filter({ hasText: 'BKM Seri No' }).getByRole('combobox').fill('PAV860066571');
     await page.waitForTimeout(3000);
@@ -214,5 +223,4 @@ test('TechPOS - Batch Ekranı Filtre', async ({ page }) => {
     } else {
         console.log('❌ Filtreleme sonucu üye işyeri eşleşmedi');
     }
-
 }); 

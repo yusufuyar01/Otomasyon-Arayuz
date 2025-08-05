@@ -350,14 +350,14 @@
     "lastRun": "2025-08-03T12:53:31.913Z"
   },
   "techpos/techpos-batch-ekrani-filtre.spec.ts": {
-    "success": false,
-    "output": "\nRunning 1 test using 1 worker\n\n\u001b[1A\u001b[2K[1/1] tests\\techpos\\techpos-batch-ekrani-filtre.spec.ts:5:5 › TechPOS - Batch Ekranı Filtre\n\u001b[1A\u001b[2Ktests\\techpos\\techpos-batch-ekrani-filtre.spec.ts:5:5 › TechPOS - Batch Ekranı Filtre\n📅 Bugünün tarihi: 4 Ağustos 2025 Pazartesi\n\n\u001b[1A\u001b[2K📅 20 gün öncesi: 15 Temmuz 2025 Salı\n\n\u001b[1A\u001b[2K🔍 Seçilecek başlangıç tarihi: \"15 Temmuz 2025 Salı\"\n\n\u001b[1A\u001b[2K  1) tests\\techpos\\techpos-batch-ekrani-filtre.spec.ts:5:5 › TechPOS - Batch Ekranı Filtre ─────────\n\n    Error: locator.click: Target page, context or browser has been closed\n    Call log:\n    \u001b[2m  - waiting for getByRole('option', { name: '77301' })\u001b[22m\n    \u001b[2m    - locator resolved to <li index=\"1\" role=\"option\" tabindex=\"-1\" kendodropdownsselectable=\"\" class=\"k-list-item ng-star-inserted\" id=\"option-6941d852-9236-44ea-ba0a-8a1d17fdd846-1\">…</li>\u001b[22m\n    \u001b[2m  - attempting click action\u001b[22m\n    \u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n    \u001b[2m    - element is visible, enabled and stable\u001b[22m\n    \u001b[2m    - scrolling into view if needed\u001b[22m\n    \u001b[2m  - element was detached from the DOM, retrying\u001b[22m\n\n\n      89 |     await page.locator('ot-data-entry-template').filter({ hasText: 'Terminal' }).getByRole('combobox').fill('77301');\n      90 |     await page.locator('ot-data-entry-template').filter({ hasText: 'Terminal' }).getByRole('combobox').fill('7730');\n    > 91 |     await page.getByRole('option', { name: '77301' }).click();\n         |                                                       ^\n      92 |     \n      93 |     // BKM Seri No doldur\n      94 |     await page.locator('ot-data-entry-template').filter({ hasText: 'BKM Seri No' }).getByRole('combobox').click();\n        at C:\\Users\\uyary\\Desktop\\Otomasyon-Arayuz\\tests\\techpos\\techpos-batch-ekrani-filtre.spec.ts:91:55\n\n\n\u001b[1A\u001b[2K  1 failed\n    tests\\techpos\\techpos-batch-ekrani-filtre.spec.ts:5:5 › TechPOS - Batch Ekranı Filtre ──────────\n",
+    "success": true,
+    "output": "\nRunning 1 test using 1 worker\n\n\u001b[1A\u001b[2K[1/1] tests\\techpos\\techpos-batch-ekrani-filtre.spec.ts:5:5 › TechPOS - Batch Ekranı Filtre\n\u001b[1A\u001b[2Ktests\\techpos\\techpos-batch-ekrani-filtre.spec.ts:5:5 › TechPOS - Batch Ekranı Filtre\n📅 Bugünün tarihi: 5 Ağustos 2025 Salı\n\n\u001b[1A\u001b[2K📅 30 gün öncesi: 6 Temmuz 2025 Pazar\n\n\u001b[1A\u001b[2K🔍  30 Gün Öncesi Seçildi\n\n\u001b[1A\u001b[2K🔍 Seçilecek başlangıç tarihi: \"6 Temmuz 2025 Pazar\"\n\n\u001b[1A\u001b[2K✅ Filtreleme sonucu terminal id eşleşti\n\n\u001b[1A\u001b[2K✅ Filtreleme sonucu BKM Seri No eşleşti\n\n\u001b[1A\u001b[2K✅ Filtreleme sonucu üye işyeri eşleşti\n\n\u001b[1A\u001b[2K  1 passed (44.7s)\n",
     "stderr": "",
-    "error": "Command failed: npx playwright test tests/techpos/techpos-batch-ekrani-filtre.spec.ts --headed --timeout=120000 --reporter=line\n",
-    "startTime": "2025-08-04T13:39:17.220Z",
-    "endTime": "2025-08-04T13:39:45.946Z",
-    "duration": 29,
-    "lastRun": "2025-08-04T13:39:45.946Z"
+    "error": null,
+    "startTime": "2025-08-05T08:01:42.063Z",
+    "endTime": "2025-08-05T08:02:28.998Z",
+    "duration": 47,
+    "lastRun": "2025-08-05T08:02:28.998Z"
   },
   "techpos/batch-ozet-ve-islemler.spec.ts": {
     "success": true,
