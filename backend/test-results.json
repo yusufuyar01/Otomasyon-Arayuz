@@ -1,5 +1,5 @@
 {
-  "merchant/507-gercek-mukellef-ekleme.spec.ts": {
+  "admin-login/merchant/507-gercek-mukellef-ekleme.spec.ts": {
     "success": true,
     "output": "\nRunning 1 test using 1 worker\n\n\u001b[1A\u001b[2K[1/1] tests\\merchant\\507-gercek-mukellef-ekleme.spec.ts:9:5 › 507 Gerçek Mükellef Ekleme\n\u001b[1A\u001b[2Ktests\\merchant\\507-gercek-mukellef-ekleme.spec.ts:9:5 › 507 Gerçek Mükellef Ekleme\nÜretilen TC No: 49906812492\n\n\u001b[1A\u001b[2KÜretilen E-posta: raig5j@gmail.com\n\n\u001b[1A\u001b[2KÜretilen Telefon Numarası: +90 51 583 13 12\n\n\u001b[1A\u001b[2K✅ Başarılı: Üye İşyeri başarıyla eklendi! (507-Gerçek Mükellef)\n\n\u001b[1A\u001b[2K✅ Başarılı: Üye İşyeri başarıyla silindi!\n\n\u001b[1A\u001b[2K  1 passed (37.0s)\n",
     "stderr": "",
@@ -9,7 +9,7 @@
     "duration": 39,
     "lastRun": "2025-08-03T08:47:57.713Z"
   },
-  "merchant/507-tuzel-mukellef-ekleme.spec.ts": {
+  "admin-login/merchant/507-tuzel-mukellef-ekleme.spec.ts": {
     "success": true,
     "output": "\nRunning 1 test using 1 worker\n\n\u001b[1A\u001b[2K[1/1] tests\\merchant\\507-tuzel-mukellef-ekleme.spec.ts:9:5 › 507 Tüzel Mükellef Ekleme\n\u001b[1A\u001b[2Ktests\\merchant\\507-tuzel-mukellef-ekleme.spec.ts:9:5 › 507 Tüzel Mükellef Ekleme\nÜretilen VKN: 6116260699\n\n\u001b[1A\u001b[2KÜretilen E-posta: 9ako9tff2kwctu@gmail.com\n\n\u001b[1A\u001b[2KÜretilen Telefon Numarası: +90 54 427 70 34\n\n\u001b[1A\u001b[2K✅ Başarılı: Üye İşyeri başarıyla eklendi! (507-Tüzel Mükellef)\n\n\u001b[1A\u001b[2K✅ Başarılı: Üye İşyeri başarıyla silindi!\n\n\u001b[1A\u001b[2K  1 passed (37.9s)\n",
     "stderr": "",
@@ -19,7 +19,7 @@
     "duration": 40,
     "lastRun": "2025-08-03T08:40:00.519Z"
   },
-  "merchant/509-gercek-mukellef-ekleme.spec.ts": {
+  "admin-login/merchant/509-gercek-mukellef-ekleme.spec.ts": {
     "success": true,
     "output": "\nRunning 1 test using 1 worker\n\n\u001b[1A\u001b[2K[1/1] tests\\merchant\\509-gercek-mukellef-ekleme.spec.ts:9:5 › 509 Gerçek Mükellef Ekleme\n\u001b[1A\u001b[2Ktests\\merchant\\509-gercek-mukellef-ekleme.spec.ts:9:5 › 509 Gerçek Mükellef Ekleme\nÜretilen TC No: 67293219830\n\n\u001b[1A\u001b[2KÜretilen E-posta: 8t1xig@gmail.com\n\n\u001b[1A\u001b[2KÜretilen Telefon Numarası: +90 50 738 96 91\n\n\u001b[1A\u001b[2K✅ Başarılı: Üye İşyeri başarıyla eklendi! (509-Gerçek Mükellef)\n\n\u001b[1A\u001b[2K✅ Başarılı: Üye İşyeri başarıyla silindi!\n\n\u001b[1A\u001b[2K  1 passed (26.4s)\n",
     "stderr": "",
@@ -29,7 +29,7 @@
     "duration": 28,
     "lastRun": "2025-08-03T08:40:41.428Z"
   },
-  "merchant/509-tuzel-mukellef-ekleme.spec.ts": {
+  "admin-login/merchant/509-tuzel-mukellef-ekleme.spec.ts": {
     "success": true,
     "output": "\nRunning 1 test using 1 worker\n\n\u001b[1A\u001b[2K[1/1] tests\\merchant\\509-tuzel-mukellef-ekleme.spec.ts:10:5 › 509 Tüzel Mükellef Ekleme Testleri\n\u001b[1A\u001b[2Ktests\\merchant\\509-tuzel-mukellef-ekleme.spec.ts:10:5 › 509 Tüzel Mükellef Ekleme Testleri\nÜretilen VKN: 5173364999\n\n\u001b[1A\u001b[2KÜretilen E-posta: fazo3bj3m3@gmail.com\n\n\u001b[1A\u001b[2KÜretilen Telefon Numarası: +90 51 955 52 26\n\n\u001b[1A\u001b[2K✅ Başarılı: Üye İşyeri başarıyla eklendi! (509-Tüzel Mükellef)\n\n\u001b[1A\u001b[2K✅ Başarılı: Üye İşyeri başarıyla silindi!\n\n\u001b[1A\u001b[2K  1 passed (27.0s)\n",
     "stderr": "",
@@ -39,7 +39,7 @@
     "duration": 29,
     "lastRun": "2025-08-03T08:46:51.418Z"
   },
-  "merchant/detay-belge-ekleme-guncelleme-goruntuleme-silme.spec.ts": {
+  "admin-login/merchant/detay-belge-ekleme-guncelleme-goruntuleme-silme.spec.ts": {
     "success": true,
     "output": "\nRunning 1 test using 1 worker\n\n\u001b[1A\u001b[2K[1/1] tests\\merchant\\detay-belge-ekleme-guncelleme-goruntuleme-silme.spec.ts:9:5 › Detay Belge Ekleme, Güncelleme, Görüntüleme ve Silme\n\u001b[1A\u001b[2Ktests\\merchant\\detay-belge-ekleme-guncelleme-goruntuleme-silme.spec.ts:9:5 › Detay Belge Ekleme, Güncelleme, Görüntüleme ve Silme\nÜretilen VKN: 5594702743\n\n\u001b[1A\u001b[2KÜretilen E-posta: vtd2iaafn3lq2r@gmail.com\n\n\u001b[1A\u001b[2KÜretilen Telefon Numarası: +90 55 956 42 64\n\n\u001b[1A\u001b[2K✅ Başarılı: Üye İşyeri başarıyla eklendi! (507-Tüzel Mükellef)\n\n\u001b[1A\u001b[2K🎯 Seçilen üye işyeri: DENEMEBNGUR\n\n\u001b[1A\u001b[2K✅ \"+ Yeni\" butonu görünüyor, belge ekleme yapılıyor...\n\n\u001b[1A\u001b[2K✅ Belge başarıyla eklendi\n\n\u001b[1A\u001b[2K✅ \"Güncelle\" butonu görünüyor, belge güncelleme, goruntuleme, silme yapılıyor...\n\n\u001b[1A\u001b[2K📄 İlk hücredeki değer:  ornek-png \n\n\u001b[1A\u001b[2K✅ Belge Güncelleme yapıldı\n\n\u001b[1A\u001b[2K✅ Belge Görüntüleme yapıldı\n\n\u001b[1A\u001b[2K✅ Belge Silme işlemi yapıldı\n\n\u001b[1A\u001b[2K✅ Başarılı: Üye İşyeri başarıyla silindi!\n\n\u001b[1A\u001b[2K  1 passed (58.0s)\n",
     "stderr": "",
@@ -49,7 +49,7 @@
     "duration": 60,
     "lastRun": "2025-08-04T09:44:07.036Z"
   },
-  "merchant/detay-e-belge-ayarlari.spec.ts": {
+  "admin-login/merchant/detay-e-belge-ayarlari.spec.ts": {
     "success": true,
     "output": "\nRunning 1 test using 1 worker\n\n\u001b[1A\u001b[2K[1/1] tests\\merchant\\detay-e-belge-ayarlari.spec.ts:6:5 › Detay E-Belge Ayarları\n\u001b[1A\u001b[2Ktests\\merchant\\detay-e-belge-ayarlari.spec.ts:6:5 › Detay E-Belge Ayarları\n🎯 Rastgele seçilen satır numarası: 9\n\n\u001b[1A\u001b[2K✅ Entegratör mesajı görünmedi, E-Belge Ayarları devam ediyor...\n\n\u001b[1A\u001b[2K✅ Seçilen Belge Türü: E-Fatura\n\n\u001b[1A\u001b[2K✅ Üye İşyeri E-Belge Ayarları başarıyla oluşturuldu\n\n\u001b[1A\u001b[2K  1 passed (18.5s)\n",
     "stderr": "",
@@ -59,7 +59,7 @@
     "duration": 28,
     "lastRun": "2025-08-03T11:43:07.786Z"
   },
-  "merchant/detay-entegrator-ekleme.spec.ts": {
+  "admin-login/merchant/detay-entegrator-ekleme.spec.ts": {
     "success": true,
     "output": "\nRunning 1 test using 1 worker\n\n\u001b[1A\u001b[2K[1/1] tests\\merchant\\detay-entegrator-ekleme.spec.ts:5:5 › Entegratör Ekleme\n\u001b[1A\u001b[2Ktests\\merchant\\detay-entegrator-ekleme.spec.ts:5:5 › Entegratör Ekleme\n🎯 Rastgele seçilen satır numarası: 6\n\n\u001b[1A\u001b[2K🎯 Rastgele seçilen entegratör:  test entegratörü \n\n\u001b[1A\u001b[2K✅ Entegratör başarıyla eklendi\n\n\u001b[1A\u001b[2K  1 passed (16.8s)\n",
     "stderr": "",
@@ -69,7 +69,7 @@
     "duration": 19,
     "lastRun": "2025-08-03T11:44:00.282Z"
   },
-  "merchant/detay-payment-type-ekleme.spec.ts": {
+  "admin-login/merchant/detay-payment-type-ekleme.spec.ts": {
     "success": true,
     "output": "\nRunning 1 test using 1 worker\n\n\u001b[1A\u001b[2K[1/1] tests\\merchant\\detay-payment-type-ekleme.spec.ts:5:5 › Detay Payment type Ekleme\n\u001b[1A\u001b[2Ktests\\merchant\\detay-payment-type-ekleme.spec.ts:5:5 › Detay Payment type Ekleme\n✅ Başarılı: Ödeme Tipi eklendi!\n\n\u001b[1A\u001b[2K  1 passed (17.7s)\n",
     "stderr": "",
@@ -79,7 +79,7 @@
     "duration": 19,
     "lastRun": "2025-08-03T11:47:58.035Z"
   },
-  "merchant/tip-vergi-tipi-ve-yetkili-bayi-degistirme.spec.ts": {
+  "admin-login/merchant/tip-vergi-tipi-ve-yetkili-bayi-degistirme.spec.ts": {
     "success": true,
     "output": "\nRunning 1 test using 1 worker\n\n\u001b[1A\u001b[2K[1/1] tests\\merchant\\tip-vergi-tipi-ve-yetkili-bayi-degistirme.spec.ts:8:5 › Tip, Vergi Tipi ve Yetkili bayi Değiştirme\n\u001b[1A\u001b[2Ktests\\merchant\\tip-vergi-tipi-ve-yetkili-bayi-degistirme.spec.ts:8:5 › Tip, Vergi Tipi ve Yetkili bayi Değiştirme\n🎯 Rastgele seçilen satır numarası: 6\n\n\u001b[1A\u001b[2KÜretilen TC No: 66671478296\n\n\u001b[1A\u001b[2K🎯 Dropdown'dan rastgele seçilen seçenek indeksi: 382\n\n\u001b[1A\u001b[2K✅ Başarılı! Güncelle işlemi başarıyla gerçekleştirildi\n\n\u001b[1A\u001b[2K  1 passed (20.3s)\n",
     "stderr": "",
@@ -89,7 +89,7 @@
     "duration": 22,
     "lastRun": "2025-08-04T07:38:54.836Z"
   },
-  "reseller/bayi-guncelle.spec.ts": {
+  "admin-login/reseller/bayi-guncelle.spec.ts": {
     "success": true,
     "output": "\nRunning 1 test using 1 worker\n\n\u001b[1A\u001b[2K[1/1] tests\\reseller\\bayi-guncelle.spec.ts:10:5 › Bayi Güncelleme\n\u001b[1A\u001b[2Ktests\\reseller\\bayi-guncelle.spec.ts:10:5 › Bayi Güncelleme\nÜretilen Bayi Adı: DENEMEN9AM4\n\n\u001b[1A\u001b[2KÜretilen VKN: 1178782563\n\n\u001b[1A\u001b[2KÜretilen E-posta: f28qd9@gmail.com\n\n\u001b[1A\u001b[2KÜretilen Telefon Numarası: +90 52 653 55 58\n\n\u001b[1A\u001b[2K✅ Başarılı: Bayi başarıyla eklendi! (Tüzel Kişi)\n\n\u001b[1A\u001b[2KÜretilen TC No: 90050366324\n\n\u001b[1A\u001b[2K✅ Başarılı! Bayi güncelleme işlemi başarıyla gerçekleştirildi\n\n\u001b[1A\u001b[2K✅ Başarılı: Bayi başarıyla silindi!\n\n\u001b[1A\u001b[2K  1 passed (30.8s)\n",
     "stderr": "",
@@ -99,7 +99,7 @@
     "duration": 32,
     "lastRun": "2025-08-03T11:52:55.509Z"
   },
-  "reseller/detay-iletisim-bilgileri-ekleme-guncelleme.spec.ts": {
+  "admin-login/reseller/detay-iletisim-bilgileri-ekleme-guncelleme.spec.ts": {
     "success": true,
     "output": "\nRunning 1 test using 1 worker\n\n\u001b[1A\u001b[2K[1/1] tests\\reseller\\detay-iletisim-bilgileri-ekleme-guncelleme.spec.ts:7:5 › Detay İletişim Bilgileri Ekleme ve Güncelleme\n\u001b[1A\u001b[2Ktests\\reseller\\detay-iletisim-bilgileri-ekleme-guncelleme.spec.ts:7:5 › Detay İletişim Bilgileri Ekleme ve Güncelleme\n🎯 Rastgele seçilen satır numarası: 8\n\n\u001b[1A\u001b[2K🎯 Ana iletişim seçilen: Web\n\n\u001b[1A\u001b[2K✅ Başarılı: İletişim bilgisi başarıyla eklendi!\n\n\u001b[1A\u001b[2KYeni web adresi: HtdmGkvwRj\n\n\u001b[1A\u001b[2K❌ İletişim bilgisi güncelleme başarı mesajı kontrol edilirken hata oluştu: locator.waitFor: Error: strict mode violation: getByText('Başarılı Bayi İletişim başarı') resolved to 2 elements:\n    1) <div toast-component=\"\" class=\"ng-tns-c2308121496-3 ng-star-inserted ng-trigger ng-trigger-flyInOut ngx-toastr toast-success\">…</div> aka getByText('Başarılı Bayi İletişim başarıyla güncellendi.')\n    2) <div toast-component=\"\" class=\"ng-tns-c2308121496-2 ng-star-inserted ng-trigger ng-trigger-flyInOut ngx-toastr toast-success\">…</div> aka getByText('Başarılı Bayi İletişim başarıyla oluşturuldu.')\n\nCall log:\n\u001b[2m  - waiting for getByText('Başarılı Bayi İletişim başarı') to be visible\u001b[22m\n\n\n\u001b[1A\u001b[2K  1 passed (19.0s)\n",
     "stderr": "",
@@ -109,7 +109,7 @@
     "duration": 21,
     "lastRun": "2025-08-03T11:53:41.219Z"
   },
-  "reseller/detay-kullanici-ekleme-guncelleme.spec.ts": {
+  "admin-login/reseller/detay-kullanici-ekleme-guncelleme.spec.ts": {
     "success": true,
     "output": "\nRunning 1 test using 1 worker\n\n\u001b[1A\u001b[2K[1/1] tests\\reseller\\detay-kullanici-ekleme-guncelleme.spec.ts:8:5 › Detay Kullanıcı Ekleme ve Güncelleme\n\u001b[1A\u001b[2Ktests\\reseller\\detay-kullanici-ekleme-guncelleme.spec.ts:8:5 › Detay Kullanıcı Ekleme ve Güncelleme\n🎯 Rastgele seçilen satır numarası: 7\n\n\u001b[1A\u001b[2KAd Soyad: 22JyIXjH96\n\n\u001b[1A\u001b[2KE-posta: z65sqv7n090i@gmail.com\n\n\u001b[1A\u001b[2KTelefon: +90 50 763 22 94\n\n\u001b[1A\u001b[2K✅ Başarılı: Kullanıcı başarıyla eklendi!\n\n\u001b[1A\u001b[2KGüncellenen Ad Soyad: FzWeI6v5rK\n\n\u001b[1A\u001b[2KAd Soyad güncellendi: FzWeI6v5rK\n\n\u001b[1A\u001b[2KGüncellenen E-posta: f95qt7r9c@gmail.com\n\n\u001b[1A\u001b[2KE-posta güncellendi: f95qt7r9c@gmail.com\n\n\u001b[1A\u001b[2KGüncellenen Telefon Numarası: +90 53 772 11 12\n\n\u001b[1A\u001b[2KTelefon Numarası güncellendi: +90 53 772 11 12\n\n\u001b[1A\u001b[2K✅ Başarılı: Kullanıcı başarıyla güncellendi!\n\n\u001b[1A\u001b[2K  1 passed (20.2s)\n",
     "stderr": "",
@@ -119,7 +119,7 @@
     "duration": 22,
     "lastRun": "2025-08-03T11:54:08.110Z"
   },
-  "reseller/gercek-kisi-bayi-ekleme.spec.ts": {
+  "admin-login/reseller/gercek-kisi-bayi-ekleme.spec.ts": {
     "success": true,
     "output": "\nRunning 1 test using 1 worker\n\n\u001b[1A\u001b[2K[1/1] tests\\reseller\\gercek-kisi-bayi-ekleme.spec.ts:9:5 › Gerçek Kişi Bayi Ekleme\n\u001b[1A\u001b[2Ktests\\reseller\\gercek-kisi-bayi-ekleme.spec.ts:9:5 › Gerçek Kişi Bayi Ekleme\nÜretilen Bayi Adı: DENEMEQCJE7\n\n\u001b[1A\u001b[2KÜretilen TC No: 82689071168\n\n\u001b[1A\u001b[2KÜretilen E-posta: zkyiso1n1hrhnn@gmail.com\n\n\u001b[1A\u001b[2KÜretilen Telefon Numarası: +90 58 506 82 37\n\n\u001b[1A\u001b[2K✅ Başarılı: Bayi başarıyla eklendi! (Gerçek Kişi)\n\n\u001b[1A\u001b[2K✅ Başarılı: Bayi başarıyla silindi!\n\n\u001b[1A\u001b[2K  1 passed (24.2s)\n",
     "stderr": "",
@@ -129,7 +129,7 @@
     "duration": 26,
     "lastRun": "2025-08-03T11:54:37.607Z"
   },
-  "reseller/tuzel-kisi-bayi-ekleme.spec.ts": {
+  "admin-login/reseller/tuzel-kisi-bayi-ekleme.spec.ts": {
     "success": true,
     "output": "\nRunning 1 test using 1 worker\n\n\u001b[1A\u001b[2K[1/1] tests\\reseller\\tuzel-kisi-bayi-ekleme.spec.ts:9:5 › Tüzel Kişi Bayi Ekleme\n\u001b[1A\u001b[2Ktests\\reseller\\tuzel-kisi-bayi-ekleme.spec.ts:9:5 › Tüzel Kişi Bayi Ekleme\nÜretilen Bayi Adı: DENEME6GDWG\n\n\u001b[1A\u001b[2KÜretilen VKN: 5684285149\n\n\u001b[1A\u001b[2KÜretilen E-posta: c06kvpcroot69q@gmail.com\n\n\u001b[1A\u001b[2KÜretilen Telefon Numarası: +90 58 706 27 20\n\n\u001b[1A\u001b[2K✅ Başarılı: Bayi başarıyla eklendi! (Tüzel Kişi)\n\n\u001b[1A\u001b[2K✅ Başarılı: Bayi başarıyla silindi!\n\n\u001b[1A\u001b[2K  1 passed (28.4s)\n",
     "stderr": "",
@@ -139,7 +139,7 @@
     "duration": 30,
     "lastRun": "2025-08-03T11:55:11.835Z"
   },
-  "device/bayiye-atanmamis-ve-uye-isyerine-atanmamis.spec.ts": {
+  "admin-login/device/bayiye-atanmamis-ve-uye-isyerine-atanmamis.spec.ts": {
     "success": true,
     "output": "\nRunning 1 test using 1 worker\n\n\u001b[1A\u001b[2K[1/1] tests\\device\\bayiye-atanmamis-ve-uye-isyerine-atanmamis.spec.ts:5:5 › Bayiye Atanmamış ve Üye İşyerine Atanmamış Cihazları Test Etme\n\u001b[1A\u001b[2Ktests\\device\\bayiye-atanmamis-ve-uye-isyerine-atanmamis.spec.ts:5:5 › Bayiye Atanmamış ve Üye İşyerine Atanmamış Cihazları Test Etme\n✅ Sadece Bayiye atanmamış cihazlar filtresi uygulandı\n\n\u001b[1A\u001b[2K✅ Filtreleme sonucu ilk 10 satır bayiye atanmamış\n\n\u001b[1A\u001b[2K✅ Sadece Üye işyerine atanmamış cihazlar filtresi uygulandı\n\n\u001b[1A\u001b[2K✅ Filtreleme sonucu ilk 10 satır üye işyerine atanmamış\n\n\u001b[1A\u001b[2K✅ Bayiye ve üye işyerine atanmamış cihazlar filtresi uygulandı\n\n\u001b[1A\u001b[2K✅ Filtreleme sonucu ilk 10 satır hem bayiye hem de üye işyerine atanmamış\n\n\u001b[1A\u001b[2K  1 passed (21.2s)\n",
     "stderr": "",
@@ -149,7 +149,7 @@
     "duration": 23,
     "lastRun": "2025-08-03T12:09:25.588Z"
   },
-  "device/yeni-cihaz-ekle.spec.ts": {
+  "admin-login/device/yeni-cihaz-ekle.spec.ts": {
     "success": true,
     "output": "\nRunning 1 test using 1 worker\n\n\u001b[1A\u001b[2K[1/1] tests\\device\\yeni-cihaz-ekle.spec.ts:7:5 › Yeni Cihaz Ekleme\n\u001b[1A\u001b[2Ktests\\device\\yeni-cihaz-ekle.spec.ts:7:5 › Yeni Cihaz Ekleme\nÜretilen Cihaz Seri No: PAVDENEMEKNM8D\n\n\u001b[1A\u001b[2K✅ Cihaz başarıyla eklendi\n\n\u001b[1A\u001b[2K🎯 Silinecek cihaz : PAVDENEMEKNM8D\n\n\u001b[1A\u001b[2K✅ 1 Cihaz başarıyla silindi\n\n\u001b[1A\u001b[2K  1 passed (24.5s)\n",
     "stderr": "",
@@ -159,7 +159,7 @@
     "duration": 26,
     "lastRun": "2025-08-03T12:09:54.426Z"
   },
-  "device/cihaz-guncelle.spec.ts": {
+  "admin-login/device/cihaz-guncelle.spec.ts": {
     "success": true,
     "output": "\nRunning 1 test using 1 worker\n\n\u001b[1A\u001b[2K[1/1] tests\\device\\cihaz-guncelle.spec.ts:7:5 › Cihaz Güncelleme\n\u001b[1A\u001b[2Ktests\\device\\cihaz-guncelle.spec.ts:7:5 › Cihaz Güncelleme\n✅ 1 Cihaz başarıyla eklendi\n\n\u001b[1A\u001b[2K🎯 Ana bayi değeri boş olan PAVDENEME cihazı bulundu: PAVDENEMETJJDW\n\n\u001b[1A\u001b[2KGüncellenen Cihaz Seri No: PAVGUNCELLEME9ZSXP\n\n\u001b[1A\u001b[2K✅ Cihaz başarıyla güncellendi\n\n\u001b[1A\u001b[2K🎯 Silinecek cihaz : PAVGUNCELLEME9ZSXP\n\n\u001b[1A\u001b[2K✅ 1 Cihaz başarıyla silindi\n\n\u001b[1A\u001b[2K  1 passed (25.1s)\n",
     "stderr": "",
@@ -169,7 +169,7 @@
     "duration": 27,
     "lastRun": "2025-08-03T12:10:24.036Z"
   },
-  "device/cihazlari-bayiye-ata-1.spec.ts": {
+  "admin-login/device/cihazlari-bayiye-ata-1.spec.ts": {
     "success": true,
     "output": "\nRunning 1 test using 1 worker\n\n\u001b[1A\u001b[2K[1/1] tests\\device\\cihazlari-bayiye-ata-1.spec.ts:6:5 › Cihazları Bayiye Atama (checkbox işaretli)\n\u001b[1A\u001b[2Ktests\\device\\cihazlari-bayiye-ata-1.spec.ts:6:5 › Cihazları Bayiye Atama (checkbox işaretli)\n✅ 1 Cihaz başarıyla eklendi\n\n\u001b[1A\u001b[2K✅ 1 Cihaz başarıyla eklendi\n\n\u001b[1A\u001b[2K🎯 PAVDENEME cihazı bulundu: PAVDENEMEFKKDY\n\n\u001b[1A\u001b[2K✅ 1 Cihaz başarıyla güncellendi\n\n\u001b[1A\u001b[2K✅ PAVDENEME cihazı seçildi (1 adet boş Ana Bayi arasından rastgele)\n\n\u001b[1A\u001b[2K✅ PAVGUNCELLE cihazı seçildi (1 adet boş Ana Bayi arasından rastgele)\n\n\u001b[1A\u001b[2K✅ Başarılı: Cihazlar başarıyla bayiye atandı!\n\n\u001b[1A\u001b[2K🎯 Silinecek cihaz : PAVGUNCELLEMEDZ8EETest Bayi DemoTest Bayi Demo\n\n\u001b[1A\u001b[2K✅ 1 Cihaz başarıyla silindi\n\n\u001b[1A\u001b[2K🎯 Silinecek cihaz : PAVDENEME2OCXMTest Bayi DemoTest Bayi Demo\n\n\u001b[1A\u001b[2K✅ 1 Cihaz başarıyla silindi\n\n\u001b[1A\u001b[2K  1 passed (38.9s)\n",
     "stderr": "",
@@ -179,7 +179,7 @@
     "duration": 41,
     "lastRun": "2025-08-03T12:11:07.622Z"
   },
-  "device/cihazlari-bayiye-ata-2.spec.ts": {
+  "admin-login/device/cihazlari-bayiye-ata-2.spec.ts": {
     "success": true,
     "output": "\nRunning 1 test using 1 worker\n\n\u001b[1A\u001b[2K[1/1] tests\\device\\cihazlari-bayiye-ata-2.spec.ts:6:5 › Cihazları Bayiye Atama (checkbox işaretli değil)\n\u001b[1A\u001b[2Ktests\\device\\cihazlari-bayiye-ata-2.spec.ts:6:5 › Cihazları Bayiye Atama (checkbox işaretli değil)\n✅ 1 Cihaz başarıyla eklendi\n\n\u001b[1A\u001b[2K✅ 1 Cihaz başarıyla eklendi\n\n\u001b[1A\u001b[2K🎯 PAVDENEME cihazı bulundu: PAVDENEME42JQU\n\n\u001b[1A\u001b[2K✅ 1 Cihaz başarıyla güncellendi\n\n\u001b[1A\u001b[2K✅ PAVDENEME cihazı seçildi (1 adet boş Ana Bayi arasından rastgele)\n\n\u001b[1A\u001b[2K✅ PAVGUNCELLE cihazı seçildi (1 adet boş Ana Bayi arasından rastgele)\n\n\u001b[1A\u001b[2K✅ Başarılı: Cihazlar başarıyla bayiye atandı!\n\n\u001b[1A\u001b[2K🎯 Silinecek cihaz : PAVGUNCELLEMESWVNRTest Bayi Demo\n\n\u001b[1A\u001b[2K✅ 1 Cihaz başarıyla silindi\n\n\u001b[1A\u001b[2K🎯 Silinecek cihaz : PAVDENEMEOU4CMTest Bayi Demo\n\n\u001b[1A\u001b[2K✅ 1 Cihaz başarıyla silindi\n\n\u001b[1A\u001b[2K  1 passed (39.8s)\n",
     "stderr": "",
@@ -189,7 +189,7 @@
     "duration": 42,
     "lastRun": "2025-08-03T12:12:04.598Z"
   },
-  "device/uye-isyeri-olan-cihazlari-bayiye-ata.spec.ts": {
+  "admin-login/device/uye-isyeri-olan-cihazlari-bayiye-ata.spec.ts": {
     "success": true,
     "output": "\nRunning 1 test using 1 worker\n\n\u001b[1A\u001b[2K[1/1] tests\\device\\uye-isyeri-olan-cihazlari-bayiye-ata.spec.ts:6:5 › Üye İşyeri Olan Cihazları Bayiye Atama\n\u001b[1A\u001b[2Ktests\\device\\uye-isyeri-olan-cihazlari-bayiye-ata.spec.ts:6:5 › Üye İşyeri Olan Cihazları Bayiye Atama\n✅ 1 Cihaz başarıyla eklendi\n\n\u001b[1A\u001b[2K✅ 1 Cihaz başarıyla eklendi\n\n\u001b[1A\u001b[2K🎯 PAVDENEME cihazı bulundu: PAVDENEMESKVTK\n\n\u001b[1A\u001b[2K✅ 1 Cihaz başarıyla güncellendi\n\n\u001b[1A\u001b[2K✅ PAVDENEME cihazı seçildi. (Üye işyerine atanacak cihaz)\n\n\u001b[1A\u001b[2K✅ PAVGUNCELLE cihazı seçildi. (Üye işyerine atanacak cihaz)\n\n\u001b[1A\u001b[2K✅ PAVDENEME cihazı seçildi. (Ana Bayiye atanacak cihaz)\n\n\u001b[1A\u001b[2K✅ PAVGUNCELLE cihazı seçildi. (Ana Bayiye atanacak cihaz)\n\n\u001b[1A\u001b[2K❌ Başarısız işlemler görüntülendi\n\n\u001b[1A\u001b[2K----------------------------------------------------------------------------------------------------\n\n\u001b[1A\u001b[2K ⚠️✅ PAVDENEMET4M8U üye işyerine atalıdır. mesajı göründü\n\n\u001b[1A\u001b[2K ⚠️✅ PAVGUNCELLEMESZPJ2 üye işyerine atalıdır. mesajı göründü\n\n\u001b[1A\u001b[2K====================================================================================================\n\n\u001b[1A\u001b[2K✅ PAVDENEME cihazı seçildi. (Üye işyerinden geri alınacak cihaz)\n\n\u001b[1A\u001b[2K✅ PAVGUNCELLE cihazı seçildi. (Üye işyerinden geri alınacak cihaz)\n\n\u001b[1A\u001b[2K🎯 Silinecek cihaz : PAVGUNCELLEMESZPJ2\n\n\u001b[1A\u001b[2K✅ 1 Cihaz başarıyla silindi\n\n\u001b[1A\u001b[2K🎯 Silinecek cihaz : PAVDENEMET4M8U\n\n\u001b[1A\u001b[2K✅ 1 Cihaz başarıyla silindi\n\n\u001b[1A\u001b[2K  1 passed (45.7s)\n",
     "stderr": "",
@@ -199,7 +199,7 @@
     "duration": 47,
     "lastRun": "2025-08-03T12:14:17.364Z"
   },
-  "device/bayiye-atali-cihazlari-bayiden-geri-al.spec.ts": {
+  "admin-login/device/bayiye-atali-cihazlari-bayiden-geri-al.spec.ts": {
     "success": true,
     "output": "\nRunning 1 test using 1 worker\n\n\u001b[1A\u001b[2K[1/1] tests\\device\\bayiye-atali-cihazlari-bayiden-geri-al.spec.ts:6:5 › Bayiye Atalı Cihazları Bayiden Geri Alma\n\u001b[1A\u001b[2Ktests\\device\\bayiye-atali-cihazlari-bayiden-geri-al.spec.ts:6:5 › Bayiye Atalı Cihazları Bayiden Geri Alma\n✅ 1 Cihaz başarıyla eklendi\n\n\u001b[1A\u001b[2K✅ 1 Cihaz başarıyla eklendi\n\n\u001b[1A\u001b[2K🎯 PAVDENEME cihazı bulundu: PAVDENEMEIXWRS\n\n\u001b[1A\u001b[2K✅ 1 Cihaz başarıyla güncellendi\n\n\u001b[1A\u001b[2K✅ PAVDENEME cihazı seçildi. (Ana Bayiye atanacak cihaz)\n\n\u001b[1A\u001b[2K✅ PAVGUNCELLE cihazı seçildi. (Ana Bayiye atanacak cihaz)\n\n\u001b[1A\u001b[2K✅ PAVDENEME cihazı seçildi. (Bayiden geri alınacak cihaz)\n\n\u001b[1A\u001b[2K✅ PAVGUNCELLE cihazı seçildi. (Bayiden geri alınacak cihaz)\n\n\u001b[1A\u001b[2K🎯 Silinecek cihaz : PAVGUNCELLEMEOAXQK\n\n\u001b[1A\u001b[2K✅ 1 Cihaz başarıyla silindi\n\n\u001b[1A\u001b[2K🎯 Silinecek cihaz : PAVDENEMEKM0GN\n\n\u001b[1A\u001b[2K✅ 1 Cihaz başarıyla silindi\n\n\u001b[1A\u001b[2K  1 passed (42.1s)\n",
     "stderr": "",
@@ -209,7 +209,7 @@
     "duration": 44,
     "lastRun": "2025-08-03T12:16:01.167Z"
   },
-  "device/uye-isyerine-atali-cihazlari-bayiden-geri-al.spec.ts": {
+  "admin-login/device/uye-isyerine-atali-cihazlari-bayiden-geri-al.spec.ts": {
     "success": true,
     "output": "\nRunning 1 test using 1 worker\n\n\u001b[1A\u001b[2K[1/1] tests\\device\\uye-isyerine-atali-cihazlari-bayiden-geri-al.spec.ts:6:5 › Üye İşyerine Atalı Cihazları Bayiden Geri Alma\n\u001b[1A\u001b[2Ktests\\device\\uye-isyerine-atali-cihazlari-bayiden-geri-al.spec.ts:6:5 › Üye İşyerine Atalı Cihazları Bayiden Geri Alma\n✅ 1 Cihaz başarıyla eklendi\n\n\u001b[1A\u001b[2K✅ 1 Cihaz başarıyla eklendi\n\n\u001b[1A\u001b[2K🎯 PAVDENEME cihazı bulundu: PAVDENEMEF1RB1\n\n\u001b[1A\u001b[2K✅ 1 Cihaz başarıyla güncellendi\n\n\u001b[1A\u001b[2K✅ PAVDENEME cihazı seçildi. (Üye işyerine atanacak cihaz)\n\n\u001b[1A\u001b[2K✅ PAVGUNCELLE cihazı seçildi. (Üye işyerine atanacak cihaz)\n\n\u001b[1A\u001b[2K✅ PAVDENEME cihazı seçildi. (Bayiden geri alınacak cihaz)\n\n\u001b[1A\u001b[2K✅ PAVGUNCELLE cihazı seçildi. (Bayiden geri alınacak cihaz)\n\n\u001b[1A\u001b[2K✅ İstenildiği gibi bayiden geri al işlemi yapılamamalıdır\n\n\u001b[1A\u001b[2K✅ PAVDENEME cihazı seçildi. (Üye işyerinden geri alınacak cihaz)\n\n\u001b[1A\u001b[2K✅ PAVGUNCELLE cihazı seçildi. (Üye işyerinden geri alınacak cihaz)\n\n\u001b[1A\u001b[2K🎯 Silinecek cihaz : PAVGUNCELLEMEGOYRC\n\n\u001b[1A\u001b[2K✅ 1 Cihaz başarıyla silindi\n\n\u001b[1A\u001b[2K🎯 Silinecek cihaz : PAVDENEME7JHZZ\n\n\u001b[1A\u001b[2K✅ 1 Cihaz başarıyla silindi\n\n\u001b[1A\u001b[2K  1 passed (47.8s)\n",
     "stderr": "",
@@ -219,7 +219,7 @@
     "duration": 49,
     "lastRun": "2025-08-03T12:18:30.674Z"
   },
-  "device/birden-fazla-cihaza-operasyonel-bayi-ata.spec.ts": {
+  "admin-login/device/birden-fazla-cihaza-operasyonel-bayi-ata.spec.ts": {
     "success": true,
     "output": "\nRunning 1 test using 1 worker\n\n\u001b[1A\u001b[2K[1/1] tests\\device\\birden-fazla-cihaza-operasyonel-bayi-ata.spec.ts:6:5 › Birden fazla cihaza operasyonel bayi atama işlemi\n\u001b[1A\u001b[2Ktests\\device\\birden-fazla-cihaza-operasyonel-bayi-ata.spec.ts:6:5 › Birden fazla cihaza operasyonel bayi atama işlemi\n✅ 1 Cihaz başarıyla eklendi\n\n\u001b[1A\u001b[2K✅ 1 Cihaz başarıyla eklendi\n\n\u001b[1A\u001b[2K🎯 PAVDENEME cihazı bulundu: PAVDENEMEGJ3EF\n\n\u001b[1A\u001b[2K✅ 1 Cihaz başarıyla güncellendi\n\n\u001b[1A\u001b[2K✅ PAVDENEME cihazı seçildi. (Ana Bayiye atanacak cihaz)\n\n\u001b[1A\u001b[2K✅ PAVGUNCELLE cihazı seçildi. (Ana Bayiye atanacak cihaz)\n\n\u001b[1A\u001b[2K✅ PAVDENEME cihazı seçildi. (Operasyonel Bayiye atanacak cihaz)\n\n\u001b[1A\u001b[2K✅ PAVGUNCELLE cihazı seçildi. (Operasyonel Bayiye atanacak cihaz)\n\n\u001b[1A\u001b[2K✅ \"Uyarı Lütfen yalnızca bir öğe seçiniz\" mesajı görüntülendi\n\n\u001b[1A\u001b[2K✅ PAVDENEME cihazı seçildi. (Bayiden geri alınacak cihaz)\n\n\u001b[1A\u001b[2K✅ PAVGUNCELLE cihazı seçildi. (Bayiden geri alınacak cihaz)\n\n\u001b[1A\u001b[2K🎯 Silinecek cihaz : PAVGUNCELLEMENDCNZ\n\n\u001b[1A\u001b[2K✅ 1 Cihaz başarıyla silindi\n\n\u001b[1A\u001b[2K🎯 Silinecek cihaz : PAVDENEMECEZV7\n\n\u001b[1A\u001b[2K✅ 1 Cihaz başarıyla silindi\n\n\u001b[1A\u001b[2K  1 passed (41.2s)\n",
     "stderr": "",
@@ -229,7 +229,7 @@
     "duration": 43,
     "lastRun": "2025-08-03T12:19:16.737Z"
   },
-  "device/tek-cihaz-operasyonel-bayi-atama.spec.ts": {
+  "admin-login/device/tek-cihaz-operasyonel-bayi-atama.spec.ts": {
     "success": true,
     "output": "\nRunning 1 test using 1 worker\n\n\u001b[1A\u001b[2K[1/1] tests\\device\\tek-cihaz-operasyonel-bayi-atama.spec.ts:6:5 › Tek cihazı operasyonel bayiye atama işlemi\n\u001b[1A\u001b[2Ktests\\device\\tek-cihaz-operasyonel-bayi-atama.spec.ts:6:5 › Tek cihazı operasyonel bayiye atama işlemi\n✅ 1 Cihaz başarıyla eklendi\n\n\u001b[1A\u001b[2K✅ PAVDENEME cihazı seçildi. (Ana Bayiye atanacak cihaz)\n\n\u001b[1A\u001b[2K✅ PAVDENEME cihazı seçildi. (Bayiye atanacak cihaz)\n\n\u001b[1A\u001b[2K✅ PAVDENEME cihazı seçildi. (Alt Bayiye atanacak cihaz)\n\n\u001b[1A\u001b[2K✅ PAVDENEME cihazı seçildi. (Operasyonel Bayiye atanacak cihaz)\n\n\u001b[1A\u001b[2K✅ PAVDENEME cihazı seçildi. (Operasyonel Bayiye boş şekilde atanacak cihaz)\n\n\u001b[1A\u001b[2K🎯 Silinecek cihaz : PAVDENEMEVCRLVTest Bayi DemoTest BayiTEST\n\n\u001b[1A\u001b[2K✅ 1 Cihaz başarıyla silindi\n\n\u001b[1A\u001b[2K  1 passed (35.9s)\n",
     "stderr": "",
@@ -239,7 +239,7 @@
     "duration": 37,
     "lastRun": "2025-08-03T12:20:59.468Z"
   },
-  "device/uye-isyerine-atanmis-cihazlari-uye-isyerine-ata.spec.ts": {
+  "admin-login/device/uye-isyerine-atanmis-cihazlari-uye-isyerine-ata.spec.ts": {
     "success": true,
     "output": "\nRunning 1 test using 1 worker\n\n\u001b[1A\u001b[2K[1/1] tests\\device\\uye-isyerine-atanmis-cihazlari-uye-isyerine-ata.spec.ts:6:5 › Üye İşyerine Atanmış Cihazları Üye İşyerine Ata\n\u001b[1A\u001b[2Ktests\\device\\uye-isyerine-atanmis-cihazlari-uye-isyerine-ata.spec.ts:6:5 › Üye İşyerine Atanmış Cihazları Üye İşyerine Ata\n✅ 1 Cihaz başarıyla eklendi\n\n\u001b[1A\u001b[2K✅ 1 Cihaz başarıyla eklendi\n\n\u001b[1A\u001b[2K🎯 PAVDENEME cihazı bulundu: PAVDENEMER63WM\n\n\u001b[1A\u001b[2K✅ 1 Cihaz başarıyla güncellendi\n\n\u001b[1A\u001b[2K✅ PAVDENEME cihazı seçildi. (Üye işyerine atanacak cihaz)\n\n\u001b[1A\u001b[2K✅ PAVGUNCELLE cihazı seçildi. (Üye işyerine atanacak cihaz)\n\n\u001b[1A\u001b[2K✅ PAVDENEME cihazı seçildi. (Üye işyerine atanacak cihaz)\n\n\u001b[1A\u001b[2K✅ PAVGUNCELLE cihazı seçildi. (Üye işyerine atanacak cihaz)\n\n\u001b[1A\u001b[2K❌ Başarısız işlemler görüntülendi\n\n\u001b[1A\u001b[2K----------------------------------------------------------------------------------------------------\n\n\u001b[1A\u001b[2K ✅ PAVDENEMEMS9NC üye işyerine atalıdır. mesajı göründü\n\n\u001b[1A\u001b[2K ✅ PAVGUNCELLEMEQIC5V üye işyerine atalıdır. mesajı göründü\n\n\u001b[1A\u001b[2K====================================================================================================\n\n\u001b[1A\u001b[2K✅ PAVDENEME cihazı seçildi. (Üye işyerinden geri alınacak cihaz)\n\n\u001b[1A\u001b[2K✅ PAVGUNCELLE cihazı seçildi. (Üye işyerinden geri alınacak cihaz)\n\n\u001b[1A\u001b[2K🎯 Silinecek cihaz : PAVGUNCELLEMEQIC5V\n\n\u001b[1A\u001b[2K✅ 1 Cihaz başarıyla silindi\n\n\u001b[1A\u001b[2K🎯 Silinecek cihaz : PAVDENEMEMS9NC\n\n\u001b[1A\u001b[2K✅ 1 Cihaz başarıyla silindi\n\n\u001b[1A\u001b[2K  1 passed (49.7s)\n",
     "stderr": "",
@@ -249,7 +249,7 @@
     "duration": 51,
     "lastRun": "2025-08-03T12:27:51.550Z"
   },
-  "device/cihazlari-507-uye-isyerine-ata.spec.ts": {
+  "admin-login/device/cihazlari-507-uye-isyerine-ata.spec.ts": {
     "success": true,
     "output": "\nRunning 1 test using 1 worker\n\n\u001b[1A\u001b[2K[1/1] tests\\device\\cihazlari-507-uye-isyerine-ata.spec.ts:6:5 › Cihazları 507 Üye İşyerine Atama\n\u001b[1A\u001b[2Ktests\\device\\cihazlari-507-uye-isyerine-ata.spec.ts:6:5 › Cihazları 507 Üye İşyerine Atama\n✅ 1 Cihaz başarıyla eklendi\n\n\u001b[1A\u001b[2K✅ 1 Cihaz başarıyla eklendi\n\n\u001b[1A\u001b[2K🎯 PAVDENEME cihazı bulundu: PAVDENEMEG04XE\n\n\u001b[1A\u001b[2K✅ 1 Cihaz başarıyla güncellendi\n\n\u001b[1A\u001b[2K✅ PAVDENEME cihazı seçildi. (Ana Bayiye atanacak cihaz)\n\n\u001b[1A\u001b[2K✅ PAVGUNCELLE cihazı seçildi. (Alt Bayiye atanacak cihaz)\n\n\u001b[1A\u001b[2K✅ PAVDENEME cihazı seçildi. (507 Üye işyerine atanacak cihaz)\n\n\u001b[1A\u001b[2K✅ PAVGUNCELLE cihazı seçildi. (507 Üye işyerine atanacak cihaz)\n\n\u001b[1A\u001b[2K'⚠️  Seçtiğiniz cihazların bayileri farklıdır.' mesajı ekranda görüldü\n\n\u001b[1A\u001b[2K✅ PAVDENEME cihazı seçildi. (Üye işyerinden geri alınacak cihaz)\n\n\u001b[1A\u001b[2K✅ PAVGUNCELLE cihazı seçildi. (Üye işyerinden geri alınacak cihaz)\n\n\u001b[1A\u001b[2K🎯 Silinecek cihaz : PAVGUNCELLEMETDKY2TESTTEST\n\n\u001b[1A\u001b[2K✅ 1 Cihaz başarıyla silindi\n\n\u001b[1A\u001b[2K🎯 Silinecek cihaz : PAVDENEMEKTQCBTest Bayi DemoTest Bayi Demo\n\n\u001b[1A\u001b[2K✅ 1 Cihaz başarıyla silindi\n\n\u001b[1A\u001b[2K  1 passed (51.7s)\n",
     "stderr": "",
@@ -259,7 +259,7 @@
     "duration": 53,
     "lastRun": "2025-08-03T12:34:04.435Z"
   },
-  "device/cihazlari-509-uye-isyerine-ata.spec.ts": {
+  "admin-login/device/cihazlari-509-uye-isyerine-ata.spec.ts": {
     "success": true,
     "output": "\nRunning 1 test using 1 worker\n\n\u001b[1A\u001b[2K[1/1] tests\\device\\cihazlari-509-uye-isyerine-ata.spec.ts:6:5 › Cihazları 509 Üye İşyerine Atama\n\u001b[1A\u001b[2Ktests\\device\\cihazlari-509-uye-isyerine-ata.spec.ts:6:5 › Cihazları 509 Üye İşyerine Atama\n✅ 1 Cihaz başarıyla eklendi\n\n\u001b[1A\u001b[2K✅ 1 Cihaz başarıyla eklendi\n\n\u001b[1A\u001b[2K🎯 PAVDENEME cihazı bulundu: PAVDENEMEZWPF4\n\n\u001b[1A\u001b[2K✅ 1 Cihaz başarıyla güncellendi\n\n\u001b[1A\u001b[2K✅ PAVDENEME cihazı seçildi. (Ana Bayiye atanacak cihaz)\n\n\u001b[1A\u001b[2K✅ PAVGUNCELLE cihazı seçildi. (Alt Bayiye atanacak cihaz)\n\n\u001b[1A\u001b[2K✅ PAVDENEME cihazı seçildi. (509 Üye işyerine atanacak cihaz)\n\n\u001b[1A\u001b[2K✅ PAVGUNCELLE cihazı seçildi. (509 Üye işyerine atanacak cihaz)\n\n\u001b[1A\u001b[2K'⚠️  Seçtiğiniz cihazların bayileri farklıdır.' mesajı ekranda görüldü\n\n\u001b[1A\u001b[2K✅ PAVDENEME cihazı seçildi. (Üye işyerinden geri alınacak cihaz)\n\n\u001b[1A\u001b[2K✅ PAVGUNCELLE cihazı seçildi. (Üye işyerinden geri alınacak cihaz)\n\n\u001b[1A\u001b[2K🎯 Silinecek cihaz : PAVGUNCELLEMEG7WCQTESTTEST\n\n\u001b[1A\u001b[2K✅ 1 Cihaz başarıyla silindi\n\n\u001b[1A\u001b[2K🎯 Silinecek cihaz : PAVDENEMEZ6C24Test Bayi DemoTest Bayi Demo\n\n\u001b[1A\u001b[2K✅ 1 Cihaz başarıyla silindi\n\n\u001b[1A\u001b[2K  1 passed (43.5s)\n",
     "stderr": "",
@@ -269,7 +269,7 @@
     "duration": 45,
     "lastRun": "2025-08-04T11:28:47.139Z"
   },
-  "device/cihazlari-507-uye-isyerine-ata-e-belge-var.spec.ts": {
+  "admin-login/device/cihazlari-507-uye-isyerine-ata-e-belge-var.spec.ts": {
     "success": true,
     "output": "\nRunning 1 test using 1 worker\n\n\u001b[1A\u001b[2K[1/1] tests\\device\\cihazlari-507-uye-isyerine-ata-e-belge-var.spec.ts:6:5 › Cihazları 507 Üye İşyerine Atama (E-Belge Var)\n\u001b[1A\u001b[2Ktests\\device\\cihazlari-507-uye-isyerine-ata-e-belge-var.spec.ts:6:5 › Cihazları 507 Üye İşyerine Atama (E-Belge Var)\n✅ 1 Cihaz başarıyla eklendi\n\n\u001b[1A\u001b[2K✅ 1 Cihaz başarıyla eklendi\n\n\u001b[1A\u001b[2K🎯 PAVDENEME cihazı bulundu: PAVDENEMEHS32Y\n\n\u001b[1A\u001b[2K✅ 1 Cihaz başarıyla güncellendi\n\n\u001b[1A\u001b[2K✅ PAVDENEME cihazı seçildi. (Ana Bayiye atanacak cihaz)\n\n\u001b[1A\u001b[2K✅ PAVGUNCELLE cihazı seçildi. (Ana Bayiye atanacak cihaz)\n\n\u001b[1A\u001b[2K✅ PAVDENEME cihazı seçildi. (Bayiye atanacak cihaz)\n\n\u001b[1A\u001b[2K✅ PAVGUNCELLE cihazı seçildi. (Bayiye atanacak cihaz)\n\n\u001b[1A\u001b[2K✅ PAVDENEME cihazı seçildi. (Alt Bayiye atanacak cihaz)\n\n\u001b[1A\u001b[2K✅ PAVGUNCELLE cihazı seçildi. (Alt Bayiye atanacak cihaz)\n\n\u001b[1A\u001b[2K✅ PAVDENEME cihazı seçildi. (507 Üye işyerine atanacak cihaz - E-Belge Var)\n\n\u001b[1A\u001b[2K✅ PAVGUNCELLE cihazı seçildi. (507 Üye işyerine atanacak cihaz - E-Belge Var)\n\n\u001b[1A\u001b[2K✅ PAVDENEME cihazı seçildi. (Üye işyerinden geri alınacak cihaz)\n\n\u001b[1A\u001b[2K✅ PAVGUNCELLE cihazı seçildi. (Üye işyerinden geri alınacak cihaz)\n\n\u001b[1A\u001b[2K🎯 Silinecek cihaz : PAVGUNCELLEMEUX6PJTest Bayi DemoTest BayiTESTTEST\n\n\u001b[1A\u001b[2K✅ 1 Cihaz başarıyla silindi\n\n\u001b[1A\u001b[2K🎯 Silinecek cihaz : PAVDENEMEWP9HLTest Bayi DemoTest BayiTESTTEST\n\n\u001b[1A\u001b[2K✅ 1 Cihaz başarıyla silindi\n\n\u001b[1A\u001b[2K  1 passed (51.7s)\n",
     "stderr": "",
@@ -279,7 +279,7 @@
     "duration": 54,
     "lastRun": "2025-08-04T11:25:15.426Z"
   },
-  "device/cihazlari-507-uye-isyerine-ata-e-belge-yok.spec.ts": {
+  "admin-login/device/cihazlari-507-uye-isyerine-ata-e-belge-yok.spec.ts": {
     "success": true,
     "output": "\nRunning 1 test using 1 worker\n\n\u001b[1A\u001b[2K[1/1] tests\\device\\cihazlari-507-uye-isyerine-ata-e-belge-yok.spec.ts:6:5 › Cihazları 507 Üye İşyerine Atama\n\u001b[1A\u001b[2Ktests\\device\\cihazlari-507-uye-isyerine-ata-e-belge-yok.spec.ts:6:5 › Cihazları 507 Üye İşyerine Atama\n✅ 1 Cihaz başarıyla eklendi\n\n\u001b[1A\u001b[2K✅ 1 Cihaz başarıyla eklendi\n\n\u001b[1A\u001b[2K🎯 PAVDENEME cihazı bulundu: PAVDENEMETOUIE\n\n\u001b[1A\u001b[2K✅ 1 Cihaz başarıyla güncellendi\n\n\u001b[1A\u001b[2K✅ PAVDENEME cihazı seçildi. (Ana Bayiye atanacak cihaz)\n\n\u001b[1A\u001b[2K✅ PAVGUNCELLE cihazı seçildi. (Ana Bayiye atanacak cihaz)\n\n\u001b[1A\u001b[2K✅ PAVDENEME cihazı seçildi. (Bayiye atanacak cihaz)\n\n\u001b[1A\u001b[2K✅ PAVGUNCELLE cihazı seçildi. (Bayiye atanacak cihaz)\n\n\u001b[1A\u001b[2K✅ PAVDENEME cihazı seçildi. (Alt Bayiye atanacak cihaz)\n\n\u001b[1A\u001b[2K✅ PAVGUNCELLE cihazı seçildi. (Alt Bayiye atanacak cihaz)\n\n\u001b[1A\u001b[2K✅ PAVDENEME cihazı seçildi. (507 Üye işyerine atanacak cihaz)\n\n\u001b[1A\u001b[2K✅ PAVGUNCELLE cihazı seçildi. (507 Üye işyerine atanacak cihaz)\n\n\u001b[1A\u001b[2K❌ Başarısız işlemler görüntülendi\n\n\u001b[1A\u001b[2K----------------------------------------------------------------------------------------------------\n\n\u001b[1A\u001b[2K ⚠️✅ Üye İşyeri için E-Belge ayarları bulunamadı. mesajı göründü\n\n\u001b[1A\u001b[2K ⚠️✅ Üye İşyeri için E-Belge ayarları bulunamadı. mesajı göründü\n\n\u001b[1A\u001b[2K====================================================================================================\n\n\u001b[1A\u001b[2K✅ PAVDENEME cihazı seçildi. (Üye işyerinden geri alınacak cihaz)\n\n\u001b[1A\u001b[2K✅ PAVGUNCELLE cihazı seçildi. (Üye işyerinden geri alınacak cihaz)\n\n\u001b[1A\u001b[2K🎯 Silinecek cihaz : PAVGUNCELLEME5XU2LTest Bayi DemoTest BayiTESTTEST\n\n\u001b[1A\u001b[2K✅ 1 Cihaz başarıyla silindi\n\n\u001b[1A\u001b[2K  1 passed (50.9s)\n",
     "stderr": "",
@@ -289,7 +289,7 @@
     "duration": 53,
     "lastRun": "2025-08-03T12:46:08.465Z"
   },
-  "sales-terminal/terminal-guncelle.spec.ts": {
+  "admin-login/sales-terminal/terminal-guncelle.spec.ts": {
     "success": true,
     "output": "\nRunning 1 test using 1 worker\n\n\u001b[1A\u001b[2K[1/1] tests\\sales-terminal\\terminal-guncelle.spec.ts:7:5 › Terminal bilgilerini güncelleme\n\u001b[1A\u001b[2Ktests\\sales-terminal\\terminal-guncelle.spec.ts:7:5 › Terminal bilgilerini güncelleme\n✅ Terminal başarıyla güncellendi\n\n\u001b[1A\u001b[2K  1 passed (15.1s)\n",
     "stderr": "",
@@ -299,7 +299,7 @@
     "duration": 17,
     "lastRun": "2025-08-03T12:49:21.866Z"
   },
-  "sales-terminal/detay-mediator-islemleri.spec.ts": {
+  "admin-login/sales-terminal/detay-mediator-islemleri.spec.ts": {
     "success": true,
     "output": "\nRunning 1 test using 1 worker\n\n\u001b[1A\u001b[2K[1/1] tests\\sales-terminal\\detay-mediator-islemleri.spec.ts:7:5 › Mediator İşlemleri - Ekleme, Güncelleme ve Silme\n\u001b[1A\u001b[2Ktests\\sales-terminal\\detay-mediator-islemleri.spec.ts:7:5 › Mediator İşlemleri - Ekleme, Güncelleme ve Silme\n✅ Terminal Ödeme Aracısı başarıyla eklendi\n\n\u001b[1A\u001b[2K✅ Terminal Ödeme Aracısı başarıyla güncellendi\n\n\u001b[1A\u001b[2K✅ Terminal Parametre başarıyla eklendi\n\n\u001b[1A\u001b[2K✅ Terminal Parametre başarıyla güncellendi\n\n\u001b[1A\u001b[2K✅ Terminal Parametre başarıyla silindi\n\n\u001b[1A\u001b[2K✅ Terminal Ödeme Aracısı başarıyla silindi\n\n\u001b[1A\u001b[2K  1 passed (33.2s)\n",
     "stderr": "",
@@ -309,7 +309,7 @@
     "duration": 35,
     "lastRun": "2025-08-03T12:50:02.644Z"
   },
-  "sales-terminal/detay-dokuman-on-eki-islemleri.spec.ts": {
+  "admin-login/sales-terminal/detay-dokuman-on-eki-islemleri.spec.ts": {
     "success": true,
     "output": "\nRunning 1 test using 1 worker\n\n\u001b[1A\u001b[2K[1/1] tests\\sales-terminal\\detay-dokuman-on-eki-islemleri.spec.ts:7:5 › Doküman Ön Eki İşlemleri - Ekleme, Güncelleme ve Silme\n\u001b[1A\u001b[2Ktests\\sales-terminal\\detay-dokuman-on-eki-islemleri.spec.ts:7:5 › Doküman Ön Eki İşlemleri - Ekleme, Güncelleme ve Silme\n✅ Terminal Doküman Ön Eki başarıyla eklendi\n\n\u001b[1A\u001b[2K✅ Terminal Doküman Ön Eki başarıyla güncellendi\n\n\u001b[1A\u001b[2K✅ Terminal Doküman Ön Eki başarıyla silindi\n\n\u001b[1A\u001b[2K  1 passed (22.5s)\n",
     "stderr": "",
@@ -319,7 +319,7 @@
     "duration": 24,
     "lastRun": "2025-08-03T12:51:05.890Z"
   },
-  "sales-terminal/satislarim-filtrele.spec.ts": {
+  "admin-login/sales-terminal/satislarim-filtrele.spec.ts": {
     "success": false,
     "output": "\nRunning 1 test using 1 worker\n\n\u001b[1A\u001b[2K[1/1] tests\\sales-terminal\\satislarim-filtrele.spec.ts:5:5 › Satışlarım Filtreleme İşlemleri\n\u001b[1A\u001b[2Ktests\\sales-terminal\\satislarim-filtrele.spec.ts:5:5 › Satışlarım Filtreleme İşlemleri\n📅 Bugünün tarihi: 3 Ağustos 2025 Pazar\n\n\u001b[1A\u001b[2K📅 20 gün öncesi: 14 Temmuz 2025 Pazartesi\n\n\u001b[1A\u001b[2K🔍 Seçilecek tarih: \"14 Temmuz 2025 Pazartesi\"\n\n\u001b[1A\u001b[2K  1) tests\\sales-terminal\\satislarim-filtrele.spec.ts:5:5 › Satışlarım Filtreleme İşlemleri ────────\n\n    Error: locator.click: Target page, context or browser has been closed\n    Call log:\n    \u001b[2m  - waiting for getByTitle('14 Temmuz 2025 Pazartesi').locator('span')\u001b[22m\n\n\n      74 |\n      75 |     \n    > 76 |     await page.getByTitle(titleText).locator('span').click();\n         |                                                      ^\n      77 |     await page.waitForTimeout(1000);\n      78 |\n      79 |     await page.locator('ot-data-entry-template').filter({ hasText: 'Bitiş Tarihi' }).getByLabel('Takvimden seç').click();\n        at C:\\Users\\uyary\\Desktop\\Otomasyon-Arayuz\\tests\\sales-terminal\\satislarim-filtrele.spec.ts:76:54\n\n\n\u001b[1A\u001b[2K  1 failed\n    tests\\sales-terminal\\satislarim-filtrele.spec.ts:5:5 › Satışlarım Filtreleme İşlemleri ─────────\n",
     "stderr": "",
@@ -329,7 +329,7 @@
     "duration": 31,
     "lastRun": "2025-08-03T12:52:15.927Z"
   },
-  "techpos/grup-ata-ve-terminal-guncelle.spec.ts": {
+  "admin-login/techpos/grup-ata-ve-terminal-guncelle.spec.ts": {
     "success": true,
     "output": "\nRunning 1 test using 1 worker\n\n\u001b[1A\u001b[2K[1/1] tests\\techpos\\grup-ata-ve-terminal-guncelle.spec.ts:5:5 › TechPOS - Grup Ata ve Terminal Güncelle\n\u001b[1A\u001b[2Ktests\\techpos\\grup-ata-ve-terminal-guncelle.spec.ts:5:5 › TechPOS - Grup Ata ve Terminal Güncelle\nSeçilen grup adı:  ÇİÇEKÇİLER \n\n\u001b[1A\u001b[2K✅ Techpos grup atama başarılı\n\n\u001b[1A\u001b[2K✅ Techpos terminal güncelleme başarılı\n\n\u001b[1A\u001b[2K  1 passed (14.8s)\n",
     "stderr": "",
@@ -339,7 +339,7 @@
     "duration": 17,
     "lastRun": "2025-08-03T12:52:41.891Z"
   },
-  "techpos/techpos-islemleri-ekrani-filtre.spec.ts": {
+  "admin-login/techpos/techpos-islemleri-ekrani-filtre.spec.ts": {
     "success": true,
     "output": "\nRunning 1 test using 1 worker\n\n\u001b[1A\u001b[2K[1/1] tests\\techpos\\techpos-islemleri-ekrani-filtre.spec.ts:5:5 › TechPOS - İşlemleri Ekranı Filtre\n\u001b[1A\u001b[2Ktests\\techpos\\techpos-islemleri-ekrani-filtre.spec.ts:5:5 › TechPOS - İşlemleri Ekranı Filtre\n📅 Bugünün tarihi: 6 Ağustos 2025 Çarşamba\n\n\u001b[1A\u001b[2K📅 20 gün öncesi: 17 Temmuz 2025 Perşembe\n\n\u001b[1A\u001b[2K🔍  20 Gün Öncesi Seçildi\n\n\u001b[1A\u001b[2K🔍 Seçilecek başlangıç tarihi: \"17 Temmuz 2025 Perşembe\"\n\n\u001b[1A\u001b[2K✅ Filtreleme sonucu terminal id eşleşti\n\n\u001b[1A\u001b[2K✅ Filtreleme sonucu BKM Seri No eşleşti\n\n\u001b[1A\u001b[2K✅ Filtreleme sonucu üye işyeri eşleşti\n\n\u001b[1A\u001b[2K  1 passed (23.9s)\n",
     "stderr": "",
@@ -349,7 +349,7 @@
     "duration": 26,
     "lastRun": "2025-08-06T06:20:14.649Z"
   },
-  "techpos/techpos-batch-ekrani-filtre.spec.ts": {
+  "admin-login/techpos/techpos-batch-ekrani-filtre.spec.ts": {
     "success": true,
     "output": "\nRunning 1 test using 1 worker\n\n\u001b[1A\u001b[2K[1/1] tests\\techpos\\techpos-batch-ekrani-filtre.spec.ts:5:5 › TechPOS - Batch Ekranı Filtre\n\u001b[1A\u001b[2Ktests\\techpos\\techpos-batch-ekrani-filtre.spec.ts:5:5 › TechPOS - Batch Ekranı Filtre\n📅 Bugünün tarihi: 5 Ağustos 2025 Salı\n\n\u001b[1A\u001b[2K📅 30 gün öncesi: 6 Temmuz 2025 Pazar\n\n\u001b[1A\u001b[2K🔍  30 Gün Öncesi Seçildi\n\n\u001b[1A\u001b[2K🔍 Seçilecek başlangıç tarihi: \"6 Temmuz 2025 Pazar\"\n\n\u001b[1A\u001b[2K✅ Filtreleme sonucu terminal id eşleşti\n\n\u001b[1A\u001b[2K✅ Filtreleme sonucu BKM Seri No eşleşti\n\n\u001b[1A\u001b[2K✅ Filtreleme sonucu üye işyeri eşleşti\n\n\u001b[1A\u001b[2K  1 passed (44.7s)\n",
     "stderr": "",
@@ -359,7 +359,7 @@
     "duration": 47,
     "lastRun": "2025-08-05T08:02:28.998Z"
   },
-  "techpos/batch-ozet-ve-islemler.spec.ts": {
+  "admin-login/techpos/batch-ozet-ve-islemler.spec.ts": {
     "success": true,
     "output": "\nRunning 1 test using 1 worker\n\n\u001b[1A\u001b[2K[1/1] tests\\techpos\\batch-ozet-ve-islemler.spec.ts:5:5 › TechPOS - Batch Ekranı Filtre\n\u001b[1A\u001b[2Ktests\\techpos\\batch-ozet-ve-islemler.spec.ts:5:5 › TechPOS - Batch Ekranı Filtre\n📅 Bugünün tarihi: 3 Ağustos 2025 Pazar\n\n\u001b[1A\u001b[2K📅 20 gün öncesi: 9 Temmuz 2025 Çarşamba\n\n\u001b[1A\u001b[2K🔍 Seçilecek başlangıç tarihi: \"9 Temmuz 2025 Çarşamba\"\n\n\u001b[1A\u001b[2K🔍 İlk 15 satır kontrol ediliyor...\n\n\u001b[1A\u001b[2K✅ 10. satırda \"03.08.2025\" kapatılma tarihli batch bulundu.\n\n\u001b[1A\u001b[2K🎯 Seçilen batchin satırı numarası : 10\n\n\u001b[1A\u001b[2K📊 Seçilen batchin Özet tablosunda kayıt var\n\n\u001b[1A\u001b[2K  1 passed (17.8s)\n",
     "stderr": "",
@@ -369,7 +369,7 @@
     "duration": 19,
     "lastRun": "2025-08-03T12:56:24.120Z"
   },
-  "techpos/techpos-grup-ekrani-crud.spec.ts": {
+  "admin-login/techpos/techpos-grup-ekrani-crud.spec.ts": {
     "success": true,
     "output": "\nRunning 1 test using 1 worker\n\n\u001b[1A\u001b[2K[1/1] tests\\techpos\\techpos-grup-ekrani-crud.spec.ts:6:5 › TechPOS Grup Ekranı CRUD İşlemleri\n\u001b[1A\u001b[2Ktests\\techpos\\techpos-grup-ekrani-crud.spec.ts:6:5 › TechPOS Grup Ekranı CRUD İşlemleri\n✅ Grup başarıyla oluşturuldu\n\n\u001b[1A\u001b[2K✅ Grup başarıyla güncellendi\n\n\u001b[1A\u001b[2K✅ Grup başarıyla silindi\n\n\u001b[1A\u001b[2K  1 passed (18.4s)\n",
     "stderr": "",
@@ -379,7 +379,7 @@
     "duration": 20,
     "lastRun": "2025-08-03T12:56:46.587Z"
   },
-  "techpos/techpos-terminalde-tanimli-banka-listesi.spec.ts": {
+  "admin-login/techpos/techpos-terminalde-tanimli-banka-listesi.spec.ts": {
     "success": true,
     "output": "\nRunning 1 test using 1 worker\n\n\u001b[1A\u001b[2K[1/1] tests\\techpos\\techpos-terminalde-tanimli-banka-listesi.spec.ts:5:5 › TechPOS Terminalde Tanımlı Banka Listesi\n\u001b[1A\u001b[2Ktests\\techpos\\techpos-terminalde-tanimli-banka-listesi.spec.ts:5:5 › TechPOS Terminalde Tanımlı Banka Listesi\n✅ PAV60W800122 için Kayıt bulundu\n\n\u001b[1A\u001b[2KTechpos Terminalde Tanımlı Bankalar:\n\n\u001b[1A\u001b[2K➤ AKTIF YATIRIM BANKASI A.Ş.\n\n\u001b[1A\u001b[2K➤ AKTIF YATIRIM BANKASI A.Ş.\n\n\u001b[1A\u001b[2K➤ Test Bankası\n\n\u001b[1A\u001b[2K  1 passed (10.6s)\n",
     "stderr": "",
@@ -389,7 +389,7 @@
     "duration": 12,
     "lastRun": "2025-08-03T12:58:19.833Z"
   },
-  "techpos/techpos-seri-no.spec.ts": {
+  "admin-login/techpos/techpos-seri-no.spec.ts": {
     "success": true,
     "output": "\nRunning 1 test using 1 worker\n\n\u001b[1A\u001b[2K[1/1] tests\\techpos\\techpos-seri-no.spec.ts:5:5 › TechPOS - Seri No Grid Filtre\n\u001b[1A\u001b[2Ktests\\techpos\\techpos-seri-no.spec.ts:5:5 › TechPOS - Seri No Grid Filtre\n📅 Bugünün tarihi: 3 Ağustos 2025 Pazar\n\n\u001b[1A\u001b[2K📅 60 gün öncesi: 4 Haziran 2025 Çarşamba\n\n\u001b[1A\u001b[2K🔍  2 Ay Çncesi Seçildi\n\n\u001b[1A\u001b[2K ✅ Kayıtlar bulundu\n\n\u001b[1A\u001b[2K ✅ Grid filtre ile Kayıt bulundu\n\n\u001b[1A\u001b[2K➤ Oluşturulma tarihi 08.07.2025  olan ve Seri Numarası N75000833  olan cihaz bulundu\n\n\u001b[1A\u001b[2K--------------------------------\n\n\u001b[1A\u001b[2K➤ Oluşturulma tarihi 08.07.2025  olan ve Seri Numarası N75000833  olan cihaz bulundu\n\n\u001b[1A\u001b[2K--------------------------------\n\n\u001b[1A\u001b[2K  1 passed (16.3s)\n",
     "stderr": "",
@@ -399,7 +399,7 @@
     "duration": 18,
     "lastRun": "2025-08-03T12:58:43.296Z"
   },
-  "techpos/BKM-techpos-banka-pf-islem-listesi.spec.ts": {
+  "admin-login/techpos/BKM-techpos-banka-pf-islem-listesi.spec.ts": {
     "success": true,
     "output": "\nRunning 1 test using 1 worker\n\n\u001b[1A\u001b[2K[1/1] tests\\techpos\\BKM-techpos-banka-pf-islem-listesi.spec.ts:5:5 › BKM TechPOS - Banka PF İşlem Listesi\n\u001b[1A\u001b[2Ktests\\techpos\\BKM-techpos-banka-pf-islem-listesi.spec.ts:5:5 › BKM TechPOS - Banka PF İşlem Listesi\n📅 Bugünün tarihi: 3 Ağustos 2025 Pazar\n\n\u001b[1A\u001b[2K📅 60 gün öncesi: 4 Haziran 2025 Çarşamba\n\n\u001b[1A\u001b[2K🔍  2 Ay Çncesi Seçildi\n\n\u001b[1A\u001b[2K✅ Kayıtlar bulundu\n\n\u001b[1A\u001b[2K➤ İlk Ödeme Tarihi \u001b[33m4\u001b[39m \u001b[33m6\u001b[39m \u001b[33m2025\u001b[39m\n\n\u001b[1A\u001b[2K➤ Bugün \u001b[33m3\u001b[39m \u001b[33m8\u001b[39m \u001b[33m2025\u001b[39m\n\n\u001b[1A\u001b[2K--------------------------------\n\n\u001b[1A\u001b[2KAktif Yatırım ilk 3 satır Tarihleri\n\n\u001b[1A\u001b[2K➤ Tarih  02.07.2025\n\n\u001b[1A\u001b[2K➤ Tarih  01.07.2025\n\n\u001b[1A\u001b[2K➤ Tarih  28.05.2025\n\n\u001b[1A\u001b[2KHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH\n\n\u001b[1A\u001b[2K✅ Kayıtlar bulundu\n\n\u001b[1A\u001b[2K➤ İlk Ödeme Tarihi \u001b[33m4\u001b[39m \u001b[33m6\u001b[39m \u001b[33m2025\u001b[39m\n\n\u001b[1A\u001b[2K➤ Bugün \u001b[33m3\u001b[39m \u001b[33m8\u001b[39m \u001b[33m2025\u001b[39m\n\n\u001b[1A\u001b[2K--------------------------------\n\n\u001b[1A\u001b[2KMerkez Bankası ilk 3 satır Tarihleri\n\n\u001b[1A\u001b[2K➤ Tarih  25.07.2025\n\n\u001b[1A\u001b[2K➤ Tarih  17.07.2025\n\n\u001b[1A\u001b[2K➤ Tarih  23.07.2025\n\n\u001b[1A\u001b[2K  1 passed (22.0s)\n",
     "stderr": "",
