@@ -120,8 +120,6 @@ test('Detay E-Belge Ayarları', async ({ page }) => {
         console.log('⚠️ Başarı mesajı görünmedi, işlem tamamlanamadı olabilir.');
       }
     }
-    
   }
-
 
 }); 

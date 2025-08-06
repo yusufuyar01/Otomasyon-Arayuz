@@ -408,5 +408,15 @@
     "endTime": "2025-08-03T12:59:23.701Z",
     "duration": 24,
     "lastRun": "2025-08-03T12:59:23.701Z"
+  },
+  "reseller-login/merchant/507-gercek-mukellef-ekleme.spec.ts": {
+    "success": false,
+    "output": "\nRunning 1 test using 1 worker\n\n\u001b[1A\u001b[2K[1/1] tests\\reseller-login\\merchant\\507-gercek-mukellef-ekleme.spec.ts:9:5 › 507 Gerçek Mükellef Ekleme (reseller-login)\n\u001b[1A\u001b[2Ktests\\reseller-login\\merchant\\507-gercek-mukellef-ekleme.spec.ts:9:5 › 507 Gerçek Mükellef Ekleme (reseller-login)\n===>  507 Gerçek Mükellef Ekleme (reseller-login)  <===\n\n\u001b[1A\u001b[2K  1) tests\\reseller-login\\merchant\\507-gercek-mukellef-ekleme.spec.ts:9:5 › 507 Gerçek Mükellef Ekleme (reseller-login) \n\n    TypeError: (0 , _login.login2) is not a function\n\n      12 |   \n      13 |   // Önce sisteme giriş yap\n    > 14 |   await login2(page);\n         |               ^\n      15 |\n      16 |   // Zoom işlemi\n      17 |   await zoom(page);\n        at C:\\Users\\uyary\\Desktop\\Otomasyon-Arayuz\\tests\\reseller-login\\merchant\\507-gercek-mukellef-ekleme.spec.ts:14:15\n\n\n\u001b[1A\u001b[2K  1 failed\n    tests\\reseller-login\\merchant\\507-gercek-mukellef-ekleme.spec.ts:9:5 › 507 Gerçek Mükellef Ekleme (reseller-login) \n",
+    "stderr": "",
+    "error": "Command failed: npx playwright test tests/reseller-login/merchant/507-gercek-mukellef-ekleme.spec.ts --headed --timeout=120000 --reporter=line\n",
+    "startTime": "2025-08-06T15:02:20.082Z",
+    "endTime": "2025-08-06T15:02:24.687Z",
+    "duration": 5,
+    "lastRun": "2025-08-06T15:02:24.687Z"
   }
 }

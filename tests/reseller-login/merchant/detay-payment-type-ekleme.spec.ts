@@ -61,5 +61,4 @@ test('Detay Payment type Ekleme', async ({ page }) => {
   await page.waitForTimeout(1000);
 
 
-
 }); 

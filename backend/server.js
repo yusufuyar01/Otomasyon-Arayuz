@@ -61,121 +61,121 @@ app.get('/tests', (req, res) => {
         name: '507 Gerçek Mükellef Ekleme',
         file: 'admin-login/merchant/507-gercek-mukellef-ekleme.spec.ts',
         path: 'tests/admin-login/merchant/507-gercek-mukellef-ekleme.spec.ts',
-        category: 'merchant'
+        category: 'admin-login/merchant'
       },
       {
         name: '507 Tüzel Mükellef Ekleme',
         file: 'admin-login/merchant/507-tuzel-mukellef-ekleme.spec.ts',
         path: 'tests/admin-login/merchant/507-tuzel-mukellef-ekleme.spec.ts',
-        category: 'merchant'
+        category: 'admin-login/merchant'
       },
       {
         name: '509 Gerçek Mükellef Ekleme',
         file: 'admin-login/merchant/509-gercek-mukellef-ekleme.spec.ts',
         path: 'tests/admin-login/merchant/509-gercek-mukellef-ekleme.spec.ts',
-        category: 'merchant'
+        category: 'admin-login/merchant'
       },
       {
         name: '509 Tüzel Mükellef Ekleme',
         file: 'admin-login/merchant/509-tuzel-mukellef-ekleme.spec.ts',
         path: 'tests/admin-login/merchant/509-tuzel-mukellef-ekleme.spec.ts',
-        category: 'merchant'
+        category: 'admin-login/merchant'
       },
       {
         name: 'Detay Belge Ekleme Güncelleme Görüntüleme Silme',
         file: 'admin-login/merchant/detay-belge-ekleme-guncelleme-goruntuleme-silme.spec.ts',
         path: 'tests/admin-login/merchant/detay-belge-ekleme-guncelleme-goruntuleme-silme.spec.ts',
-        category: 'merchant'
+        category: 'admin-login/merchant'
       },
       {
         name: 'Detay E-Belge Ayarları',
         file: 'admin-login/merchant/detay-e-belge-ayarlari.spec.ts',
         path: 'tests/admin-login/merchant/detay-e-belge-ayarlari.spec.ts',
-        category: 'merchant'
+        category: 'admin-login/merchant'
       },
       {
         name: 'Detay Entegratör Ekleme',
         file: 'admin-login/merchant/detay-entegrator-ekleme.spec.ts',
         path: 'tests/admin-login/merchant/detay-entegrator-ekleme.spec.ts',
-        category: 'merchant'
+        category: 'admin-login/merchant'
       },
       {
         name: 'Detay Payment Type Ekleme',
         file: 'admin-login/merchant/detay-payment-type-ekleme.spec.ts',
         path: 'tests/admin-login/merchant/detay-payment-type-ekleme.spec.ts',
-        category: 'merchant'
+        category: 'admin-login/merchant'
       },
       {
         name: 'Tip Vergi Tipi ve Yetkili Bayi Değiştirme',
         file: 'admin-login/merchant/tip-vergi-tipi-ve-yetkili-bayi-degistirme.spec.ts',
         path: 'tests/admin-login/merchant/tip-vergi-tipi-ve-yetkili-bayi-degistirme.spec.ts',
-        category: 'merchant'
+        category: 'admin-login/merchant'
       },
       {
         name: 'Bayi Güncelle',
         file: 'admin-login/reseller/bayi-guncelle.spec.ts',
         path: 'tests/admin-login/reseller/bayi-guncelle.spec.ts',
-        category: 'reseller'
+        category: 'admin-login/reseller'
       },
       {
         name: 'Detay İletişim Bilgileri Ekleme Güncelleme',
         file: 'admin-login/reseller/detay-iletisim-bilgileri-ekleme-guncelleme.spec.ts',
         path: 'tests/admin-login/reseller/detay-iletisim-bilgileri-ekleme-guncelleme.spec.ts',  
-        category: 'reseller'
+        category: 'admin-login/reseller'
       },
       {
         name: 'Detay Kullanıcı Ekleme Güncelleme',
         file: 'admin-login/reseller/detay-kullanici-ekleme-guncelleme.spec.ts',
         path: 'tests/admin-login/reseller/detay-kullanici-ekleme-guncelleme.spec.ts',
-        category: 'reseller'
+        category: 'admin-login/reseller'
       },
       {
         name: 'Gerçek Kisi Bayi Ekleme',
         file: 'admin-login/reseller/gercek-kisi-bayi-ekleme.spec.ts',
         path: 'tests/admin-login/reseller/gercek-kisi-bayi-ekleme.spec.ts',
-        category: 'reseller'
+        category: '<admin-login/>reseller'
       },
       {
         name: 'Tüzel Kisi Bayi Ekleme',
         file: 'admin-login/reseller/tuzel-kisi-bayi-ekleme.spec.ts',
         path: 'tests/admin-login/reseller/tuzel-kisi-bayi-ekleme.spec.ts',
-        category: 'reseller'
+        category: 'admin-login/reseller'
       },
       {
         name: 'Bayiye Atanmamış ve Uye Isyerine Atanmamış Checkboxlarını test etme',
         file: 'admin-login/device/bayiye-atanmamis-ve-uye-isyerine-atanmamis.spec.ts',
         path: 'tests/admin-login/device/bayiye-atanmamis-ve-uye-isyerine-atanmamis.spec.ts',
-        category: 'device'
+        category: 'admin-login/device'
       },
       {
         name: 'Yeni Cihaz Ekle',
         file: 'admin-login/device/yeni-cihaz-ekle.spec.ts',
         path: 'tests/admin-login/device/yeni-cihaz-ekle.spec.ts',
-        category: 'device'
+        category: 'admin-login/device'
       },
       {
         name: 'Cihaz Güncelle',
         file: 'admin-login/device/cihaz-guncelle.spec.ts',
         path: 'tests/admin-login/device/cihaz-guncelle.spec.ts',
-        category: 'device'
+        category: 'admin-login/device'
       },
       {
         name: 'Cihazları Bayiye Atama 1',
         file: 'admin-login/device/cihazlari-bayiye-ata-1.spec.ts',
         path: 'tests/admin-login/device/cihazlari-bayiye-ata-1.spec.ts',
-        category: 'device'
+        category: 'admin-login/device'
       },
       {
         name: 'Cihazları Bayiye Atama 2',
         file: 'admin-login/device/cihazlari-bayiye-ata-2.spec.ts',
         path: 'tests/admin-login/device/cihazlari-bayiye-ata-2.spec.ts',
-        category: 'device'
+        category: 'admin-login/device'
       },
       {
         name: 'Üye İşyerine Atalı Cihazları Seçip Bayiye Atama',
         file: 'admin-login/device/uye-isyeri-olan-cihazlari-bayiye-ata.spec.ts',
         path: 'tests/admin-login/device/uye-isyeri-olan-cihazlari-bayiye-ata.spec.ts',
-        category: 'device'
+        category: 'admin-login/device'
       },
       {
         name: 'Bayiye Atalı Cihazlar için Bayiden Geri Al',
@@ -187,43 +187,43 @@ app.get('/tests', (req, res) => {
         name: 'Üye İşyerine Atanmış Cihazları Seçip Bayiden Geri Al',
         file: 'admin-login/device/uye-isyerine-atali-cihazlari-bayiden-geri-al.spec.ts',
         path: 'tests/admin-login/device/uye-isyerine-atali-cihazlari-bayiden-geri-al.spec.ts',
-        category: 'device'
+        category: 'admin-login/device'
       },
       {
         name: 'Birden Fazla Cihazı Seçip Operasyonel Bayi Ataması Yap',
         file: 'admin-login/device/birden-fazla-cihaza-operasyonel-bayi-ata.spec.ts',
         path: 'tests/admin-login/device/birden-fazla-cihaza-operasyonel-bayi-ata.spec.ts',
-        category: 'device'
+        category: 'admin-login/device'
       },
       {
         name: 'Tek Cihaz Seçip Operasyonel Bayi Ataması Yap',
         file: 'admin-login/device/tek-cihaz-operasyonel-bayi-atama.spec.ts',
         path: 'tests/admin-login/device/tek-cihaz-operasyonel-bayi-atama.spec.ts',
-        category: 'device'
+        category: 'admin-login/device'
       },
       {
         name: 'Üye İşyerine Atanmış Cihazları Seçip Üye İşyerine Atama',
         file: 'admin-login/device/uye-isyerine-atanmis-cihazlari-uye-isyerine-ata.spec.ts',
         path: 'tests/admin-login/device/uye-isyerine-atanmis-cihazlari-uye-isyerine-ata.spec.ts',
-        category: 'device'
+        category: 'admin-login/device'
       },
       {
         name: 'Üye İşyerine Atanmamış Cihazları Seçip 507 Üye İşyerine Atama',
         file: 'admin-login/device/cihazlari-507-uye-isyerine-ata.spec.ts',
         path: 'tests/admin-login/device/cihazlari-507-uye-isyerine-ata.spec.ts',
-        category: 'device'
+        category: 'admin-login/device'
       },
       {
         name: 'Üye İşyerine Atanmamış Cihazları Seçip 509 Üye İşyerine Atama',
         file: 'admin-login/device/cihazlari-509-uye-isyerine-ata.spec.ts',
         path: 'tests/admin-login/device/cihazlari-509-uye-isyerine-ata.spec.ts',
-        category: 'device'
+        category: 'admin-login/device'
       },
       {
         name: 'Üye İşyerine Atanmamış Cihazları Seçip E-belge Ayarları Yapılmış 507 Üye İşyerine Atama',
         file: 'admin-login/device/cihazlari-507-uye-isyerine-ata-e-belge-var.spec.ts',
         path: 'tests/admin-login/device/cihazlari-507-uye-isyerine-ata-e-belge-var.spec.ts',
-        category: 'device'
+        category: 'admin-login/device'
       },
       {
         name: 'Üye işyerine atanmamış cihazları seçip E-Belge ayarları yapılmamış 507 üye işyerine ata',
@@ -235,74 +235,104 @@ app.get('/tests', (req, res) => {
         name: 'Terminal Güncelle',
         file: 'admin-login/sales-terminal/terminal-guncelle.spec.ts',
         path: 'tests/admin-login/sales-terminal/terminal-guncelle.spec.ts',
-        category: 'sales-terminal'
+        category: 'admin-login/sales-terminal'
       },
       {
         name: 'Detay menüde Mediator ekleme güncelleme silme ve parametre ekleme güncelleme silme',
         file: 'admin-login/sales-terminal/detay-mediator-islemleri.spec.ts',
         path: 'tests/admin-login/sales-terminal/detay-mediator-islemleri.spec.ts',
-        category: 'sales-terminal'
+        category: 'admin-login/sales-terminal'
       },
       {
         name: 'Detay menüde Dokuman on eki ekleme güncelleme silme',
         file: 'admin-login/sales-terminal/detay-dokuman-on-eki-islemleri.spec.ts',
         path: 'tests/admin-login/sales-terminal/detay-dokuman-on-eki-islemleri.spec.ts',
-        category: 'sales-terminal'
+        category: 'admin-login/sales-terminal'
       },
       {
         name: 'Satışlarım Ekranında Filtreleme Yap',
         file: 'admin-login/sales-terminal/satislarim-filtrele.spec.ts',
         path: 'tests/admin-login/sales-terminal/satislarim-filtrele.spec.ts',
-        category: 'sales-terminal'
+        category: 'admin-login/sales-terminal'
       },
       {
         name: 'Grup Ata ve Terminal Güncelle',
         file: 'admin-login/techpos/grup-ata-ve-terminal-guncelle.spec.ts',
         path: 'tests/admin-login/techpos/grup-ata-ve-terminal-guncelle.spec.ts',
-        category: 'techpos'
+        category: 'admin-login/techpos'
       },
       {
         name: 'Techpos İşlemleri Ekranında Filtreleme Yap',
         file: 'admin-login/techpos/techpos-islemleri-ekrani-filtre.spec.ts',
         path: 'tests/admin-login/techpos/techpos-islemleri-ekrani-filtre.spec.ts',
-        category: 'techpos'
+        category: 'admin-login/techpos'
       },
       {
         name: 'Techpos Batch Ekranında Filtreleme Yap',
         file: 'admin-login/techpos/techpos-batch-ekrani-filtre.spec.ts',
         path: 'tests/admin-login/techpos/techpos-batch-ekrani-filtre.spec.ts',
-        category: 'techpos'
+        category: 'admin-login/techpos'
       },
       {
         name: 'Batch Özet ve İşlemler Ekranında Özet tablosu Kontrolü Yap',
         file: 'admin-login/techpos/batch-ozet-ve-islemler.spec.ts',
         path: 'tests/admin-login/techpos/batch-ozet-ve-islemler.spec.ts',
-        category: 'techpos'
+        category: 'admin-login/techpos'
       },
       {
         name: 'Batch Özet ve İşlemler Ekranında Filtreleme Yap',
         file: 'admin-login/techpos/techpos-grup-ekrani-crud.spec.ts',
         path: 'tests/admin-login/techpos/techpos-grup-ekrani-crud.spec.ts',
-        category: 'techpos'
+        category: 'admin-login/techpos'
       },
       {
         name: 'Techpos Terminalde Tanımlı Banka Listesi Ekranında Liste Kontrolü Yap',
         file: 'admin-login/techpos/techpos-terminalde-tanimli-banka-listesi.spec.ts',
         path: 'tests/admin-login/techpos/techpos-terminalde-tanimli-banka-listesi.spec.ts',
-        category: 'techpos'
+        category: 'admin-login/techpos'
       },
       {
         name: 'Techpos Seri No Ekranında Liste Kontrolü Yap',
         file: 'admin-login/techpos/techpos-seri-no.spec.ts',
         path: 'tests/admin-login/techpos/techpos-seri-no.spec.ts',
-        category: 'techpos'
+        category: 'admin-login/techpos'
       },
       {
         name: 'Techpos BKM Banka PF İşlem Listesi Ekranında Liste Kontrolü Yap',
         file: 'admin-login/techpos/BKM-techpos-banka-pf-islem-listesi.spec.ts',
         path: 'tests/admin-login/techpos/BKM-techpos-banka-pf-islem-listesi.spec.ts',
-        category: 'techpos'
-      }
+        category: 'admin-login/techpos'
+      },
+      {
+        name: '507 Gerçek Mükellef Ekleme Reseller Login',
+        file: 'reseller-login/merchant/507-gercek-mukellef-ekleme.spec.ts',
+        path: 'tests/reseller-login/merchant/507-gercek-mukellef-ekleme.spec.ts',
+        category: 'reseller-login/merchant'
+      },
+      {
+        name: '507 Tüzel Mükellef Ekleme Reseller Login',
+        file: 'reseller-login/merchant/507-tuzel-mukellef-ekleme.spec.ts',
+        path: 'tests/reseller-login/merchant/507-tuzel-mukellef-ekleme.spec.ts',
+        category: 'reseller-login/merchant'
+      },
+      {
+        name: '509 Gerçek Mükellef Ekleme Reseller Login',
+        file: 'reseller-login/merchant/509-gercek-mukellef-ekleme.spec.ts',
+        path: 'tests/reseller-login/merchant/509-gercek-mukellef-ekleme.spec.ts',
+        category: 'reseller-login/merchant'
+      },
+      {
+        name: '509 Tüzel Mükellef Ekleme Reseller Login',
+        file: 'reseller-login/merchant/509-tuzel-mukellef-ekleme.spec.ts',
+        path: 'tests/reseller-login/merchant/509-tuzel-mukellef-ekleme.spec.ts',
+        category: 'reseller-login/merchant'
+      },
+      {
+        name: 'Detay Belge Ekleme Güncelleme Görüntüleme Silme Reseller Login',
+        file: 'reseller-login/merchant/detay-belge-ekleme-guncelleme-goruntuleme-silme.spec.ts',
+        path: 'tests/reseller-login/merchant/detay-belge-ekleme-guncelleme-goruntuleme-silme.spec.ts',
+        category: 'reseller-login/merchant'
+      },
       
     ];
 
