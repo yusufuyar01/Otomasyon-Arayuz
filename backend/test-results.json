@@ -410,13 +410,63 @@
     "lastRun": "2025-08-03T12:59:23.701Z"
   },
   "reseller-login/merchant/507-gercek-mukellef-ekleme.spec.ts": {
-    "success": false,
-    "output": "\nRunning 1 test using 1 worker\n\n\u001b[1A\u001b[2K[1/1] tests\\reseller-login\\merchant\\507-gercek-mukellef-ekleme.spec.ts:9:5 › 507 Gerçek Mükellef Ekleme (reseller-login)\n\u001b[1A\u001b[2Ktests\\reseller-login\\merchant\\507-gercek-mukellef-ekleme.spec.ts:9:5 › 507 Gerçek Mükellef Ekleme (reseller-login)\n===>  507 Gerçek Mükellef Ekleme (reseller-login)  <===\n\n\u001b[1A\u001b[2K  1) tests\\reseller-login\\merchant\\507-gercek-mukellef-ekleme.spec.ts:9:5 › 507 Gerçek Mükellef Ekleme (reseller-login) \n\n    TypeError: (0 , _login.login2) is not a function\n\n      12 |   \n      13 |   // Önce sisteme giriş yap\n    > 14 |   await login2(page);\n         |               ^\n      15 |\n      16 |   // Zoom işlemi\n      17 |   await zoom(page);\n        at C:\\Users\\uyary\\Desktop\\Otomasyon-Arayuz\\tests\\reseller-login\\merchant\\507-gercek-mukellef-ekleme.spec.ts:14:15\n\n\n\u001b[1A\u001b[2K  1 failed\n    tests\\reseller-login\\merchant\\507-gercek-mukellef-ekleme.spec.ts:9:5 › 507 Gerçek Mükellef Ekleme (reseller-login) \n",
+    "success": true,
+    "output": "\nRunning 1 test using 1 worker\n\n\u001b[1A\u001b[2K[1/1] tests\\reseller-login\\merchant\\507-gercek-mukellef-ekleme.spec.ts:9:5 › 507 Gerçek Mükellef Ekleme (reseller-login)\n\u001b[1A\u001b[2Ktests\\reseller-login\\merchant\\507-gercek-mukellef-ekleme.spec.ts:9:5 › 507 Gerçek Mükellef Ekleme (reseller-login)\n===>  507 Gerçek Mükellef Ekleme (reseller-login)  <===\n\n\u001b[1A\u001b[2KÜretilen TC No: 25052326106\n\n\u001b[1A\u001b[2KÜretilen E-posta: sw06as@gmail.com\n\n\u001b[1A\u001b[2KÜretilen Telefon Numarası: +90 51 121 88 86\n\n\u001b[1A\u001b[2K✅ Başarılı: Üye İşyeri başarıyla eklendi! (507-Gerçek Mükellef)\n\n\u001b[1A\u001b[2K🎯 Seçilen üye işyeri: DENEME6CQXV\n\n\u001b[1A\u001b[2K🎯 Detay menüde  Sale Applications,PAyment Types,Payment Mediators,Integrators, E-Document Settings butonlarının görünmeme kontrolü\n\n\u001b[1A\u001b[2K✅ Satış Uygulamalarında buton bulunamadı\n\n\u001b[1A\u001b[2K✅ Ödeme Tiplerinde buton bulunamadı\n\n\u001b[1A\u001b[2K✅ Ödeme Aracılarında buton bulunamadı\n\n\u001b[1A\u001b[2K✅ Entegratörlerinde buton bulunamadı\n\n\u001b[1A\u001b[2K✅ E-Belge Ayarlarında buton bulunamadı\n\n\u001b[1A\u001b[2K✅ Başarılı: Üye İşyeri başarıyla silindi!\n\n\u001b[1A\u001b[2K  1 passed (45.7s)\n",
     "stderr": "",
-    "error": "Command failed: npx playwright test tests/reseller-login/merchant/507-gercek-mukellef-ekleme.spec.ts --headed --timeout=120000 --reporter=line\n",
-    "startTime": "2025-08-06T15:02:20.082Z",
-    "endTime": "2025-08-06T15:02:24.687Z",
-    "duration": 5,
-    "lastRun": "2025-08-06T15:02:24.687Z"
+    "error": null,
+    "startTime": "2025-08-06T15:03:55.411Z",
+    "endTime": "2025-08-06T15:04:42.887Z",
+    "duration": 47,
+    "lastRun": "2025-08-06T15:04:42.887Z"
+  },
+  "reseller-login/merchant/507-tuzel-mukellef-ekleme.spec.ts": {
+    "success": true,
+    "output": "\nRunning 1 test using 1 worker\n\n\u001b[1A\u001b[2K[1/1] tests\\reseller-login\\merchant\\507-tuzel-mukellef-ekleme.spec.ts:9:5 › 507 Tüzel Mükellef Ekleme (reseller-login)\n\u001b[1A\u001b[2Ktests\\reseller-login\\merchant\\507-tuzel-mukellef-ekleme.spec.ts:9:5 › 507 Tüzel Mükellef Ekleme (reseller-login)\n===>  507 Tüzel Mükellef Ekleme (reseller-login)  <===\n\n\u001b[1A\u001b[2KÜretilen VKN: 5743360613\n\n\u001b[1A\u001b[2KÜretilen E-posta: lqtiwu@gmail.com\n\n\u001b[1A\u001b[2KÜretilen Telefon Numarası: +90 58 410 79 16\n\n\u001b[1A\u001b[2K✅ Başarılı: Üye İşyeri başarıyla eklendi! (507-Tüzel Mükellef)\n\n\u001b[1A\u001b[2K🎯 Seçilen üye işyeri: DENEME0S5SU\n\n\u001b[1A\u001b[2K🎯 Detay menüde  Sale Applications,PAyment Types,Payment Mediators,Integrators, E-Document Settings butonlarının görünmeme kontrolü\n\n\u001b[1A\u001b[2K✅ Satış Uygulamalarında buton bulunamadı\n\n\u001b[1A\u001b[2K✅ Ödeme Tiplerinde buton bulunamadı\n\n\u001b[1A\u001b[2K✅ Ödeme Aracılarında buton bulunamadı\n\n\u001b[1A\u001b[2K✅ Entegratörlerinde buton bulunamadı\n\n\u001b[1A\u001b[2K✅ E-Belge Ayarlarında buton bulunamadı\n\n\u001b[1A\u001b[2K✅ Başarılı: Üye İşyeri başarıyla silindi!\n\n\u001b[1A\u001b[2K  1 passed (1.1m)\n",
+    "stderr": "",
+    "error": null,
+    "startTime": "2025-08-06T15:06:36.972Z",
+    "endTime": "2025-08-06T15:07:47.605Z",
+    "duration": 71,
+    "lastRun": "2025-08-06T15:07:47.605Z"
+  },
+  "reseller-login/merchant/509-gercek-mukellef-ekleme.spec.ts": {
+    "success": true,
+    "output": "\nRunning 1 test using 1 worker\n\n\u001b[1A\u001b[2K[1/1] tests\\reseller-login\\merchant\\509-gercek-mukellef-ekleme.spec.ts:9:5 › 509 Gerçek Mükellef Ekleme (reseller-login)\n\u001b[1A\u001b[2Ktests\\reseller-login\\merchant\\509-gercek-mukellef-ekleme.spec.ts:9:5 › 509 Gerçek Mükellef Ekleme (reseller-login)\n===>  509 Gerçek Mükellef Ekleme (reseller-login)  <===\n\n\u001b[1A\u001b[2KÜretilen TC No: 31560527010\n\n\u001b[1A\u001b[2KÜretilen E-posta: 4fgnlnvk@gmail.com\n\n\u001b[1A\u001b[2KÜretilen Telefon Numarası: +90 52 809 41 96\n\n\u001b[1A\u001b[2K✅ Başarılı: Üye İşyeri başarıyla eklendi! (509-Gerçek Mükellef)\n\n\u001b[1A\u001b[2K🎯 Seçilen üye işyeri: DENEMEPLACG\n\n\u001b[1A\u001b[2K🎯 Detay menüde  Sale Applications,PAyment Types,Payment Mediators,Integrators, E-Document Settings butonlarının görünmeme kontrolü\n\n\u001b[1A\u001b[2K✅ Satış Uygulamalarında \"+ Yeni\" butonu bulundu\n\n\u001b[1A\u001b[2K✅ Ödeme Tiplerinde \"+ Yeni\" butonu bulundu\n\n\u001b[1A\u001b[2K✅ Ödeme Aracılarında \"+ Yeni\" butonu bulundu\n\n\u001b[1A\u001b[2K✅ Entegratörlerinde \"+ Yeni\" butonu bulundu\n\n\u001b[1A\u001b[2K✅ E-Belge Ayarlarında \"+ Yeni\" butonu bulundu\n\n\u001b[1A\u001b[2K✅ Başarılı: Üye İşyeri başarıyla silindi!\n\n\u001b[1A\u001b[2K  1 passed (44.8s)\n",
+    "stderr": "",
+    "error": null,
+    "startTime": "2025-08-06T15:05:40.537Z",
+    "endTime": "2025-08-06T15:06:27.377Z",
+    "duration": 47,
+    "lastRun": "2025-08-06T15:06:27.377Z"
+  },
+  "reseller-login/merchant/509-tuzel-mukellef-ekleme.spec.ts": {
+    "success": true,
+    "output": "\nRunning 1 test using 1 worker\n\n\u001b[1A\u001b[2K[1/1] tests\\reseller-login\\merchant\\509-tuzel-mukellef-ekleme.spec.ts:10:5 › 509 Tüzel Mükellef Ekleme (reseller-login)\n\u001b[1A\u001b[2Ktests\\reseller-login\\merchant\\509-tuzel-mukellef-ekleme.spec.ts:10:5 › 509 Tüzel Mükellef Ekleme (reseller-login)\n===>  509 Tüzel Mükellef Ekleme (reseller-login)  <===\n\n\u001b[1A\u001b[2KÜretilen VKN: 6050000888\n\n\u001b[1A\u001b[2KÜretilen E-posta: zcauo@gmail.com\n\n\u001b[1A\u001b[2KÜretilen Telefon Numarası: +90 51 336 99 35\n\n\u001b[1A\u001b[2K✅ Başarılı: Üye İşyeri başarıyla eklendi! (509-Tüzel Mükellef)\n\n\u001b[1A\u001b[2K🎯 Seçilen üye işyeri: DENEMEZGDBW\n\n\u001b[1A\u001b[2K🎯 Detay menüde  Sale Applications,PAyment Types,Payment Mediators,Integrators, E-Document Settings butonlarının görünmeme kontrolü\n\n\u001b[1A\u001b[2K✅ Satış Uygulamalarında \"+ Yeni\" butonu bulundu\n\n\u001b[1A\u001b[2K✅ Ödeme Tiplerinde \"+ Yeni\" butonu bulundu\n\n\u001b[1A\u001b[2K✅ Ödeme Aracılarında \"+ Yeni\" butonu bulundu\n\n\u001b[1A\u001b[2K✅ Entegratörlerinde \"+ Yeni\" butonu bulundu\n\n\u001b[1A\u001b[2K✅ E-Belge Ayarlarında \"+ Yeni\" butonu bulundu\n\n\u001b[1A\u001b[2K✅ Başarılı: Üye İşyeri başarıyla silindi!\n\n\u001b[1A\u001b[2K  1 passed (44.2s)\n",
+    "stderr": "",
+    "error": null,
+    "startTime": "2025-08-06T15:07:52.482Z",
+    "endTime": "2025-08-06T15:08:38.416Z",
+    "duration": 46,
+    "lastRun": "2025-08-06T15:08:38.416Z"
+  },
+  "reseller-login/merchant/detay-belge-ekleme-guncelleme-goruntuleme-silme.spec.ts": {
+    "success": false,
+    "output": "\nRunning 1 test using 1 worker\n\n\u001b[1A\u001b[2K[1/1] tests\\reseller-login\\merchant\\detay-belge-ekleme-guncelleme-goruntuleme-silme.spec.ts:9:5 › Detay Belge Ekleme, Güncelleme, Görüntüleme ve Silme\n\u001b[1A\u001b[2Ktests\\reseller-login\\merchant\\detay-belge-ekleme-guncelleme-goruntuleme-silme.spec.ts:9:5 › Detay Belge Ekleme, Güncelleme, Görüntüleme ve Silme\n===>  Detay Belge Ekleme, Güncelleme, Görüntüleme ve Silme  <===\n\n\u001b[1A\u001b[2KÜretilen VKN: 9623301703\n\n\u001b[1A\u001b[2KÜretilen E-posta: 8g0v0b8@gmail.com\n\n\u001b[1A\u001b[2KÜretilen Telefon Numarası: +90 57 713 79 71\n\n\u001b[1A\u001b[2K✅ Başarılı: Üye İşyeri başarıyla eklendi! (507-Tüzel Mükellef)\n\n\u001b[1A\u001b[2K🎯 Seçilen üye işyeri: DENEMEPKP8F\n\n\u001b[1A\u001b[2K✅ \"+ Yeni\" butonu görünüyor, belge ekleme yapılıyor...\n\n\u001b[1A\u001b[2K✅ Belge başarıyla eklendi\n\n\u001b[1A\u001b[2K✅ \"Güncelle\" butonu görünüyor, belge güncelleme, goruntuleme, silme yapılıyor...\n\n\u001b[1A\u001b[2K📄 İlk hücredeki değer:  ornek-png \n\n\u001b[1A\u001b[2K✅ Belge Güncelleme yapıldı\n\n\u001b[1A\u001b[2K✅ Belge Görüntüleme yapıldı\n\n\u001b[1A\u001b[2K  1) tests\\reseller-login\\merchant\\detay-belge-ekleme-guncelleme-goruntuleme-silme.spec.ts:9:5 › Detay Belge Ekleme, Güncelleme, Görüntüleme ve Silme \n\n    Error: page.waitForTimeout: Target page, context or browser has been closed\n\n      376 |         await page.waitForTimeout(5000);\n      377 |         console.log('✅ Belge Görüntüleme yapıldı');\n    > 378 |         await page.waitForTimeout(3000);\n          |                    ^\n      379 |\n      380 |         // Görüntülemeyi kapat\n      381 |         await page.getByRole('button', { name: 'Kapat' }).click();\n        at C:\\Users\\uyary\\Desktop\\Otomasyon-Arayuz\\tests\\reseller-login\\merchant\\detay-belge-ekleme-guncelleme-goruntuleme-silme.spec.ts:378:20\n\n\n\u001b[1A\u001b[2K  1 failed\n    tests\\reseller-login\\merchant\\detay-belge-ekleme-guncelleme-goruntuleme-silme.spec.ts:9:5 › Detay Belge Ekleme, Güncelleme, Görüntüleme ve Silme \n",
+    "stderr": "",
+    "error": "Command failed: npx playwright test tests/reseller-login/merchant/detay-belge-ekleme-guncelleme-goruntuleme-silme.spec.ts --headed --timeout=120000 --reporter=line\n",
+    "startTime": "2025-08-06T15:08:44.055Z",
+    "endTime": "2025-08-06T15:09:46.397Z",
+    "duration": 62,
+    "lastRun": "2025-08-06T15:09:46.397Z"
+  },
+  "reseller-login/merchant/detay-iletisim-bilgisi-ekle-guncelle.spec.ts": {
+    "success": true,
+    "output": "\nRunning 1 test using 1 worker\n\n\u001b[1A\u001b[2K[1/1] tests\\reseller-login\\merchant\\detay-iletisim-bilgisi-ekle-guncelle.spec.ts:9:5 › Detay iletişim bilgisi ekleme ve güncelleme (reseller-login)\n\u001b[1A\u001b[2Ktests\\reseller-login\\merchant\\detay-iletisim-bilgisi-ekle-guncelle.spec.ts:9:5 › Detay iletişim bilgisi ekleme ve güncelleme (reseller-login)\n===>  Detay iletişim bilgisi ekleme ve güncelleme (reseller-login)  <===\n\n\u001b[1A\u001b[2KÜretilen VKN: 9373588368\n\n\u001b[1A\u001b[2KÜretilen E-posta: pae5ok@gmail.com\n\n\u001b[1A\u001b[2KÜretilen Telefon Numarası: +90 54 629 25 81\n\n\u001b[1A\u001b[2K✅ Başarılı: Üye İşyeri başarıyla eklendi! (507-Tüzel Mükellef)\n\n\u001b[1A\u001b[2K🎯 Seçilen üye işyeri: DENEME0F6LM\n\n\u001b[1A\u001b[2K🎯 Ana iletişim seçilen: Adres\n\n\u001b[1A\u001b[2K✅ Başarılı: İletişim bilgisi başarıyla eklendi!\n\n\u001b[1A\u001b[2KYeni adres: kURxcLvc18\n\n\u001b[1A\u001b[2K✅ Başarılı: İletişim bilgisi başarıyla güncellendi!\n\n\u001b[1A\u001b[2K✅ Başarılı: Üye İşyeri başarıyla silindi!\n\n\u001b[1A\u001b[2K  1 passed (42.6s)\n",
+    "stderr": "",
+    "error": null,
+    "startTime": "2025-08-06T15:13:48.263Z",
+    "endTime": "2025-08-06T15:14:32.573Z",
+    "duration": 44,
+    "lastRun": "2025-08-06T15:14:32.573Z"
   }
 }

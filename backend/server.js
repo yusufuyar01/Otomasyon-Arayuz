@@ -329,11 +329,10 @@ app.get('/tests', (req, res) => {
       },
       {
         name: 'Detay Belge Ekleme Güncelleme Görüntüleme Silme Reseller Login',
-        file: 'reseller-login/merchant/detay-belge-ekleme-guncelleme-goruntuleme-silme.spec.ts',
-        path: 'tests/reseller-login/merchant/detay-belge-ekleme-guncelleme-goruntuleme-silme.spec.ts',
+        file: 'reseller-login/merchant/detay-iletisim-bilgisi-ekle-guncelle.spec.ts',
+        path: 'tests/reseller-login/merchant/detay-iletisim-bilgisi-ekle-guncelle.spec.ts',
         category: 'reseller-login/merchant'
-      },
-      
+      }
     ];
 
     res.json(testFiles);
