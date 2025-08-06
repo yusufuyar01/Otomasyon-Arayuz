@@ -1,10 +1,11 @@
 import { test, expect } from '@playwright/test';
-import { login } from '../../helpers/login';
-import { zoom } from '../../helpers/zoom';
+import { login } from '../../../helpers/login';
+import { zoom } from '../../../helpers/zoom';
 
 test('TechPOS - İşlemleri Ekranı Filtre', async ({ page }) => {
   
-
+    console.log('===>  Techpos İşlemleri Ekranı Filtreleme  <===');
+    
     // Bugünün tarihini konsola yazdır
     const bugun = new Date();
     const tarihString = bugun.toLocaleDateString('tr-TR', {
@@ -120,12 +121,10 @@ test('TechPOS - İşlemleri Ekranı Filtre', async ({ page }) => {
 
     if (isGunUyarisiVisible) {
         console.log('❌ Seçilecek maksimum gün aralığı: 30');
-        await page.pause();
         return;
     }
     else if (isKayitBulunamadiVisible) {
         console.log('❌ Kayıt bulunamadı');
-        await page.pause();
         return;
     }
 
@@ -214,4 +213,6 @@ test('TechPOS - İşlemleri Ekranı Filtre', async ({ page }) => {
     } else {
         console.log('❌ Filtreleme sonucu üye işyeri eşleşmedi');
     }
+
+
 }); 

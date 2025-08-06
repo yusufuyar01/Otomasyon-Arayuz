@@ -1,11 +1,13 @@
 import { test, expect } from '@playwright/test';
-import { login } from '../../helpers/login';
-import { vknUret } from '../../helpers/vknUret';
-import { tcknUret } from '../../helpers/tcknUret';
-import { rastgeleString } from '../../helpers/stringUret';
-import { zoom } from '../../helpers/zoom';
+import { login } from '../../../helpers/login';
+import { vknUret } from '../../../helpers/vknUret';
+import { tcknUret } from '../../../helpers/tcknUret';
+import { rastgeleString } from '../../../helpers/stringUret';
+import { zoom } from '../../../helpers/zoom';
 
 test('Tip, Vergi Tipi ve Yetkili bayi Değiştirme', async ({ page }) => {
+
+  console.log('===>  Tip, Vergi Tipi ve Yetkili bayi Değiştirme  <===');
 
   // Önce sisteme giriş yap
   await login(page);
@@ -32,7 +34,7 @@ test('Tip, Vergi Tipi ve Yetkili bayi Değiştirme', async ({ page }) => {
   const firstRowExpand = page.getByRole('row', { name: /Expand Details/ }).getByRole('button').nth(randomRowNumber);
 
 
-  // const firstRowExpand = page.getByRole('row', { name: /Expand Details/ }).getByRole('button').nth(1);
+  // const firstRowExpand = page.getByRole('row', { name: /Expand Details/ }).getByRole('button').nth(3);
   await firstRowExpand.click();
   await page.waitForTimeout(1000);
 
@@ -130,5 +132,6 @@ test('Tip, Vergi Tipi ve Yetkili bayi Değiştirme', async ({ page }) => {
   }
 
   await page.waitForTimeout(2000);
+
 
 }); 

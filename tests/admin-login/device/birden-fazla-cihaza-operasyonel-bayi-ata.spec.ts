@@ -1,10 +1,13 @@
 import { test, expect } from '@playwright/test';
-import { login } from '../../helpers/login';
-import { cihazEkle, cihazGuncelle, cihaziOperasyonelBayiyeAta, cihazlariBayidenGeriAl, cihazlariBayiyeAta, cihazlariOperasyonelBayiyeAta, cihazSil } from '../../helpers/cihazIslemleri';
-import { zoom } from '../../helpers/zoom';
+import { login } from '../../../helpers/login';
+import { cihazEkle, cihazGuncelle, cihazlariBayidenGeriAl, cihazlariBayiyeAta, cihazlariOperasyonelBayiyeAta, cihazSil } from '../../../helpers/cihazIslemleri';
+import { zoom } from '../../../helpers/zoom';
 
 test('Birden fazla cihaza operasyonel bayi atama işlemi', async ({ page }) => {
-      // Önce sisteme giriş yap
+
+  console.log('===>  Birden fazla cihaza operasyonel bayi atama işlemi  <===');
+
+  // Önce sisteme giriş yap
   await login(page);
 
   // Zoom işlemi

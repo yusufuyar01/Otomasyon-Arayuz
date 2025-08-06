@@ -1,10 +1,12 @@
 import { test, expect } from '@playwright/test';
-import { login } from '../../helpers/login';
-import { zoom } from '../../helpers/zoom';
-import { rastgeleString } from '../../helpers/stringUret';
-import { terminaliGetir } from '../../helpers/satisYerminaliIslemleri';
+import { login } from '../../../helpers/login';
+import { zoom } from '../../../helpers/zoom';
+import { rastgeleString } from '../../../helpers/stringUret';
+import { terminaliGetir } from '../../../helpers/satisYerminaliIslemleri';
 
 test('Terminal bilgilerini güncelleme', async ({ page }) => {
+
+    console.log('===>  Terminal Bilgilerini Güncelleme  <===');
 
     // Önce sisteme giriş yap
     await login(page);
@@ -34,5 +36,6 @@ test('Terminal bilgilerini güncelleme', async ({ page }) => {
     } catch (error) {
         console.log('❌ Terminal güncellenemedi');
     }
+
 
 });

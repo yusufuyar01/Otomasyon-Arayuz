@@ -1,10 +1,12 @@
 import { test, expect } from '@playwright/test';
-import { login } from '../../helpers/login';
-import { zoom } from '../../helpers/zoom';
-import { rastgeleString } from '../../helpers/stringUret';
-import { mediatorEkle, mediatorGuncelle, mediatorSil, parametreEkle, parametreGuncelle, parametreSil, terminaliGetir } from '../../helpers/satisYerminaliIslemleri';
+import { login } from '../../../helpers/login';
+import { zoom } from '../../../helpers/zoom';
+import { rastgeleString } from '../../../helpers/stringUret';
+import { mediatorEkle, mediatorGuncelle, mediatorSil, parametreEkle, parametreGuncelle, parametreSil, terminaliGetir } from '../../../helpers/satisYerminaliIslemleri';
 
 test('Mediator İşlemleri - Ekleme, Güncelleme ve Silme', async ({ page }) => {
+
+    console.log('===>  Mediator İşlemleri - Ekleme, Güncelleme ve Silme  <===');
 
     // Önce sisteme giriş yap
     await login(page);
@@ -33,5 +35,7 @@ test('Mediator İşlemleri - Ekleme, Güncelleme ve Silme', async ({ page }) => 
 
     // Ödeme Aracısı sil
     await mediatorSil(page);
+
+
 
 }); 

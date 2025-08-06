@@ -1,12 +1,15 @@
 import { test, expect } from '@playwright/test';
-import { login } from '../../helpers/login';
-import { tcknUret } from '../../helpers/tcknUret';
-import { rastgeleString } from '../../helpers/stringUret';
-import { ePostaUret } from '../../helpers/ePostaUret';
-import { telNoUret } from '../../helpers/telNoUret';
-import { zoom } from '../../helpers/zoom';
+import { login } from '../../../helpers/login';
+import { tcknUret } from '../../../helpers/tcknUret';
+import { rastgeleString } from '../../../helpers/stringUret';
+import { ePostaUret } from '../../../helpers/ePostaUret';
+import { telNoUret } from '../../../helpers/telNoUret';
+import { zoom } from '../../../helpers/zoom';
 
 test('509 Gerçek Mükellef Ekleme', async ({ page }) => {
+
+  console.log('===>  509 Gerçek Mükellef Ekleme  <===');
+
   
   // Önce sisteme giriş yap
   await login(page);
@@ -239,4 +242,6 @@ test('509 Gerçek Mükellef Ekleme', async ({ page }) => {
             } catch (error) {
               console.log('❌ Başarı mesajı kontrol edilirken hata oluştu:', error.message);
             }
+      
+
 }); 

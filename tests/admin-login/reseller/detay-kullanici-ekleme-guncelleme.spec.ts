@@ -1,12 +1,14 @@
 import { test, expect } from '@playwright/test';
-import { login } from '../../helpers/login';
-import { ePostaUret } from '../../helpers/ePostaUret';
-import { telNoUret } from '../../helpers/telNoUret';
-import { rastgeleString } from '../../helpers/stringUret';
-import { zoom } from '../../helpers/zoom';
+import { login } from '../../../helpers/login';
+import { ePostaUret } from '../../../helpers/ePostaUret';
+import { telNoUret } from '../../../helpers/telNoUret';
+import { rastgeleString } from '../../../helpers/stringUret';
+import { zoom } from '../../../helpers/zoom';
 
 test('Detay Kullanıcı Ekleme ve Güncelleme', async ({ page }) => {
   
+  console.log('===>  Detay Kullanıcı Ekleme ve Güncelleme  <===');
+
    // Önce sisteme giriş yap
    await login(page);
 
@@ -136,4 +138,6 @@ test('Detay Kullanıcı Ekleme ve Güncelleme', async ({ page }) => {
   } catch (error) {
     console.log('❌ Kullanıcı güncelleme başarı mesajı kontrol edilirken hata oluştu:', error.message);
   }
+
+
 }); 

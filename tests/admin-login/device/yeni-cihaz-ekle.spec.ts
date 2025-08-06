@@ -1,10 +1,12 @@
 import { test, expect } from '@playwright/test';
-import { login } from '../../helpers/login';
-import { zoom } from '../../helpers/zoom';
-import { rastgeleString } from '../../helpers/stringUret';
-import { cihazSil } from '../../helpers/cihazIslemleri';
+import { login } from '../../../helpers/login';
+import { zoom } from '../../../helpers/zoom';
+import { rastgeleString } from '../../../helpers/stringUret';
+import { cihazSil } from '../../../helpers/cihazIslemleri';
 
 test('Yeni Cihaz Ekleme', async ({ page }) => {
+
+  console.log('===>  Yeni Cihaz Ekleme  <===');
 
   // Önce sisteme giriş yap
   await login(page);

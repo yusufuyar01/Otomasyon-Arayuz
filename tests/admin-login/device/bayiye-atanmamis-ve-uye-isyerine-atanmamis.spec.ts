@@ -1,8 +1,10 @@
 import { test, expect } from '@playwright/test';
-import { login } from '../../helpers/login';
-import { zoom } from '../../helpers/zoom';
+import { login } from '../../../helpers/login';
+import { zoom } from '../../../helpers/zoom';
 
 test('Bayiye Atanmamış ve Üye İşyerine Atanmamış Cihazları Test Etme', async ({ page }) => {
+
+  console.log('===>  Bayiye Atanmamış ve Üye İşyerine Atanmamış Cihazları Test Etme  <===');
 
   // Önce sisteme giriş yap
   await login(page);
@@ -135,6 +137,5 @@ test('Bayiye Atanmamış ve Üye İşyerine Atanmamış Cihazları Test Etme', a
   } catch (error) {
     console.log('⚠️ Her iki filtre birlikte uygulanamadı');
   }
-
 
 }); 

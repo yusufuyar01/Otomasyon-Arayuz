@@ -1,9 +1,11 @@
 import { test, expect } from '@playwright/test';
-import { login } from '../../helpers/login';
-import { zoom } from '../../helpers/zoom';
+import { login } from '../../../helpers/login';
+import { zoom } from '../../../helpers/zoom';
 
 test('TechPOS - Batch Ekranı Filtre', async ({ page }) => {
   
+    console.log('===>  Techpos Batch Ekranı Filtreleme  <===');
+
     // Bugünün tarihini konsola yazdır
     const bugun = new Date();
     const tarihString = bugun.toLocaleDateString('tr-TR', {
@@ -85,6 +87,7 @@ test('TechPOS - Batch Ekranı Filtre', async ({ page }) => {
     const titleText = `${gun} ${ayAdiGetirTam(ay)} ${otuzGunOncesi.getFullYear()} ${gunAdi}`;
     console.log(`🔍 Seçilecek başlangıç tarihi: "${titleText}"`);
 
+    // await page.getByTitle(titleText).locator('span').click();
     await page.waitForTimeout(1000);
    
     // Bitiş tarihi seçimi
@@ -101,7 +104,7 @@ test('TechPOS - Batch Ekranı Filtre', async ({ page }) => {
 
     // BKM Seri No doldur
     await page.locator('ot-data-entry-template').filter({ hasText: 'BKM Seri No' }).getByRole('combobox').click();
-    await page.waitForTimeout(15000);
+    await page.waitForTimeout(10000);
 
     await page.locator('ot-data-entry-template').filter({ hasText: 'BKM Seri No' }).getByRole('combobox').fill('PAV860066571');
     await page.waitForTimeout(3000);
@@ -110,7 +113,6 @@ test('TechPOS - Batch Ekranı Filtre', async ({ page }) => {
     await page.locator('ot-data-entry-template').filter({ hasText: 'BKM Seri No' }).getByRole('combobox').fill('PAV8600665');
     await page.waitForTimeout(1000);
     await page.locator('ot-data-entry-template').filter({ hasText: 'BKM Seri No' }).getByRole('combobox').fill('PAV86006657');
-    // await page.waitForTimeout(1000);
     await page.waitForTimeout(1000);
     await page.getByRole('option', { name: 'PAV860066571' }).click();
     
@@ -133,12 +135,10 @@ test('TechPOS - Batch Ekranı Filtre', async ({ page }) => {
 
     if (isGunUyarisiVisible) {
         console.log('❌ Seçilecek maksimum gün aralığı: 30');
-        await page.pause();
         return;
     }
     else if (isKayitBulunamadiVisible) {
         console.log('❌ Kayıt bulunamadı');
-        await page.pause();
         return;
     }
 
@@ -223,4 +223,6 @@ test('TechPOS - Batch Ekranı Filtre', async ({ page }) => {
     } else {
         console.log('❌ Filtreleme sonucu üye işyeri eşleşmedi');
     }
+
+    
 }); 

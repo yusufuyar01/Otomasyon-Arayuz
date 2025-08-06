@@ -1,9 +1,11 @@
 import { test, expect } from '@playwright/test';
-import { login } from '../../helpers/login';
-import { zoom } from '../../helpers/zoom';
-import { cihazEkle, cihazGuncelle, cihazlariBayidenGeriAl, cihazlariBayiyeAta, cihazSil } from '../../helpers/cihazIslemleri';
+import { login } from '../../../helpers/login';
+import { zoom } from '../../../helpers/zoom';
+import { cihazEkle, cihazGuncelle, cihazlariBayidenGeriAl, cihazlariBayiyeAta, cihazSil } from '../../../helpers/cihazIslemleri';
 
 test('Bayiye Atalı Cihazları Bayiden Geri Alma', async ({ page }) => {
+
+  console.log('===>  Bayiye Atalı Cihazları Bayiden Geri Alma  <===');
 
   // Önce sisteme giriş yap
   await login(page);

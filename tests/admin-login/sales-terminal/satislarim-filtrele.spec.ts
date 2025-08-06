@@ -1,8 +1,10 @@
 import { test, expect } from '@playwright/test';
-import { login } from '../../helpers/login';
-import { zoom } from '../../helpers/zoom';
+import { login } from '../../../helpers/login';
+import { zoom } from '../../../helpers/zoom';
 
 test('Satışlarım Filtreleme İşlemleri', async ({ page }) => {
+
+    console.log('===>  Satışlarım Filtreleme İşlemleri  <===');
 
     // Bugünün tarihini konsola yazdır
     const bugun = new Date();
@@ -41,8 +43,7 @@ test('Satışlarım Filtreleme İşlemleri', async ({ page }) => {
             'Perşembe', 'Cuma', 'Cumartesi'
         ];
         return gunler[gunNumarasi];
-    };
-    
+    };  
 
     // Önce sisteme giriş yap
     await login(page);
@@ -75,7 +76,7 @@ test('Satışlarım Filtreleme İşlemleri', async ({ page }) => {
     
     await page.getByTitle(titleText).locator('span').click();
     await page.waitForTimeout(1000);
-
+   
     await page.locator('ot-data-entry-template').filter({ hasText: 'Bitiş Tarihi' }).getByLabel('Takvimden seç').click();
     await page.getByRole('button', { name: 'Bugün' }).click();
 
@@ -106,7 +107,6 @@ test('Satışlarım Filtreleme İşlemleri', async ({ page }) => {
         console.log('❌ Kayıt bulunamadı');
         return;
     }
-
 
     // Belirtilen hücrelerdeki değerleri oku ve kontrol et
     const cells = [

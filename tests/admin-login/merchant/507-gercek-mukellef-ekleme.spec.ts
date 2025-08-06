@@ -1,12 +1,14 @@
 import { test, expect } from '@playwright/test';
-import { login } from '../../helpers/login';
-import { tcknUret } from '../../helpers/tcknUret';
-import { rastgeleString } from '../../helpers/stringUret';
-import { ePostaUret } from '../../helpers/ePostaUret';
-import { telNoUret } from '../../helpers/telNoUret';
-import { zoom } from '../../helpers/zoom';
+import { login } from '../../../helpers/login';
+import { tcknUret } from '../../../helpers/tcknUret';
+import { rastgeleString } from '../../../helpers/stringUret';
+import { ePostaUret } from '../../../helpers/ePostaUret';
+import { telNoUret } from '../../../helpers/telNoUret';
+import { zoom } from '../../../helpers/zoom';
 
 test('507 Gerçek Mükellef Ekleme', async ({ page }) => {
+
+  console.log('===>  507 Gerçek Mükellef Ekleme  <===');
   
   // Önce sisteme giriş yap
   await login(page);
@@ -276,13 +278,11 @@ test('507 Gerçek Mükellef Ekleme', async ({ page }) => {
      const tamamButton = page.getByRole('button', { name: 'Tamam' });
      await tamamButton.click(); 
 
-           // sayfayı yenile
+       // sayfayı yenile
       await page.reload();
 
       // Zoom işlemi
-     await zoom(page);
-
-
+      await zoom(page);
 
      // ===== ADIM 6: Üye İşyeri Silme =====
      try {
@@ -313,6 +313,5 @@ test('507 Gerçek Mükellef Ekleme', async ({ page }) => {
       } catch (error) {
         console.log('❌ Başarı mesajı kontrol edilirken hata oluştu:', error.message);
       }
-
 
 }); 

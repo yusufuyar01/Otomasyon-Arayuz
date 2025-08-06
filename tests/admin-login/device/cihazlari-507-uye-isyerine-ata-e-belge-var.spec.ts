@@ -1,9 +1,11 @@
 import { test, expect } from '@playwright/test';
-import { login } from '../../helpers/login';
-import { zoom } from '../../helpers/zoom';
-import { cihazEkle, cihazGuncelle, cihazlariBayidenGeriAl, cihazlariBayiyeAta, cihazlariBayiyeAta2, cihazlariBayiyeAta3, cihazSil, cihazUyeIseyerindenGeriAl, UyeIseyerineAta507 } from '../../helpers/cihazIslemleri';
+import { login } from '../../../helpers/login'; 
+import { zoom } from '../../../helpers/zoom';
+import { cihazEkle, cihazGuncelle, cihazlariBayiyeAta, cihazlariBayiyeAta2, cihazlariBayiyeAta3, cihazSil, cihazUyeIseyerindenGeriAl } from '../../../helpers/cihazIslemleri';
 
 test('Cihazları 507 Üye İşyerine Atama (E-Belge Var)', async ({ page }) => {
+
+  console.log('===>  Cihazları 507 Üye İşyerine Atama (E-Belge Var)  <===');
 
   // Önce sisteme giriş yap
   await login(page);
@@ -72,7 +74,6 @@ test('Cihazları 507 Üye İşyerine Atama (E-Belge Var)', async ({ page }) => {
     await page.getByRole('option', { name: 'Demo' }).click();
     await page.getByRole('button', { name: 'Ata' }).click();
   
-  
     await page.waitForTimeout(1000);
 
    // cihazları üye işyerinden geri al
@@ -81,6 +82,5 @@ test('Cihazları 507 Üye İşyerine Atama (E-Belge Var)', async ({ page }) => {
   // Cihaz silme
   await cihazSil(page);
   await cihazSil(page);
-
 
 }); 

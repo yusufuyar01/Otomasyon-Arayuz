@@ -1,9 +1,11 @@
 import { test, expect } from '@playwright/test';
-import { login } from '../../helpers/login';
-import { zoom } from '../../helpers/zoom';
-import { cihazEkle, cihazGuncelle, cihaziBayiyeAta, cihazSil, cihazUyeIseyerindenGeriAl, UyeIseyerineAta509 } from '../../helpers/cihazIslemleri';
+import { login } from '../../../helpers/login';
+import { zoom } from '../../../helpers/zoom';
+import { cihazEkle, cihazGuncelle, cihaziBayiyeAta, cihazSil, cihazUyeIseyerindenGeriAl, UyeIseyerineAta509 } from '../../../helpers/cihazIslemleri';
 
 test('Cihazları 509 Üye İşyerine Atama', async ({ page }) => {
+
+  console.log('===>  Cihazları 509 Üye İşyerine Atama  <===');
 
   // Önce sisteme giriş yap
   await login(page);
@@ -88,6 +90,5 @@ test('Cihazları 509 Üye İşyerine Atama', async ({ page }) => {
   // Cihaz silme
   await cihazSil(page);
   await cihazSil(page);
-
 
 }); 

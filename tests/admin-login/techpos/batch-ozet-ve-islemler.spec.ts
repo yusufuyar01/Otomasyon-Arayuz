@@ -1,9 +1,11 @@
 import { test, expect } from '@playwright/test';
-import { login } from '../../helpers/login';
-import { zoom } from '../../helpers/zoom';
+import { login } from '../../../helpers/login';
+import { zoom } from '../../../helpers/zoom';
 
 test('TechPOS - Batch Ekranı Filtre', async ({ page }) => {
   
+    console.log('===>  TechPOS Batch Ekranı Filtreleme  <===');
+
     // Bugünün tarihini konsola yazdır
     const bugun = new Date();
     const tarihString = bugun.toLocaleDateString('tr-TR', {

@@ -1,9 +1,11 @@
 import { test, expect } from '@playwright/test';
-import { login } from '../../helpers/login';
-import { zoom } from '../../helpers/zoom';
-import { cihazEkle, cihazGuncelle, cihazSil, cihazUyeIseyerindenGeriAl, cihazUyeIseyerineAta } from '../../helpers/cihazIslemleri';
+import { login } from '../../../helpers/login';
+import { zoom } from '../../../helpers/zoom';
+import { cihazEkle, cihazGuncelle, cihazSil, cihazUyeIseyerindenGeriAl, cihazUyeIseyerineAta } from '../../../helpers/cihazIslemleri';
 
 test('Üye İşyerine Atanmış Cihazları Üye İşyerine Ata', async ({ page }) => {
+
+  console.log('===>  Üye İşyerine Atanmış Cihazları Üye İşyerine Ata  <===');
 
   // Önce sisteme giriş yap
   await login(page);
@@ -128,6 +130,5 @@ try {
  // Cihaz silme
  await cihazSil(page);
  await cihazSil(page);
-
 
 }); 

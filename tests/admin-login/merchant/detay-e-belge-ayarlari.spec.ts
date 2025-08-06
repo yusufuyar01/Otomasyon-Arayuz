@@ -1,9 +1,11 @@
 import { test, expect } from '@playwright/test';
-import { login } from '../../helpers/login';
-import { rastgeleString } from '../../helpers/stringUret';
-import { zoom } from '../../helpers/zoom';
+import { login } from '../../../helpers/login';
+import { rastgeleString } from '../../../helpers/stringUret';
+import { zoom } from '../../../helpers/zoom';
 
 test('Detay E-Belge Ayarları', async ({ page }) => {
+
+  console.log('===>  Detay E-Belge Ayarları  <===');
 
   // Önce sisteme giriş yap
   await login(page);
@@ -120,4 +122,6 @@ test('Detay E-Belge Ayarları', async ({ page }) => {
     }
     
   }
+
+
 }); 

@@ -1,9 +1,11 @@
 import { test, expect } from '@playwright/test';
-import { login } from '../../helpers/login';
-import { zoom } from '../../helpers/zoom';
-import { cihazEkle, cihazGuncelle, cihazlariBayidenGeriAl, cihazSil, cihazUyeIseyerindenGeriAl, cihazUyeIseyerineAta } from '../../helpers/cihazIslemleri';
+import { login } from '../../../helpers/login';
+import { zoom } from '../../../helpers/zoom';
+import { cihazEkle, cihazGuncelle, cihazlariBayidenGeriAl, cihazSil, cihazUyeIseyerindenGeriAl, cihazUyeIseyerineAta } from '../../../helpers/cihazIslemleri';
 
 test('Üye İşyerine Atalı Cihazları Bayiden Geri Alma', async ({ page }) => {
+
+  console.log('===>  Üye İşyerine Atalı Cihazları Bayiden Geri Alma  <===');
 
   // Önce sisteme giriş yap
   await login(page);
@@ -41,6 +43,5 @@ test('Üye İşyerine Atalı Cihazları Bayiden Geri Alma', async ({ page }) => 
   await cihazSil(page);
   await page.waitForTimeout(1000);
   await cihazSil(page);
-
 
 }); 

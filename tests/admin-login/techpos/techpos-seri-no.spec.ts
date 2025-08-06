@@ -1,10 +1,12 @@
 import { test, expect } from '@playwright/test';
-import { login } from '../../helpers/login';
-import { zoom } from '../../helpers/zoom';
+import { login } from '../../../helpers/login';
+import { zoom } from '../../../helpers/zoom';
 
 test('TechPOS - Seri No Grid Filtre', async ({ page }) => {
   
- // Bugünün tarihini konsola yazdır
+    console.log('===>  Techpos Seri No Grid Filtreleme  <===');
+
+    // Bugünün tarihini konsola yazdır
     const bugun = new Date();
     const tarihString = bugun.toLocaleDateString('tr-TR', {
         year: 'numeric',

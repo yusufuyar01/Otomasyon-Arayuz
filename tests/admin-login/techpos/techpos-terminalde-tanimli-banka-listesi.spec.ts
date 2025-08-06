@@ -1,8 +1,10 @@
 import { test, expect } from '@playwright/test';
-import { login } from '../../helpers/login';
-import { zoom } from '../../helpers/zoom';
+import { login } from '../../../helpers/login';
+import { zoom } from '../../../helpers/zoom';
 
 test('TechPOS Terminalde Tanımlı Banka Listesi', async ({ page }) => {
+
+    console.log('===>  Techpos Terminalde Tanımlı Banka Listesi  <===');
 
     await login(page);
     await zoom(page);
@@ -36,4 +38,5 @@ test('TechPOS Terminalde Tanımlı Banka Listesi', async ({ page }) => {
         console.log('❌ Bir sorun oluştu');
     }
 
+    
 }); 

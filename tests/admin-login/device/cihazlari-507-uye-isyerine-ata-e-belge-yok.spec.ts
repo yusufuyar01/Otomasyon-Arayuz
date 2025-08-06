@@ -1,9 +1,11 @@
 import { test, expect } from '@playwright/test';
-import { login } from '../../helpers/login';
-import { zoom } from '../../helpers/zoom';
-import { cihazEkle, cihazGuncelle, cihazlariBayidenGeriAl, cihazlariBayiyeAta, cihazlariBayiyeAta2, cihazlariBayiyeAta3, cihazSil, cihazUyeIseyerindenGeriAl, UyeIseyerineAta507 } from '../../helpers/cihazIslemleri';
+import { login } from '../../../helpers/login';
+import { zoom } from '../../../helpers/zoom'; 
+import { cihazEkle, cihazGuncelle, cihazlariBayiyeAta, cihazlariBayiyeAta2, cihazlariBayiyeAta3, cihazSil, cihazUyeIseyerindenGeriAl } from '../../../helpers/cihazIslemleri';
 
 test('Cihazları 507 Üye İşyerine Atama', async ({ page }) => {
+
+  console.log('===>  Cihazları 507 Üye İşyerine Atama (E-Belge Yok)  <===');
 
   // Önce sisteme giriş yap
   await login(page);
@@ -169,6 +171,5 @@ try {
   // Cihaz silme
   await cihazSil(page);
   await cihazSil(page);
-
 
 }); 

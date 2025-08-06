@@ -1,8 +1,10 @@
 import { test, expect } from '@playwright/test';
-import { login } from '../../helpers/login';
-import { zoom } from '../../helpers/zoom';
+import { login } from '../../../helpers/login';
+import { zoom } from '../../../helpers/zoom';
 
 test('Detay Payment type Ekleme', async ({ page }) => {
+
+  console.log('===>  Detay Payment Type Ekleme  <===');
 
   // Önce sisteme giriş yap
   await login(page);
@@ -57,4 +59,7 @@ test('Detay Payment type Ekleme', async ({ page }) => {
   await olusturButton.click();
   console.log('✅ Başarılı: Ödeme Tipi eklendi!');
   await page.waitForTimeout(1000);
+
+
+
 }); 

@@ -1,8 +1,10 @@
 import { test, expect } from '@playwright/test';
-import { login } from '../../helpers/login';
-import { zoom } from '../../helpers/zoom';
+import { login } from '../../../helpers/login';
+import { zoom } from '../../../helpers/zoom';
 
 test('Entegratör Ekleme', async ({ page }) => {
+
+  console.log('===>  Entegratör Ekleme  <===');
   
   // Önce sisteme giriş yap
   await login(page);
@@ -79,4 +81,6 @@ test('Entegratör Ekleme', async ({ page }) => {
   } catch (error) {
     console.log('⚠️ Başarı mesajı görünmedi, işlem tamamlanamadı olabilir.');
   }
+
+
 }); 

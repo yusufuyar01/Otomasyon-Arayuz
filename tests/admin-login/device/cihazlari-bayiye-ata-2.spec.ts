@@ -1,9 +1,11 @@
 import { test, expect } from '@playwright/test';
-import { login } from '../../helpers/login';
-import { zoom } from '../../helpers/zoom';
-import { cihazEkle, cihazGuncelle, cihazSil } from '../../helpers/cihazIslemleri';
+import { login } from '../../../helpers/login';
+import { zoom } from '../../../helpers/zoom';
+import { cihazEkle, cihazGuncelle, cihazSil } from '../../../helpers/cihazIslemleri';
 
 test('Cihazları Bayiye Atama (checkbox işaretli değil)', async ({ page }) => {
+
+  console.log('===>  Cihazları Bayiye Atama (checkbox işaretli değil)  <===');
 
   // Önce sisteme giriş yap
   await login(page);
@@ -180,6 +182,5 @@ test('Cihazları Bayiye Atama (checkbox işaretli değil)', async ({ page }) => 
     // Cihaz silme
     await cihazSil(page);
     await cihazSil(page);
-
-
+    
 }); 

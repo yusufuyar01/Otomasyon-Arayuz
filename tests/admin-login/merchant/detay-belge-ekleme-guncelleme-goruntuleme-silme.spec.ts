@@ -1,12 +1,14 @@
 import { test, expect } from '@playwright/test';
-import { login } from '../../helpers/login';
-import { zoom } from '../../helpers/zoom';
-import { vknUret } from '../../helpers/vknUret';
-import { rastgeleString } from '../../helpers/stringUret';
-import { ePostaUret } from '../../helpers/ePostaUret';
-import { telNoUret } from '../../helpers/telNoUret';
+import { login } from '../../../helpers/login';
+import { zoom } from '../../../helpers/zoom';
+import { vknUret } from '../../../helpers/vknUret';
+import { rastgeleString } from '../../../helpers/stringUret';
+import { ePostaUret } from '../../../helpers/ePostaUret';
+import { telNoUret } from '../../../helpers/telNoUret';
 
 test('Detay Belge Ekleme, Güncelleme, Görüntüleme ve Silme', async ({ page }) => {
+
+  console.log('===>  Detay Belge Ekleme, Güncelleme, Görüntüleme ve Silme  <===');
 
   // Önce sisteme giriş yap
   await login(page);
@@ -414,4 +416,5 @@ test('Detay Belge Ekleme, Güncelleme, Görüntüleme ve Silme', async ({ page }
       } catch (error) {
         console.log('❌ Başarı mesajı kontrol edilirken hata oluştu:', error.message);
       }
+
 }); 
