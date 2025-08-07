@@ -82,6 +82,4 @@ test('Entegratör Ekleme', async ({ page }) => {
     console.log('⚠️ Başarı mesajı görünmedi, işlem tamamlanamadı olabilir.');
   }
 
-  await page.pause();
-
 }); 

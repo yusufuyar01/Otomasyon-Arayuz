@@ -113,7 +113,4 @@ test('Detay kullanıcı ekle ve güncelle mail at (reseller login)', async ({ pa
 
   await uyeIsyeriSil(page, isyeriAdi);
 
-
-   await page.pause();
-
 }); 

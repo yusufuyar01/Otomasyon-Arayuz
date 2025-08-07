@@ -60,14 +60,4 @@ test('Detay Payment type Ekleme', async ({ page }) => {
   console.log('✅ Başarılı: Ödeme Tipi eklendi!');
   await page.waitForTimeout(1000);
 
-
-
-
-
-
-
-  
-  // Test sonunda ekranın kapanmasını engellemek için pause
-  await page.pause();
-
 }); 
