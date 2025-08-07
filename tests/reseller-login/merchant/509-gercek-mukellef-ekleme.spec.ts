@@ -308,4 +308,7 @@ test('509 Gerçek Mükellef Ekleme (reseller-login)', async ({ page }) => {
     }
       
 
+     // Test sonunda ekranın kapanmasını engellemek için pause
+    await page.pause();
+
 }); 

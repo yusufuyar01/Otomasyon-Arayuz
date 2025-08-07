@@ -134,4 +134,9 @@ test('Tip, Vergi Tipi ve Yetkili bayi Değiştirme', async ({ page }) => {
   await page.waitForTimeout(2000);
 
 
+
+
+  // Test sonunda ekranın kapanmasını engellemek için pause
+  await page.pause();
+
 }); 

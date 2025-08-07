@@ -328,9 +328,15 @@ app.get('/tests', (req, res) => {
         category: 'reseller-login/merchant'
       },
       {
-        name: 'Detay Belge Ekleme Güncelleme Görüntüleme Silme Reseller Login',
+        name: 'Detay Belge Ekleme Güncelleme Görüntüleme Silme (reseller login)',
         file: 'reseller-login/merchant/detay-iletisim-bilgisi-ekle-guncelle.spec.ts',
         path: 'tests/reseller-login/merchant/detay-iletisim-bilgisi-ekle-guncelle.spec.ts',
+        category: 'reseller-login/merchant'
+      },
+      {
+        name: 'Detay Kullanıcı Ekle ve Güncelle Mail At (reseller login)',
+        file: 'reseller-login/merchant/detay-kullanici-ekle-guncelle-mail-at.spec.ts',
+        path: 'tests/reseller-login/merchant/detay-kullanici-ekle-guncelle-mail-at.spec.ts',
         category: 'reseller-login/merchant'
       }
     ];

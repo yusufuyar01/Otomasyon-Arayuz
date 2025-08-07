@@ -61,4 +61,13 @@ test('Detay Payment type Ekleme', async ({ page }) => {
   await page.waitForTimeout(1000);
 
 
+
+
+
+
+
+  
+  // Test sonunda ekranın kapanmasını engellemek için pause
+  await page.pause();
+
 }); 

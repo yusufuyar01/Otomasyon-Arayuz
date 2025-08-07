@@ -369,5 +369,7 @@ test('507 Gerçek Mükellef Ekleme (reseller-login)', async ({ page }) => {
         console.log('❌ Başarı mesajı kontrol edilirken hata oluştu:', error.message);
       }
 
+     // Test sonunda ekranın kapanmasını engellemek için pause
+    await page.pause();
 
 }); 

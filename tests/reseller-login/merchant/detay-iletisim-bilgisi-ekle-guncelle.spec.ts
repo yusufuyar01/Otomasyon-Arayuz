@@ -395,16 +395,6 @@ await page.waitForTimeout(1000);
     }
   
 
-  
-
-
-
-
-
-
-
-
-
       // ===== ADIM 7: Üye İşyeri Silme =====
       try {
         // İlk DENEME satırını bul ve expand details butonuna tıkla
@@ -434,4 +424,6 @@ await page.waitForTimeout(1000);
         console.log('❌ Başarı mesajı kontrol edilirken hata oluştu:', error.message);
       }
   
+  await page.pause();
+
 }); 
