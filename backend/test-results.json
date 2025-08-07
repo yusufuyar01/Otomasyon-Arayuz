@@ -478,5 +478,15 @@
     "endTime": "2025-08-07T10:50:13.696Z",
     "duration": 54,
     "lastRun": "2025-08-07T10:50:13.696Z"
+  },
+  "reseller-login/merchant/detay-group-user.spec.ts": {
+    "success": true,
+    "output": "\nRunning 1 test using 1 worker\n\n\u001b[1A\u001b[2K[1/1] tests\\reseller-login\\merchant\\detay-group-user.spec.ts:8:5 › Detay kULLANICILARI GRUBA EKLE VE ÇIKAR (reseller login)\n\u001b[1A\u001b[2Ktests\\reseller-login\\merchant\\detay-group-user.spec.ts:8:5 › Detay kULLANICILARI GRUBA EKLE VE ÇIKAR (reseller login)\n===>  Detay grup kullanıcı ekle ve güncelle (reseller login)  <===\n\n\u001b[1A\u001b[2KÜretilen VKN: 8742829433\n\n\u001b[1A\u001b[2KÜretilen E-posta: iiz3bs6tosug99e@gmail.com\n\n\u001b[1A\u001b[2KÜretilen Telefon Numarası: +90 58 104 22 97\n\n\u001b[1A\u001b[2K✅ Başarılı: Üye İşyeri başarıyla eklendi! (507-Tüzel Mükellef)\n\n\u001b[1A\u001b[2K🎯 Seçilen üye işyeri: DENEMEIZ5F6\n\n\u001b[1A\u001b[2K✅ Başarılı: Kullanıcı başarıyla oluşturuldu!\n\n\u001b[1A\u001b[2K✅ Başarılı: Kullanıcı başarıyla gruba eklendi!\n\n\u001b[1A\u001b[2K✅ Başarılı: Kullanıcı gruptan silindi!\n\n\u001b[1A\u001b[2K✅ Başarılı: Üye İşyeri başarıyla silindi!\n\n\u001b[1A\u001b[2K  1 passed (52.0s)\n",
+    "stderr": "",
+    "error": null,
+    "startTime": "2025-08-07T12:15:27.714Z",
+    "endTime": "2025-08-07T12:16:22.561Z",
+    "duration": 55,
+    "lastRun": "2025-08-07T12:16:22.561Z"
   }
 }

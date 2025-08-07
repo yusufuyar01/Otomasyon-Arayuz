@@ -5,9 +5,9 @@ import { uyeIsyeriEkle507Tuzel, uyeIsyeriSil } from '../../../helpers/uyeIsyeriI
 import { ePostaUret } from '../../../helpers/ePostaUret';
 import { telNoUret } from '../../../helpers/telNoUret';
 
-test('Detay kullanıcı ekle ve güncelle mail at (reseller login)', async ({ page }) => {
+test('Detay kULLANICILARI GRUBA EKLE VE ÇIKAR (reseller login)', async ({ page }) => {
 
-  console.log('===>  Detay kullanıcı ekle ve güncelle mail at (reseller login)  <===');
+  console.log('===>  Detay grup kullanıcı ekle ve güncelle (reseller login)  <===');
 
   // Önce sisteme giriş yap
   await login2(page);
@@ -27,11 +27,10 @@ test('Detay kullanıcı ekle ve güncelle mail at (reseller login)', async ({ pa
   await uyeIsyeri.click();
   await page.waitForTimeout(500);
 
-  // ===== ADIM 3: Üye İşyeri Ekleme=====
+  // ===== ADIM 3: Üye İşyeri Ekleme =====
   const isyeriAdi = await uyeIsyeriEkle507Tuzel(page);
 
-
-  // ===== ADIM 4: Detay Menü =====
+// ===== ADIM 4: Detay Menü =====
   console.log(`🎯 Seçilen üye işyeri: ${isyeriAdi}`);
 
   try {
@@ -45,7 +44,7 @@ test('Detay kullanıcı ekle ve güncelle mail at (reseller login)', async ({ pa
   // const firstRowExpand = page.locator('tr:nth-child(3) > .k-hierarchy-cell');
   // await firstRowExpand.click();
 
-  // ===== ADIM 5: Kullanıcı Ekleme =====
+  // ===== ADIM 5: Kullanıcı Ekleme (Grup atamasıyla) =====
   await page.getByText('Kullanıcılar', { exact: true }).click();
   await page.getByRole('button', { name: '+ Yeni' }).click();
   await page.locator('ot-data-entry-template').filter({ hasText: 'Adı Soyadı' }).getByRole('textbox').click();
@@ -76,8 +75,12 @@ test('Detay kullanıcı ekle ve güncelle mail at (reseller login)', async ({ pa
   await page.waitForTimeout(1000);
 
 
-  // ===== ADIM 6: Kullanıcı Güncelleme =====
+  // ===== ADIM 6: Kullanıcı Güncelleme üzerinden grup ekleme =====
   await page.getByLabel('Kullanıcılar').getByRole('button', { name: '' }).nth(1).click();
+  await page.getByRole('combobox').filter({ hasText: /^$/ }).click();
+  await page.getByRole('option', { name: isyeriAdi }).nth(1).click();
+  await page.getByRole('option', { name: isyeriAdi }).nth(2).click();
+  await page.getByRole('heading', { name: 'Üye İşyeri Kullanıcısı Gü' }).click();
   await page.getByRole('button', { name: 'Güncelle' }).click();
 
   try {
@@ -85,7 +88,7 @@ test('Detay kullanıcı ekle ve güncelle mail at (reseller login)', async ({ pa
     await basariMesaji.waitFor();
     await basariMesaji.click();
     if (basariMesaji) {
-      console.log('✅ Başarılı: Kullanıcı başarıyla güncellendi!');
+      console.log('✅ Başarılı: Kullanıcı başarıyla gruba eklendi!');
     } else {
       console.log('❌ Başarı mesajı bulunamadı');
     }
@@ -94,15 +97,22 @@ test('Detay kullanıcı ekle ve güncelle mail at (reseller login)', async ({ pa
   }
   await page.waitForTimeout(1000);
 
-  // ===== ADIM 7: Mail At =====
-  await page.getByRole('button', { name: '' }).nth(1).click();
-  
+
+
+  // ===== ADIM 7: Kullanıcı Güncelleme üzerinden gruptan silme =====
+  await page.getByLabel('Kullanıcılar').getByRole('button', { name: '' }).nth(1).click();
+  await page.getByRole('combobox').filter({ hasText: /^$/ }).click();
+  await page.getByRole('combobox').filter({ hasText: /^$/ }).press('Backspace');
+  await page.getByRole('combobox').filter({ hasText: /^$/ }).press('Backspace');
+  await page.getByText('Aktif', { exact: true }).click();
+  await page.getByRole('button', { name: 'Güncelle' }).click();
+
   try {
-    const basariMesaji = page.getByText('Başarılı Kullanıcı hesabı');
+    const basariMesaji = page.getByText('Başarılı Üye İşyeri kullanıcı');
     await basariMesaji.waitFor();
     await basariMesaji.click();
     if (basariMesaji) {
-      console.log('✅ Başarılı: Kullanıcı hesabı başarıyla mail atıldı!');
+      console.log('✅ Başarılı: Kullanıcı gruptan silindi!');
     } else {
       console.log('❌ Başarı mesajı bulunamadı');
     }
@@ -111,9 +121,10 @@ test('Detay kullanıcı ekle ve güncelle mail at (reseller login)', async ({ pa
   }
   await page.waitForTimeout(1000);
 
+
+  // ===== ADIM 8: Temizlik =====
   await uyeIsyeriSil(page, isyeriAdi);
 
+  await page.pause();
 
-   await page.pause();
-
-}); 
+});

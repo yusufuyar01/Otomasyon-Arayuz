@@ -338,6 +338,12 @@ app.get('/tests', (req, res) => {
         file: 'reseller-login/merchant/detay-kullanici-ekle-guncelle-mail-at.spec.ts',
         path: 'tests/reseller-login/merchant/detay-kullanici-ekle-guncelle-mail-at.spec.ts',
         category: 'reseller-login/merchant'
+      },
+      {
+        name: 'Detay kullanıcıları gruba ekle ve çıkar (reseller login)',
+        file: 'reseller-login/merchant/detay-group-user.spec.ts',
+        path: 'tests/reseller-login/merchant/detay-group-user.spec.ts',
+        category: 'reseller-login/merchant'
       }
     ];
 
