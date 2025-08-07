@@ -5,9 +5,9 @@ import { uyeIsyeriEkle507Tuzel, uyeIsyeriSil } from '../../../helpers/uyeIsyeriI
 import { ePostaUret } from '../../../helpers/ePostaUret';
 import { telNoUret } from '../../../helpers/telNoUret';
 
-test('Detay kULLANICILARI GRUBA EKLE VE ÇIKAR (reseller login)', async ({ page }) => {
+test('Detay kullanıcıları gruba ekle ve çıkar (reseller login)', async ({ page }) => {
 
-  console.log('===>  Detay grup kullanıcı ekle ve güncelle (reseller login)  <===');
+  console.log('===>  Detay kullanıcıları gruba ekle ve çıkar (reseller login)  <===');
 
   // Önce sisteme giriş yap
   await login2(page);
