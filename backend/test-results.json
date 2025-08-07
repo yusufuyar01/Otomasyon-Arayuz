@@ -320,14 +320,14 @@
     "lastRun": "2025-08-03T12:51:05.890Z"
   },
   "admin-login/sales-terminal/satislarim-filtrele.spec.ts": {
-    "success": false,
-    "output": "\nRunning 1 test using 1 worker\n\n\u001b[1A\u001b[2K[1/1] tests\\sales-terminal\\satislarim-filtrele.spec.ts:5:5 › Satışlarım Filtreleme İşlemleri\n\u001b[1A\u001b[2Ktests\\sales-terminal\\satislarim-filtrele.spec.ts:5:5 › Satışlarım Filtreleme İşlemleri\n📅 Bugünün tarihi: 3 Ağustos 2025 Pazar\n\n\u001b[1A\u001b[2K📅 20 gün öncesi: 14 Temmuz 2025 Pazartesi\n\n\u001b[1A\u001b[2K🔍 Seçilecek tarih: \"14 Temmuz 2025 Pazartesi\"\n\n\u001b[1A\u001b[2K  1) tests\\sales-terminal\\satislarim-filtrele.spec.ts:5:5 › Satışlarım Filtreleme İşlemleri ────────\n\n    Error: locator.click: Target page, context or browser has been closed\n    Call log:\n    \u001b[2m  - waiting for getByTitle('14 Temmuz 2025 Pazartesi').locator('span')\u001b[22m\n\n\n      74 |\n      75 |     \n    > 76 |     await page.getByTitle(titleText).locator('span').click();\n         |                                                      ^\n      77 |     await page.waitForTimeout(1000);\n      78 |\n      79 |     await page.locator('ot-data-entry-template').filter({ hasText: 'Bitiş Tarihi' }).getByLabel('Takvimden seç').click();\n        at C:\\Users\\uyary\\Desktop\\Otomasyon-Arayuz\\tests\\sales-terminal\\satislarim-filtrele.spec.ts:76:54\n\n\n\u001b[1A\u001b[2K  1 failed\n    tests\\sales-terminal\\satislarim-filtrele.spec.ts:5:5 › Satışlarım Filtreleme İşlemleri ─────────\n",
+    "success": true,
+    "output": "\nRunning 1 test using 1 worker\n\n\u001b[1A\u001b[2K[1/1] tests\\admin-login\\sales-terminal\\satislarim-filtrele.spec.ts:5:5 › Satışlarım Filtreleme İşlemleri\n\u001b[1A\u001b[2Ktests\\admin-login\\sales-terminal\\satislarim-filtrele.spec.ts:5:5 › Satışlarım Filtreleme İşlemleri\n===>  Satışlarım Filtreleme İşlemleri  <===\n\n\u001b[1A\u001b[2K📅 Bugünün tarihi: 7 Ağustos 2025 Perşembe\n\n\u001b[1A\u001b[2K📅 20 gün öncesi: 18 Temmuz 2025 Cuma\n\n\u001b[1A\u001b[2K🔍  30 Gün Öncesi Seçildi\n\n\u001b[1A\u001b[2K🔍 Seçilecek başlangıç tarihi: \"18 Temmuz 2025 Cuma\"\n\n\u001b[1A\u001b[2K✅ Filtreleme başarılı\n\n\u001b[1A\u001b[2K  1 passed (17.9s)\n",
     "stderr": "",
-    "error": "Command failed: npx playwright test tests/sales-terminal/satislarim-filtrele.spec.ts --headed --timeout=120000 --reporter=line\n",
-    "startTime": "2025-08-03T12:51:44.735Z",
-    "endTime": "2025-08-03T12:52:15.927Z",
-    "duration": 31,
-    "lastRun": "2025-08-03T12:52:15.927Z"
+    "error": null,
+    "startTime": "2025-08-07T06:53:21.600Z",
+    "endTime": "2025-08-07T06:53:41.487Z",
+    "duration": 20,
+    "lastRun": "2025-08-07T06:53:41.487Z"
   },
   "admin-login/techpos/grup-ata-ve-terminal-guncelle.spec.ts": {
     "success": true,
