@@ -350,6 +350,12 @@ app.get('/tests', (req, res) => {
         file: 'reseller-login/merchant/detay-belge-ekleme-guncelleme-goruntuleme-silme.spec.ts',
         path: 'tests/reseller-login/merchant/detay-belge-ekleme-guncelleme-goruntuleme-silme.spec.ts',
         category: 'reseller-login/merchant'
+      },
+      {
+        name: 'Detay Satış Uygulamaları (reseller login)',
+        file: 'reseller-login/merchant/detay-satis-uygulamalari.spec.ts',
+        path: 'tests/reseller-login/merchant/detay-satis-uygulamalari.spec.ts',
+        category: 'reseller-login/merchant'
       }
     ];
 
