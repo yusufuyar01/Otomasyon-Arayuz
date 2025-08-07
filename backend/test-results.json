@@ -488,5 +488,15 @@
     "endTime": "2025-08-07T12:16:22.561Z",
     "duration": 55,
     "lastRun": "2025-08-07T12:16:22.561Z"
+  },
+  "reseller-login/merchant/detay-satis-uygulamalari.spec.ts": {
+    "success": true,
+    "output": "\nRunning 1 test using 1 worker\n\n\u001b[1A\u001b[2K[1/1] tests\\reseller-login\\merchant\\detay-satis-uygulamalari.spec.ts:7:5 › Detay Satış Uygulamaları (reseller login)\n\u001b[1A\u001b[2Ktests\\reseller-login\\merchant\\detay-satis-uygulamalari.spec.ts:7:5 › Detay Satış Uygulamaları (reseller login)\n===>  Detay Satış Uygulamaları (reseller login)  <===\n\n\u001b[1A\u001b[2KÜretilen TC No: 66621256554\n\n\u001b[1A\u001b[2KÜretilen E-posta: km3j98cwb3g@gmail.com\n\n\u001b[1A\u001b[2KÜretilen Telefon Numarası: +90 51 146 71 41\n\n\u001b[1A\u001b[2K✅ Başarılı: Üye İşyeri başarıyla eklendi! (509-Gerçek Mükellef)\n\n\u001b[1A\u001b[2K🎯 Seçilen üye işyeri: DENEMEZ81VX\n\n\u001b[1A\u001b[2K✅ Başarılı: Satış Uygulaması başarıyla oluşturuldu!\n\n\u001b[1A\u001b[2K✅ Başarılı: Satış Uygulaması başarıyla güncellendi!\n\n\u001b[1A\u001b[2K✅ Başarılı: Satış Uygulaması başarıyla silindi!\n\n\u001b[1A\u001b[2K✅ Başarılı: Üye İşyeri başarıyla silindi!\n\n\u001b[1A\u001b[2K  1 passed (40.5s)\n",
+    "stderr": "",
+    "error": null,
+    "startTime": "2025-08-07T15:58:42.563Z",
+    "endTime": "2025-08-07T15:59:25.602Z",
+    "duration": 43,
+    "lastRun": "2025-08-07T15:59:25.602Z"
   }
 }
