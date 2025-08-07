@@ -344,6 +344,12 @@ app.get('/tests', (req, res) => {
         file: 'reseller-login/merchant/detay-group-user.spec.ts',
         path: 'tests/reseller-login/merchant/detay-group-user.spec.ts',
         category: 'reseller-login/merchant'
+      },
+      {
+        name: 'Detay Belge Ekleme, Güncelleme, Görüntüleme ve Silme (reseller login)',
+        file: 'reseller-login/merchant/detay-belge-ekleme-guncelleme-goruntuleme-silme.spec.ts',
+        path: 'tests/reseller-login/merchant/detay-belge-ekleme-guncelleme-goruntuleme-silme.spec.ts',
+        category: 'reseller-login/merchant'
       }
     ];
 
