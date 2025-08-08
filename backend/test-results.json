@@ -498,5 +498,25 @@
     "endTime": "2025-08-07T15:59:25.602Z",
     "duration": 43,
     "lastRun": "2025-08-07T15:59:25.602Z"
+  },
+  "reseller-login/merchant/detay-odeme-tipleri.spec.ts": {
+    "success": true,
+    "output": "\nRunning 1 test using 1 worker\n\n\u001b[1A\u001b[2K[1/1] tests\\reseller-login\\merchant\\detay-odeme-tipleri.spec.ts:7:5 › Detay Ödeme Tipleri (reseller login)\n\u001b[1A\u001b[2Ktests\\reseller-login\\merchant\\detay-odeme-tipleri.spec.ts:7:5 › Detay Ödeme Tipleri (reseller login)\n===>  Detay Ödeme Tipleri (reseller login)  <===\n\n\u001b[1A\u001b[2KÜretilen TC No: 14533234634\n\n\u001b[1A\u001b[2KÜretilen E-posta: cpjm1bbp@gmail.com\n\n\u001b[1A\u001b[2KÜretilen Telefon Numarası: +90 54 509 00 06\n\n\u001b[1A\u001b[2K✅ Başarılı: Üye İşyeri başarıyla eklendi! (509-Gerçek Mükellef)\n\n\u001b[1A\u001b[2K🎯 Seçilen üye işyeri: DENEMEGMSKZ\n\n\u001b[1A\u001b[2K✅ Başarılı: Ödeme Tipi başarıyla oluşturuldu!\n\n\u001b[1A\u001b[2K✅ Başarılı: Ödeme Tipi başarıyla güncellendi!\n\n\u001b[1A\u001b[2K✅ Başarılı: Ödeme Tipi başarıyla silindi!\n\n\u001b[1A\u001b[2K✅ Başarılı: Üye İşyeri başarıyla silindi!\n\n\u001b[1A\u001b[2K  1 passed (47.1s)\n",
+    "stderr": "",
+    "error": null,
+    "startTime": "2025-08-08T14:11:19.998Z",
+    "endTime": "2025-08-08T14:12:08.785Z",
+    "duration": 49,
+    "lastRun": "2025-08-08T14:12:08.785Z"
+  },
+  "reseller-login/merchant/odemesi-olan-uye-isyeri-sil.spec.ts": {
+    "success": true,
+    "output": "\nRunning 1 test using 1 worker\n\n\u001b[1A\u001b[2K[1/1] tests\\reseller-login\\merchant\\odemesi-olan-uye-isyeri-sil.spec.ts:6:5 › Ödemesi Olan Üye İşyeri Silme (reseller-login)\n\u001b[1A\u001b[2Ktests\\reseller-login\\merchant\\odemesi-olan-uye-isyeri-sil.spec.ts:6:5 › Ödemesi Olan Üye İşyeri Silme (reseller-login)\n===>  Ödemesi Olan Üye İşyeri Silme (reseller-login)  <===\n\n\u001b[1A\u001b[2K❌ Üye İşyeri silinemedi! (Beklenen durum. Test başarılı)\n\n\u001b[1A\u001b[2K  1 passed (41.9s)\n",
+    "stderr": "",
+    "error": null,
+    "startTime": "2025-08-08T14:12:15.655Z",
+    "endTime": "2025-08-08T14:12:59.741Z",
+    "duration": 44,
+    "lastRun": "2025-08-08T14:12:59.741Z"
   }
 }
