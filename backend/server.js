@@ -356,6 +356,26 @@ app.get('/tests', (req, res) => {
         file: 'reseller-login/merchant/detay-satis-uygulamalari.spec.ts',
         path: 'tests/reseller-login/merchant/detay-satis-uygulamalari.spec.ts',
         category: 'reseller-login/merchant'
+      },
+      {
+        name: 'Detay Ödeme Tipleri (reseller login)',
+        file: 'reseller-login/merchant/detay-odeme-tipleri.spec.ts',
+        path: 'tests/reseller-login/merchant/detay-odeme-tipleri.spec.ts',
+        category: 'reseller-login/merchant'
+      },
+
+
+
+//aradaki testler
+
+
+
+
+      {
+        name: 'Ödemesi Olan Üye İşyeri Sil (reseller login)',
+        file: 'reseller-login/merchant/odemesi-olan-uye-isyeri-sil.spec.ts',
+        path: 'tests/reseller-login/merchant/odemesi-olan-uye-isyeri-sil.spec.ts',
+        category: 'reseller-login/merchant'
       }
     ];
 
