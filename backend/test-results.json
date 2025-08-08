@@ -51,43 +51,43 @@
   },
   "admin-login/merchant/detay-e-belge-ayarlari.spec.ts": {
     "success": true,
-    "output": "\nRunning 1 test using 1 worker\n\n\u001b[1A\u001b[2K[1/1] tests\\merchant\\detay-e-belge-ayarlari.spec.ts:6:5 › Detay E-Belge Ayarları\n\u001b[1A\u001b[2Ktests\\merchant\\detay-e-belge-ayarlari.spec.ts:6:5 › Detay E-Belge Ayarları\n🎯 Rastgele seçilen satır numarası: 9\n\n\u001b[1A\u001b[2K✅ Entegratör mesajı görünmedi, E-Belge Ayarları devam ediyor...\n\n\u001b[1A\u001b[2K✅ Seçilen Belge Türü: E-Fatura\n\n\u001b[1A\u001b[2K✅ Üye İşyeri E-Belge Ayarları başarıyla oluşturuldu\n\n\u001b[1A\u001b[2K  1 passed (18.5s)\n",
+    "output": "\nRunning 1 test using 1 worker\n\n\u001b[1A\u001b[2K[1/1] tests\\admin-login\\merchant\\detay-e-belge-ayarlari.spec.ts:6:5 › Detay E-Belge Ayarları\n\u001b[1A\u001b[2Ktests\\admin-login\\merchant\\detay-e-belge-ayarlari.spec.ts:6:5 › Detay E-Belge Ayarları\n===>  Detay E-Belge Ayarları  <===\n\n\u001b[1A\u001b[2K🎯 Rastgele seçilen satır numarası: 10\n\n\u001b[1A\u001b[2K✅ Entegratör mesajı görünmedi, E-Belge Ayarları devam ediyor...\n\n\u001b[1A\u001b[2K ❌ Belge Türü E-Belge Ayarı zaten kayıtlı\n\n\u001b[1A\u001b[2K  1 passed (16.7s)\n",
     "stderr": "",
     "error": null,
-    "startTime": "2025-08-03T11:42:40.006Z",
-    "endTime": "2025-08-03T11:43:07.786Z",
-    "duration": 28,
-    "lastRun": "2025-08-03T11:43:07.786Z"
+    "startTime": "2025-08-08T11:46:46.447Z",
+    "endTime": "2025-08-08T11:47:05.406Z",
+    "duration": 19,
+    "lastRun": "2025-08-08T11:47:05.406Z"
   },
   "admin-login/merchant/detay-entegrator-ekleme.spec.ts": {
     "success": true,
-    "output": "\nRunning 1 test using 1 worker\n\n\u001b[1A\u001b[2K[1/1] tests\\merchant\\detay-entegrator-ekleme.spec.ts:5:5 › Entegratör Ekleme\n\u001b[1A\u001b[2Ktests\\merchant\\detay-entegrator-ekleme.spec.ts:5:5 › Entegratör Ekleme\n🎯 Rastgele seçilen satır numarası: 6\n\n\u001b[1A\u001b[2K🎯 Rastgele seçilen entegratör:  test entegratörü \n\n\u001b[1A\u001b[2K✅ Entegratör başarıyla eklendi\n\n\u001b[1A\u001b[2K  1 passed (16.8s)\n",
+    "output": "\nRunning 1 test using 1 worker\n\n\u001b[1A\u001b[2K[1/1] tests\\admin-login\\merchant\\detay-entegrator-ekleme.spec.ts:5:5 › Entegratör Ekleme\n\u001b[1A\u001b[2Ktests\\admin-login\\merchant\\detay-entegrator-ekleme.spec.ts:5:5 › Entegratör Ekleme\n===>  Entegratör Ekleme  <===\n\n\u001b[1A\u001b[2K🎯 Rastgele seçilen satır numarası: 10\n\n\u001b[1A\u001b[2K🎯 Rastgele seçilen entegratör:  EDM Bilişim \n\n\u001b[1A\u001b[2K✅ Entegratör başarıyla eklendi\n\n\u001b[1A\u001b[2K  1 passed (13.8s)\n",
     "stderr": "",
     "error": null,
-    "startTime": "2025-08-03T11:43:41.440Z",
-    "endTime": "2025-08-03T11:44:00.282Z",
-    "duration": 19,
-    "lastRun": "2025-08-03T11:44:00.282Z"
+    "startTime": "2025-08-08T11:47:44.954Z",
+    "endTime": "2025-08-08T11:48:00.494Z",
+    "duration": 16,
+    "lastRun": "2025-08-08T11:48:00.494Z"
   },
   "admin-login/merchant/detay-payment-type-ekleme.spec.ts": {
     "success": true,
-    "output": "\nRunning 1 test using 1 worker\n\n\u001b[1A\u001b[2K[1/1] tests\\merchant\\detay-payment-type-ekleme.spec.ts:5:5 › Detay Payment type Ekleme\n\u001b[1A\u001b[2Ktests\\merchant\\detay-payment-type-ekleme.spec.ts:5:5 › Detay Payment type Ekleme\n✅ Başarılı: Ödeme Tipi eklendi!\n\n\u001b[1A\u001b[2K  1 passed (17.7s)\n",
+    "output": "\nRunning 1 test using 1 worker\n\n\u001b[1A\u001b[2K[1/1] tests\\admin-login\\merchant\\detay-payment-type-ekleme.spec.ts:5:5 › Detay Payment type Ekleme\n\u001b[1A\u001b[2Ktests\\admin-login\\merchant\\detay-payment-type-ekleme.spec.ts:5:5 › Detay Payment type Ekleme\n===>  Detay Payment Type Ekleme  <===\n\n\u001b[1A\u001b[2K✅ Başarılı: Ödeme Tipi eklendi!\n\n\u001b[1A\u001b[2K  1 passed (15.8s)\n",
     "stderr": "",
     "error": null,
-    "startTime": "2025-08-03T11:47:38.604Z",
-    "endTime": "2025-08-03T11:47:58.035Z",
-    "duration": 19,
-    "lastRun": "2025-08-03T11:47:58.035Z"
+    "startTime": "2025-08-08T11:48:25.114Z",
+    "endTime": "2025-08-08T11:48:42.632Z",
+    "duration": 18,
+    "lastRun": "2025-08-08T11:48:42.632Z"
   },
   "admin-login/merchant/tip-vergi-tipi-ve-yetkili-bayi-degistirme.spec.ts": {
     "success": true,
-    "output": "\nRunning 1 test using 1 worker\n\n\u001b[1A\u001b[2K[1/1] tests\\merchant\\tip-vergi-tipi-ve-yetkili-bayi-degistirme.spec.ts:8:5 › Tip, Vergi Tipi ve Yetkili bayi Değiştirme\n\u001b[1A\u001b[2Ktests\\merchant\\tip-vergi-tipi-ve-yetkili-bayi-degistirme.spec.ts:8:5 › Tip, Vergi Tipi ve Yetkili bayi Değiştirme\n🎯 Rastgele seçilen satır numarası: 6\n\n\u001b[1A\u001b[2KÜretilen TC No: 66671478296\n\n\u001b[1A\u001b[2K🎯 Dropdown'dan rastgele seçilen seçenek indeksi: 382\n\n\u001b[1A\u001b[2K✅ Başarılı! Güncelle işlemi başarıyla gerçekleştirildi\n\n\u001b[1A\u001b[2K  1 passed (20.3s)\n",
+    "output": "\nRunning 1 test using 1 worker\n\n\u001b[1A\u001b[2K[1/1] tests\\admin-login\\merchant\\tip-vergi-tipi-ve-yetkili-bayi-degistirme.spec.ts:8:5 › Tip, Vergi Tipi ve Yetkili bayi Değiştirme\n\u001b[1A\u001b[2Ktests\\admin-login\\merchant\\tip-vergi-tipi-ve-yetkili-bayi-degistirme.spec.ts:8:5 › Tip, Vergi Tipi ve Yetkili bayi Değiştirme\n===>  Tip, Vergi Tipi ve Yetkili bayi Değiştirme  <===\n\n\u001b[1A\u001b[2K🎯 Rastgele seçilen satır numarası: 10\n\n\u001b[1A\u001b[2KÜretilen TC No: 88442163972\n\n\u001b[1A\u001b[2K🎯 Dropdown'dan rastgele seçilen seçenek indeksi: 336\n\n\u001b[1A\u001b[2K✅ Başarılı! Güncelle işlemi başarıyla gerçekleştirildi\n\n\u001b[1A\u001b[2K  1 passed (20.9s)\n",
     "stderr": "",
     "error": null,
-    "startTime": "2025-08-04T07:38:32.897Z",
-    "endTime": "2025-08-04T07:38:54.836Z",
-    "duration": 22,
-    "lastRun": "2025-08-04T07:38:54.836Z"
+    "startTime": "2025-08-08T11:48:46.318Z",
+    "endTime": "2025-08-08T11:49:08.979Z",
+    "duration": 23,
+    "lastRun": "2025-08-08T11:49:08.979Z"
   },
   "admin-login/reseller/bayi-guncelle.spec.ts": {
     "success": true,
