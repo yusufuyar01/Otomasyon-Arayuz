@@ -1,13 +1,13 @@
 {
   "admin-login/merchant/507-gercek-mukellef-ekleme.spec.ts": {
     "success": true,
-    "output": "\nRunning 1 test using 1 worker\n\n\u001b[1A\u001b[2K[1/1] tests\\merchant\\507-gercek-mukellef-ekleme.spec.ts:9:5 › 507 Gerçek Mükellef Ekleme\n\u001b[1A\u001b[2Ktests\\merchant\\507-gercek-mukellef-ekleme.spec.ts:9:5 › 507 Gerçek Mükellef Ekleme\nÜretilen TC No: 49906812492\n\n\u001b[1A\u001b[2KÜretilen E-posta: raig5j@gmail.com\n\n\u001b[1A\u001b[2KÜretilen Telefon Numarası: +90 51 583 13 12\n\n\u001b[1A\u001b[2K✅ Başarılı: Üye İşyeri başarıyla eklendi! (507-Gerçek Mükellef)\n\n\u001b[1A\u001b[2K✅ Başarılı: Üye İşyeri başarıyla silindi!\n\n\u001b[1A\u001b[2K  1 passed (37.0s)\n",
+    "output": "\nRunning 1 test using 1 worker\n\n\u001b[1A\u001b[2K[1/1] tests\\admin-login\\merchant\\507-gercek-mukellef-ekleme.spec.ts:9:5 › 507 Gerçek Mükellef Ekleme\n\u001b[1A\u001b[2Ktests\\admin-login\\merchant\\507-gercek-mukellef-ekleme.spec.ts:9:5 › 507 Gerçek Mükellef Ekleme\n===>  507 Gerçek Mükellef Ekleme  <===\n\n\u001b[1A\u001b[2KÜretilen TC No: 75200709572\n\n\u001b[1A\u001b[2KÜretilen E-posta: 3x6uxasetv6ntx@gmail.com\n\n\u001b[1A\u001b[2KÜretilen Telefon Numarası: +90 50 629 08 21\n\n\u001b[1A\u001b[2K✅ Başarılı: Üye İşyeri başarıyla eklendi! (507-Gerçek Mükellef)\n\n\u001b[1A\u001b[2K✅ Başarılı: Üye İşyeri başarıyla silindi!\n\n\u001b[1A\u001b[2K  1 passed (38.4s)\n",
     "stderr": "",
     "error": null,
-    "startTime": "2025-08-03T08:47:18.729Z",
-    "endTime": "2025-08-03T08:47:57.713Z",
-    "duration": 39,
-    "lastRun": "2025-08-03T08:47:57.713Z"
+    "startTime": "2025-08-08T08:18:59.607Z",
+    "endTime": "2025-08-08T08:19:40.542Z",
+    "duration": 41,
+    "lastRun": "2025-08-08T08:19:40.542Z"
   },
   "admin-login/merchant/507-tuzel-mukellef-ekleme.spec.ts": {
     "success": true,
@@ -41,13 +41,13 @@
   },
   "admin-login/merchant/detay-belge-ekleme-guncelleme-goruntuleme-silme.spec.ts": {
     "success": true,
-    "output": "\nRunning 1 test using 1 worker\n\n\u001b[1A\u001b[2K[1/1] tests\\merchant\\detay-belge-ekleme-guncelleme-goruntuleme-silme.spec.ts:9:5 › Detay Belge Ekleme, Güncelleme, Görüntüleme ve Silme\n\u001b[1A\u001b[2Ktests\\merchant\\detay-belge-ekleme-guncelleme-goruntuleme-silme.spec.ts:9:5 › Detay Belge Ekleme, Güncelleme, Görüntüleme ve Silme\nÜretilen VKN: 5594702743\n\n\u001b[1A\u001b[2KÜretilen E-posta: vtd2iaafn3lq2r@gmail.com\n\n\u001b[1A\u001b[2KÜretilen Telefon Numarası: +90 55 956 42 64\n\n\u001b[1A\u001b[2K✅ Başarılı: Üye İşyeri başarıyla eklendi! (507-Tüzel Mükellef)\n\n\u001b[1A\u001b[2K🎯 Seçilen üye işyeri: DENEMEBNGUR\n\n\u001b[1A\u001b[2K✅ \"+ Yeni\" butonu görünüyor, belge ekleme yapılıyor...\n\n\u001b[1A\u001b[2K✅ Belge başarıyla eklendi\n\n\u001b[1A\u001b[2K✅ \"Güncelle\" butonu görünüyor, belge güncelleme, goruntuleme, silme yapılıyor...\n\n\u001b[1A\u001b[2K📄 İlk hücredeki değer:  ornek-png \n\n\u001b[1A\u001b[2K✅ Belge Güncelleme yapıldı\n\n\u001b[1A\u001b[2K✅ Belge Görüntüleme yapıldı\n\n\u001b[1A\u001b[2K✅ Belge Silme işlemi yapıldı\n\n\u001b[1A\u001b[2K✅ Başarılı: Üye İşyeri başarıyla silindi!\n\n\u001b[1A\u001b[2K  1 passed (58.0s)\n",
+    "output": "\nRunning 1 test using 1 worker\n\n\u001b[1A\u001b[2K[1/1] tests\\admin-login\\merchant\\detay-belge-ekleme-guncelleme-goruntuleme-silme.spec.ts:9:5 › Detay Belge Ekleme, Güncelleme, Görüntüleme ve Silme\n\u001b[1A\u001b[2Ktests\\admin-login\\merchant\\detay-belge-ekleme-guncelleme-goruntuleme-silme.spec.ts:9:5 › Detay Belge Ekleme, Güncelleme, Görüntüleme ve Silme\n===>  Detay Belge Ekleme, Güncelleme, Görüntüleme ve Silme  <===\n\n\u001b[1A\u001b[2KÜretilen VKN: 2294522074\n\n\u001b[1A\u001b[2KÜretilen E-posta: cldhds3m@gmail.com\n\n\u001b[1A\u001b[2KÜretilen Telefon Numarası: +90 58 615 61 18\n\n\u001b[1A\u001b[2K✅ Başarılı: Üye İşyeri başarıyla eklendi! (507-Tüzel Mükellef)\n\n\u001b[1A\u001b[2K🎯 Seçilen üye işyeri: DENEMEMI3D3\n\n\u001b[1A\u001b[2K✅ \"+ Yeni\" butonu görünüyor, belge ekleme yapılıyor...\n\n\u001b[1A\u001b[2K✅ Belge başarıyla eklendi\n\n\u001b[1A\u001b[2K✅ \"Güncelle\" butonu görünüyor, belge güncelleme, goruntuleme, silme yapılıyor...\n\n\u001b[1A\u001b[2K📄 İlk hücredeki değer:  ornek-png \n\n\u001b[1A\u001b[2K✅ Belge Güncelleme yapıldı\n\n\u001b[1A\u001b[2K✅ Belge Görüntüleme yapıldı\n\n\u001b[1A\u001b[2K✅ Belge Silme işlemi yapıldı\n\n\u001b[1A\u001b[2K✅ Başarılı: Üye İşyeri başarıyla silindi!\n\n\u001b[1A\u001b[2K  1 passed (1.1m)\n",
     "stderr": "",
     "error": null,
-    "startTime": "2025-08-04T09:43:07.028Z",
-    "endTime": "2025-08-04T09:44:07.036Z",
-    "duration": 60,
-    "lastRun": "2025-08-04T09:44:07.036Z"
+    "startTime": "2025-08-08T08:44:39.058Z",
+    "endTime": "2025-08-08T08:45:46.971Z",
+    "duration": 68,
+    "lastRun": "2025-08-08T08:45:46.971Z"
   },
   "admin-login/merchant/detay-e-belge-ayarlari.spec.ts": {
     "success": true,
