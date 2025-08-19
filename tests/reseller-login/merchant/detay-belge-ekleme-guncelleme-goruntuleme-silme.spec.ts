@@ -136,7 +136,4 @@ test('Detay Belge Ekleme, Güncelleme, Görüntüleme ve Silme (reseller login)'
 
       // ===== ADIM 7: Üye İşyeri Silme =====
       await uyeIsyeriSil(page, isyeriAdi);
-  
-  await page.pause();
-
 }); 

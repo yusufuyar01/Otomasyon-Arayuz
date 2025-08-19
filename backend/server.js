@@ -112,6 +112,18 @@ app.get('/tests', (req, res) => {
         category: 'admin-login/merchant'
       },
       {
+        name: 'Detay Merchant IBAN Ekleme Güncelleme Silme',
+        file: 'admin-login/merchant/detay-merchant-ibans.spec.ts',
+        path: 'tests/admin-login/merchant/detay-merchant-ibans.spec.ts',
+        category: 'admin-login/merchant'
+      },
+      {
+        name: 'Detay Merchant Parametreleri',
+        file: 'admin-login/merchant/detay-merchant-parameters.spec.ts',
+        path: 'tests/admin-login/merchant/detay-merchant-parameters.spec.ts',
+        category: 'admin-login/merchant'
+      },
+      {
         name: 'Bayi Güncelle',
         file: 'admin-login/reseller/bayi-guncelle.spec.ts',
         path: 'tests/admin-login/reseller/bayi-guncelle.spec.ts',
@@ -133,7 +145,7 @@ app.get('/tests', (req, res) => {
         name: 'Gerçek Kisi Bayi Ekleme',
         file: 'admin-login/reseller/gercek-kisi-bayi-ekleme.spec.ts',
         path: 'tests/admin-login/reseller/gercek-kisi-bayi-ekleme.spec.ts',
-        category: '<admin-login/>reseller'
+        category: 'admin-login/reseller'
       },
       {
         name: 'Tüzel Kisi Bayi Ekleme',
@@ -363,19 +375,53 @@ app.get('/tests', (req, res) => {
         path: 'tests/reseller-login/merchant/detay-odeme-tipleri.spec.ts',
         category: 'reseller-login/merchant'
       },
-
-
-
-//aradaki testler
-
-
-
-
+      {
+        name: 'Detay Ödeme Araçları 1 (reseller login)',
+        file: 'reseller-login/merchant/detay-odeme-aracilari-1.spec.ts',
+        path: 'tests/reseller-login/merchant/detay-odeme-aracilari-1.spec.ts',
+        category: 'reseller-login/merchant'
+      },
+      {
+        name: 'Detay Ödeme Araçları 2 (reseller login)',
+        file: 'reseller-login/merchant/detay-odeme-aracilari-2.spec.ts',
+        path: 'tests/reseller-login/merchant/detay-odeme-aracilari-2.spec.ts',
+        category: 'reseller-login/merchant'
+      },
+      {
+        name: 'Detay Entegratör (reseller login)',
+        file: 'reseller-login/merchant/detay-entegrator.spec.ts',
+        path: 'tests/reseller-login/merchant/detay-entegrator.spec.ts',
+        category: 'reseller-login/merchant'
+      },
+      {
+        name: 'Detay E-Belge Ayarları (reseller login)',
+        file: 'reseller-login/merchant/detay-e-belge-ayarlari.spec.ts',
+        path: 'tests/reseller-login/merchant/detay-e-belge-ayarlari.spec.ts',
+        category: 'reseller-login/merchant'
+      },
+      {
+        name: 'Üye İşyeri Güncelle (reseller login)',
+        file: 'reseller-login/merchant/uye-isyeri-guncelle.spec.ts',
+        path: 'tests/reseller-login/merchant/uye-isyeri-guncelle.spec.ts',
+        category: 'reseller-login/merchant'
+      },
       {
         name: 'Ödemesi Olan Üye İşyeri Sil (reseller login)',
         file: 'reseller-login/merchant/odemesi-olan-uye-isyeri-sil.spec.ts',
         path: 'tests/reseller-login/merchant/odemesi-olan-uye-isyeri-sil.spec.ts',
         category: 'reseller-login/merchant'
+      },
+      {
+        name: 'Cihaz Bayiye Atama (reseller login)',
+        file: 'reseller-login/device/cihazi-bayiye-ata.spec.ts',
+        path: 'tests/reseller-login/device/cihazi-bayiye-ata.spec.ts',
+        category: 'reseller-login/device'
+      },
+      {
+        name: 'Cihaz Üye İşyerine Atama (reseller login)',
+        file: 'reseller-login/device/cihazi-uye-isyerine-ata.spec.ts',
+        path: 'tests/reseller-login/device/cihazi-uye-isyerine-ata.spec.ts',
+        category: 'reseller-login/device'
       }
     ];
 

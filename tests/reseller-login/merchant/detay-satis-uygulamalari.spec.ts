@@ -109,7 +109,4 @@ test('Detay Satış Uygulamaları (reseller login)', async ({ page }) => {
   // ===== ADIM 9: Üye İşyeri Silme =====
   await uyeIsyeriSil(page, isyeriAdi);
 
-  // Test sonunda ekranın kapanmasını engellemek için pause
-  await page.pause();
-
 });

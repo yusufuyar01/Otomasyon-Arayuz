@@ -518,5 +518,95 @@
     "endTime": "2025-08-08T14:12:59.741Z",
     "duration": 44,
     "lastRun": "2025-08-08T14:12:59.741Z"
+  },
+  "admin-login/merchant/detay-merchant-ibans.spec.ts": {
+    "success": true,
+    "output": "\nRunning 1 test using 1 worker\n\n\u001b[1A\u001b[2K[1/1] tests\\admin-login\\merchant\\detay-merchant-ibans.spec.ts:9:5 › Detay Merchant IBANs\n\u001b[1A\u001b[2Ktests\\admin-login\\merchant\\detay-merchant-ibans.spec.ts:9:5 › Detay Merchant IBANs\n===>  Detay Merchant IBANs  <===\n\n\u001b[1A\u001b[2KAdmin ile giriş yapıldı\n\n\u001b[1A\u001b[2KÜretilen TC No: 28199718926\n\n\u001b[1A\u001b[2KÜretilen E-posta: lk3tquthzdm@gmail.com\n\n\u001b[1A\u001b[2KÜretilen Telefon Numarası: +90 52 340 65 90\n\n\u001b[1A\u001b[2K✅ Başarılı: Üye İşyeri başarıyla eklendi! (507-Gerçek Mükellef)\n\n\u001b[1A\u001b[2K✅ Başarılı: IBAN başarıyla eklendi!\n\n\u001b[1A\u001b[2K✅ Başarılı: IBAN başarıyla güncellendi!\n\n\u001b[1A\u001b[2K✅ Başarılı: IBAN başarıyla silindi!\n\n\u001b[1A\u001b[2K✅ Başarılı: Üye İşyeri başarıyla silindi!\n\n\u001b[1A\u001b[2K  1 passed (1.6m)\n",
+    "stderr": "",
+    "error": null,
+    "startTime": "2025-08-19T09:08:10.858Z",
+    "endTime": "2025-08-19T09:09:47.752Z",
+    "duration": 97,
+    "lastRun": "2025-08-19T09:09:47.752Z"
+  },
+  "admin-login/merchant/detay-merchant-parameters.spec.ts": {
+    "success": true,
+    "output": "\nRunning 1 test using 1 worker\n\n\u001b[1A\u001b[2K[1/1] tests\\admin-login\\merchant\\detay-merchant-parameters.spec.ts:9:5 › Detay Merchant Parameters\n\u001b[1A\u001b[2Ktests\\admin-login\\merchant\\detay-merchant-parameters.spec.ts:9:5 › Detay Merchant Parameters\n===>  Detay Merchant Parameters  <===\n\n\u001b[1A\u001b[2KAdmin ile giriş yapıldı\n\n\u001b[1A\u001b[2KÜretilen TC No: 71363859574\n\n\u001b[1A\u001b[2KÜretilen E-posta: sdp02c20km6i@gmail.com\n\n\u001b[1A\u001b[2KÜretilen Telefon Numarası: +90 51 126 55 90\n\n\u001b[1A\u001b[2K✅ Başarılı: Üye İşyeri başarıyla eklendi! (507-Gerçek Mükellef)\n\n\u001b[1A\u001b[2K✅ Başarılı: Üye İşyeri parametreleri başarıyla güncellendi (Harici satış iptalini etkinleştirildi)!\n\n\u001b[1A\u001b[2K✅ Başarılı: Üye İşyeri parametreleri başarıyla kaydedildi (Harici satış tamamlamayı etkinleştir)!\n\n\u001b[1A\u001b[2K✅ Başarılı: Üye İşyeri başarıyla silindi!\n\n\u001b[1A\u001b[2K  1 passed (56.0s)\n",
+    "stderr": "",
+    "error": null,
+    "startTime": "2025-08-19T09:13:55.948Z",
+    "endTime": "2025-08-19T09:14:53.587Z",
+    "duration": 58,
+    "lastRun": "2025-08-19T09:14:53.587Z"
+  },
+  "reseller-login/merchant/detay-odeme-aracilari-1.spec.ts": {
+    "success": true,
+    "output": "\nRunning 1 test using 1 worker\n\n\u001b[1A\u001b[2K[1/1] tests\\reseller-login\\merchant\\detay-odeme-aracilari-1.spec.ts:6:5 › Detay Ödeme Aracıları 1 (reseller login)\n\u001b[1A\u001b[2Ktests\\reseller-login\\merchant\\detay-odeme-aracilari-1.spec.ts:6:5 › Detay Ödeme Aracıları 1 (reseller login)\n===>  Detay Ödeme Aracıları 1 (reseller login)  <===\n\n\u001b[1A\u001b[2KSipay PF ile giriş yapıldı\n\n\u001b[1A\u001b[2KÜretilen TC No: 53606233648\n\n\u001b[1A\u001b[2KÜretilen E-posta: h0zvig@gmail.com\n\n\u001b[1A\u001b[2KÜretilen Telefon Numarası: +90 55 593 42 42\n\n\u001b[1A\u001b[2K✅ Başarılı: Üye İşyeri başarıyla eklendi! (509-Gerçek Mükellef)\n\n\u001b[1A\u001b[2K🎯 Seçilen üye işyeri: DENEMEXLOLE\n\n\u001b[1A\u001b[2K✅ İlgili Ödeme Araciları ekli!\n\n\u001b[1A\u001b[2K✅ Başarılı: Ödeme Aracısı başarıyla oluşturuldu!\n\n\u001b[1A\u001b[2K✅ Başarılı: Ödeme Aracısı başarıyla güncellendi!\n\n\u001b[1A\u001b[2K❌ Hata mesajı göründü! (Beklenen Sonuç)\n\n\u001b[1A\u001b[2K✅ Başarılı: Ödeme Aracısı başarıyla silindi!\n\n\u001b[1A\u001b[2K✅ Başarılı: Üye İşyeri başarıyla silindi!\n\n\u001b[1A\u001b[2K  1 passed (53.6s)\n",
+    "stderr": "",
+    "error": null,
+    "startTime": "2025-08-19T09:18:13.614Z",
+    "endTime": "2025-08-19T09:19:08.868Z",
+    "duration": 55,
+    "lastRun": "2025-08-19T09:19:08.868Z"
+  },
+  "reseller-login/merchant/detay-odeme-aracilari-2.spec.ts": {
+    "success": true,
+    "output": "\nRunning 1 test using 1 worker\n\n\u001b[1A\u001b[2K[1/1] tests\\reseller-login\\merchant\\detay-odeme-aracilari-2.spec.ts:12:5 › Detay Ödeme Aracıları 2 (reseller login)\n\u001b[1A\u001b[2Ktests\\reseller-login\\merchant\\detay-odeme-aracilari-2.spec.ts:12:5 › Detay Ödeme Aracıları 2 (reseller login)\n===>  Detay Ödeme Aracıları 2 (reseller login)  <===\n\n\u001b[1A\u001b[2KAdmin ile giriş yapıldı\n\n\u001b[1A\u001b[2KÜretilen TC No: 37618343342\n\n\u001b[1A\u001b[2KÜretilen E-posta: 6a7t77hwa@gmail.com\n\n\u001b[1A\u001b[2KÜretilen Telefon Numarası: +90 50 310 83 95\n\n\u001b[1A\u001b[2K✅ Başarılı: Üye İşyeri başarıyla eklendi! (509-Gerçek Mükellef)\n\n\u001b[1A\u001b[2K✅ 1 Cihaz başarıyla eklendi\n\n\u001b[1A\u001b[2KCihaz Seri No: PAVDENEMEF6AZE\n\n\u001b[1A\u001b[2K✅ PAVDENEMEF6AZE cihazı seçildi. (Ana Bayiye atanacak cihaz)\n\n\u001b[1A\u001b[2K✅ PAVDENEMEF6AZE cihazı seçildi. (509 Üye işyerine atanacak cihaz)\n\n\u001b[1A\u001b[2KAdmin ile çıkış yapıldı\n\n\u001b[1A\u001b[2KSipay PF ile giriş yapıldı\n\n\u001b[1A\u001b[2K🎯 Seçilen üye işyeri: DENEMEMN5GQ\n\n\u001b[1A\u001b[2K✅ Eklenen ödeme aracısı iş bankası Görüntülendi. Test Başarılı!\n\n\u001b[1A\u001b[2KSipay PF ile çıkış yapıldı\n\n\u001b[1A\u001b[2KAdmin ile giriş yapıldı\n\n\u001b[1A\u001b[2K✅ PAVDENEMEF6AZE cihazı seçildi. (Üye işyerinden geri alınacak cihaz)\n\n\u001b[1A\u001b[2K✅ PAVDENEMEF6AZE cihazı seçildi. (Bayiden geri alınacak cihaz)\n\n\u001b[1A\u001b[2K✅ PAVDENEMEF6AZE cihazı seçildi. (Silinecek cihaz)\n\n\u001b[1A\u001b[2K✅ Başarılı: Üye İşyeri başarıyla silindi!\n\n\u001b[1A\u001b[2K  1 passed (1.9m)\n",
+    "stderr": "",
+    "error": null,
+    "startTime": "2025-08-19T09:22:27.581Z",
+    "endTime": "2025-08-19T09:24:23.075Z",
+    "duration": 115,
+    "lastRun": "2025-08-19T09:24:23.075Z"
+  },
+  "reseller-login/merchant/detay-entegrator.spec.ts": {
+    "success": true,
+    "output": "\nRunning 1 test using 1 worker\n\n\u001b[1A\u001b[2K[1/1] tests\\reseller-login\\merchant\\detay-entegrator.spec.ts:6:5 › Detay Entegratör (reseller login)\n\u001b[1A\u001b[2Ktests\\reseller-login\\merchant\\detay-entegrator.spec.ts:6:5 › Detay Entegratör (reseller login)\n===>  Detay Entegratör (reseller login)  <===\n\n\u001b[1A\u001b[2KSipay PF ile giriş yapıldı\n\n\u001b[1A\u001b[2K✅ Durum dropdown görünüyor - Form yeniden yükleniyor...\n\n\u001b[1A\u001b[2KÜretilen TC No: 27091735802\n\n\u001b[1A\u001b[2KÜretilen E-posta: kpwmu@gmail.com\n\n\u001b[1A\u001b[2KÜretilen Telefon Numarası: +90 59 566 22 19\n\n\u001b[1A\u001b[2K✅ Başarılı: Üye İşyeri başarıyla eklendi! (509-Gerçek Mükellef)\n\n\u001b[1A\u001b[2K🎯 Seçilen üye işyeri: DENEME8XGJA\n\n\u001b[1A\u001b[2K✅ Entegratör başarıyla eklendi\n\n\u001b[1A\u001b[2K✅ Entegratör başarıyla güncellendi\n\n\u001b[1A\u001b[2K✅ Entegratör başarıyla silindi\n\n\u001b[1A\u001b[2K✅ Başarılı: Üye İşyeri başarıyla silindi!\n\n\u001b[1A\u001b[2K  1 passed (53.0s)\n",
+    "stderr": "",
+    "error": null,
+    "startTime": "2025-08-19T09:24:35.168Z",
+    "endTime": "2025-08-19T09:25:29.847Z",
+    "duration": 55,
+    "lastRun": "2025-08-19T09:25:29.847Z"
+  },
+  "reseller-login/merchant/detay-e-belge-ayarlari.spec.ts": {
+    "success": true,
+    "output": "\nRunning 1 test using 1 worker\n\n\u001b[1A\u001b[2K[1/1] tests\\reseller-login\\merchant\\detay-e-belge-ayarlari.spec.ts:7:5 › Detay E-Belge Ayarları\n\u001b[1A\u001b[2Ktests\\reseller-login\\merchant\\detay-e-belge-ayarlari.spec.ts:7:5 › Detay E-Belge Ayarları\n===>  Detay E-Belge Ayarları  <===\n\n\u001b[1A\u001b[2KSipay PF ile giriş yapıldı\n\n\u001b[1A\u001b[2KÜretilen TC No: 92226930216\n\n\u001b[1A\u001b[2KÜretilen E-posta: xkn0tl1gueu19c4@gmail.com\n\n\u001b[1A\u001b[2KÜretilen Telefon Numarası: +90 53 465 98 31\n\n\u001b[1A\u001b[2K✅ Başarılı: Üye İşyeri başarıyla eklendi! (509-Gerçek Mükellef)\n\n\u001b[1A\u001b[2K🎯 Seçilen üye işyeri: DENEMEMZNBM\n\n\u001b[1A\u001b[2K⚠️  Üye işyeri için entegratör bulunamadı! Entegratör ekleniyor...\n\n\u001b[1A\u001b[2K✅ Entegratör başarıyla eklendi\n\n\u001b[1A\u001b[2K✅ Üye İşyeri E-Belge Ayarları başarıyla oluşturuldu\n\n\u001b[1A\u001b[2K✅ Başarılı: Üye İşyeri başarıyla silindi!\n\n\u001b[1A\u001b[2K  1 passed (51.9s)\n",
+    "stderr": "",
+    "error": null,
+    "startTime": "2025-08-19T09:25:50.851Z",
+    "endTime": "2025-08-19T09:26:44.475Z",
+    "duration": 54,
+    "lastRun": "2025-08-19T09:26:44.475Z"
+  },
+  "reseller-login/merchant/uye-isyeri-guncelle.spec.ts": {
+    "success": true,
+    "output": "\nRunning 1 test using 1 worker\n\n\u001b[1A\u001b[2K[1/1] tests\\reseller-login\\merchant\\uye-isyeri-guncelle.spec.ts:7:5 › Üye İşyeri Güncelleme\n\u001b[1A\u001b[2Ktests\\reseller-login\\merchant\\uye-isyeri-guncelle.spec.ts:7:5 › Üye İşyeri Güncelleme\n===>  Üye İşyeri Güncelleme  <===\n\n\u001b[1A\u001b[2KSipay PF ile giriş yapıldı\n\n\u001b[1A\u001b[2KÜretilen TC No: 24380123272\n\n\u001b[1A\u001b[2KÜretilen E-posta: fw4yvke18@gmail.com\n\n\u001b[1A\u001b[2KÜretilen Telefon Numarası: +90 56 305 11 41\n\n\u001b[1A\u001b[2K✅ Başarılı: Üye İşyeri başarıyla eklendi! (509-Gerçek Mükellef)\n\n\u001b[1A\u001b[2K✅ DENEME44SC4 ile başlayan üye işyeri Güncellendi\n\n\u001b[1A\u001b[2K✅ Başarılı: Üye İşyeri başarıyla silindi!\n\n\u001b[1A\u001b[2K  1 passed (37.9s)\n",
+    "stderr": "",
+    "error": null,
+    "startTime": "2025-08-19T09:26:57.428Z",
+    "endTime": "2025-08-19T09:27:36.993Z",
+    "duration": 40,
+    "lastRun": "2025-08-19T09:27:36.993Z"
+  },
+  "reseller-login/device/cihazi-bayiye-ata.spec.ts": {
+    "success": true,
+    "output": "\nRunning 1 test using 1 worker\n\n\u001b[1A\u001b[2K[1/1] tests\\reseller-login\\device\\cihazi-bayiye-ata.spec.ts:7:5 › Cihazı Bayiye Ata\n\u001b[1A\u001b[2Ktests\\reseller-login\\device\\cihazi-bayiye-ata.spec.ts:7:5 › Cihazı Bayiye Ata\n===>  Cihazı Bayiye Ata <===\n\n\u001b[1A\u001b[2KAdmin ile giriş yapıldı\n\n\u001b[1A\u001b[2K✅ 1 Cihaz başarıyla eklendi\n\n\u001b[1A\u001b[2K✅ Cihaz başarıyla eklendi :  PAVDENEMEDVWBP\n\n\u001b[1A\u001b[2K✅ PAVDENEMEDVWBP cihazı seçildi. (Ana Bayiye atanacak cihaz)\n\n\u001b[1A\u001b[2KAdmin ile çıkış yapıldı\n\n\u001b[1A\u001b[2KSipay PF ile giriş yapıldı\n\n\u001b[1A\u001b[2K✅ PAVDENEMEDVWBP cihazı seçildi. (Bayiye atanacak cihaz)\n\n\u001b[1A\u001b[2K✅ Bayi bulundu! Atama işlemi Yapılıyor...\n\n\u001b[1A\u001b[2K✅ Bayi bulundu! Atama işlemi başarılı\n\n\u001b[1A\u001b[2KSipay PF ile çıkış yapıldı\n\n\u001b[1A\u001b[2KAdmin ile giriş yapıldı\n\n\u001b[1A\u001b[2K✅ PAVDENEMEDVWBP cihazı seçildi. (Bayiden geri alınacak cihaz)\n\n\u001b[1A\u001b[2K✅ PAVDENEMEDVWBP cihazı seçildi. (Silinecek cihaz)\n\n\u001b[1A\u001b[2K  1 passed (1.2m)\n",
+    "stderr": "",
+    "error": null,
+    "startTime": "2025-08-19T09:27:43.395Z",
+    "endTime": "2025-08-19T09:28:57.441Z",
+    "duration": 74,
+    "lastRun": "2025-08-19T09:28:57.441Z"
+  },
+  "reseller-login/device/cihazi-uye-isyerine-ata.spec.ts": {
+    "success": true,
+    "output": "\nRunning 1 test using 1 worker\n\n\u001b[1A\u001b[2K[1/1] tests\\reseller-login\\device\\cihazi-uye-isyerine-ata.spec.ts:7:5 › Cihazı Bayiye Ata\n\u001b[1A\u001b[2Ktests\\reseller-login\\device\\cihazi-uye-isyerine-ata.spec.ts:7:5 › Cihazı Bayiye Ata\n===>  Cihazı Bayiye Ata <===\n\n\u001b[1A\u001b[2KAdmin ile giriş yapıldı\n\n\u001b[1A\u001b[2K✅ 1 Cihaz başarıyla eklendi\n\n\u001b[1A\u001b[2K✅ Cihaz başarıyla eklendi :  PAVDENEMEMSN6L\n\n\u001b[1A\u001b[2K✅ PAVDENEMEMSN6L cihazı seçildi. (Ana Bayiye atanacak cihaz)\n\n\u001b[1A\u001b[2KAdmin ile çıkış yapıldı\n\n\u001b[1A\u001b[2KSipay PF ile giriş yapıldı\n\n\u001b[1A\u001b[2K✅ PAVDENEMEMSN6L cihazı seçildi. (Üye işyerine atanacak cihaz)\n\n\u001b[1A\u001b[2K✅ VKN/TCKN ile Erdal Bakkal bulundu\n\n\u001b[1A\u001b[2K✅ Cihaz üye işyerine atandı\n\n\u001b[1A\u001b[2KSipay PF ile çıkış yapıldı\n\n\u001b[1A\u001b[2KAdmin ile giriş yapıldı\n\n\u001b[1A\u001b[2K✅ PAVDENEMEMSN6L cihazı seçildi. (Üye işyerinden geri alınacak cihaz)\n\n\u001b[1A\u001b[2K✅ PAVDENEMEMSN6L cihazı seçildi. (Bayiden geri alınacak cihaz)\n\n\u001b[1A\u001b[2K✅ PAVDENEMEMSN6L cihazı seçildi. (Silinecek cihaz)\n\n\u001b[1A\u001b[2K  1 passed (1.2m)\n",
+    "stderr": "",
+    "error": null,
+    "startTime": "2025-08-19T09:29:03.731Z",
+    "endTime": "2025-08-19T09:30:18.412Z",
+    "duration": 75,
+    "lastRun": "2025-08-19T09:30:18.412Z"
   }
 }

@@ -28,5 +28,16 @@ export async function login(page: Page): Promise<void> {
   // ===== ADIM 4: Test Sonucu =====
   // Test tamamlandı, 7 saniye bekle ve browser'ı kapat
   await page.waitForTimeout(3000);
+  console.log('Admin ile giriş yapıldı');
+
+}
+
+export async function logout(page: Page): Promise<void> {
+
+  await page.getByText('P', { exact: true }).first().click();
+  await page.getByText('Çıkış').click();
+  console.log('Admin ile çıkış yapıldı');
+  await page.waitForTimeout(1000);
+
 
 }

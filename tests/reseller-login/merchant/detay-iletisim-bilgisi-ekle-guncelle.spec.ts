@@ -423,7 +423,5 @@ await page.waitForTimeout(1000);
       } catch (error) {
         console.log('❌ Başarı mesajı kontrol edilirken hata oluştu:', error.message);
       }
-  
-  await page.pause();
 
 }); 

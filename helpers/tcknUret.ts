@@ -1,6 +1,7 @@
 import { Page, BrowserContext } from '@playwright/test';
+import { login2 } from './login2';
 
-// VKN (TC Numarası) üretme - Web sitesinden
+// tckn (TC Numarası) üretme - Web sitesinden
 export async function tcknUret(page: Page): Promise<string> {
     let newPage: Page | null = null;
     let context: BrowserContext | null = null;
@@ -14,6 +15,10 @@ export async function tcknUret(page: Page): Promise<string> {
         
         // Web sitesine git
         await newPage.goto('https://tcnumarasi.com/tcuret');
+
+        if (await newPage.getByText('SSL handshake failed').isVisible()) {
+            await newPage.reload();
+          }
 
         // "TC No Üret" butonuna tıkla
         await newPage.getByText('TC NO ÜRET', { exact: true }).click();

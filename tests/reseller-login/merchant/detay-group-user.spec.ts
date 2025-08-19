@@ -124,7 +124,4 @@ test('Detay kullanıcıları gruba ekle ve çıkar (reseller login)', async ({ p
 
   // ===== ADIM 8: Temizlik =====
   await uyeIsyeriSil(page, isyeriAdi);
-
-  await page.pause();
-
 });
