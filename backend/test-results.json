@@ -1,93 +1,93 @@
 {
   "admin-login/merchant/507-gercek-mukellef-ekleme.spec.ts": {
     "success": true,
-    "output": "\nRunning 1 test using 1 worker\n\n\u001b[1A\u001b[2K[1/1] tests\\admin-login\\merchant\\507-gercek-mukellef-ekleme.spec.ts:9:5 › 507 Gerçek Mükellef Ekleme\n\u001b[1A\u001b[2Ktests\\admin-login\\merchant\\507-gercek-mukellef-ekleme.spec.ts:9:5 › 507 Gerçek Mükellef Ekleme\n===>  507 Gerçek Mükellef Ekleme  <===\n\n\u001b[1A\u001b[2KÜretilen TC No: 75200709572\n\n\u001b[1A\u001b[2KÜretilen E-posta: 3x6uxasetv6ntx@gmail.com\n\n\u001b[1A\u001b[2KÜretilen Telefon Numarası: +90 50 629 08 21\n\n\u001b[1A\u001b[2K✅ Başarılı: Üye İşyeri başarıyla eklendi! (507-Gerçek Mükellef)\n\n\u001b[1A\u001b[2K✅ Başarılı: Üye İşyeri başarıyla silindi!\n\n\u001b[1A\u001b[2K  1 passed (38.4s)\n",
+    "output": "\nRunning 1 test using 1 worker\n\n\u001b[1A\u001b[2K[1/1] tests\\admin-login\\merchant\\507-gercek-mukellef-ekleme.spec.ts:9:5 › 507 Gerçek Mükellef Ekleme\n\u001b[1A\u001b[2Ktests\\admin-login\\merchant\\507-gercek-mukellef-ekleme.spec.ts:9:5 › 507 Gerçek Mükellef Ekleme\n===>  507 Gerçek Mükellef Ekleme  <===\n\n\u001b[1A\u001b[2KAdmin ile giriş yapıldı\n\n\u001b[1A\u001b[2KÜretilen TC No: 43893593082\n\n\u001b[1A\u001b[2KÜretilen E-posta: tn0yiega0c1rp@gmail.com\n\n\u001b[1A\u001b[2KÜretilen Telefon Numarası: +90 50 358 12 55\n\n\u001b[1A\u001b[2K✅ Başarılı: Üye İşyeri başarıyla eklendi! (507-Gerçek Mükellef)\n\n\u001b[1A\u001b[2K✅ Başarılı: Üye İşyeri başarıyla silindi!\n\n\u001b[1A\u001b[2K  1 passed (36.8s)\n",
     "stderr": "",
     "error": null,
-    "startTime": "2025-08-08T08:18:59.607Z",
-    "endTime": "2025-08-08T08:19:40.542Z",
-    "duration": 41,
-    "lastRun": "2025-08-08T08:19:40.542Z"
+    "startTime": "2025-10-21T16:19:17.742Z",
+    "endTime": "2025-10-21T16:19:56.203Z",
+    "duration": 38,
+    "lastRun": "2025-10-21T16:19:56.203Z"
   },
   "admin-login/merchant/507-tuzel-mukellef-ekleme.spec.ts": {
     "success": true,
-    "output": "\nRunning 1 test using 1 worker\n\n\u001b[1A\u001b[2K[1/1] tests\\merchant\\507-tuzel-mukellef-ekleme.spec.ts:9:5 › 507 Tüzel Mükellef Ekleme\n\u001b[1A\u001b[2Ktests\\merchant\\507-tuzel-mukellef-ekleme.spec.ts:9:5 › 507 Tüzel Mükellef Ekleme\nÜretilen VKN: 6116260699\n\n\u001b[1A\u001b[2KÜretilen E-posta: 9ako9tff2kwctu@gmail.com\n\n\u001b[1A\u001b[2KÜretilen Telefon Numarası: +90 54 427 70 34\n\n\u001b[1A\u001b[2K✅ Başarılı: Üye İşyeri başarıyla eklendi! (507-Tüzel Mükellef)\n\n\u001b[1A\u001b[2K✅ Başarılı: Üye İşyeri başarıyla silindi!\n\n\u001b[1A\u001b[2K  1 passed (37.9s)\n",
+    "output": "\nRunning 1 test using 1 worker\n\n\u001b[1A\u001b[2K[1/1] tests\\admin-login\\merchant\\507-tuzel-mukellef-ekleme.spec.ts:9:5 › 507 Tüzel Mükellef Ekleme\n\u001b[1A\u001b[2Ktests\\admin-login\\merchant\\507-tuzel-mukellef-ekleme.spec.ts:9:5 › 507 Tüzel Mükellef Ekleme\n===>  507 Tüzel Mükellef Ekleme  <===\n\n\u001b[1A\u001b[2KAdmin ile giriş yapıldı\n\n\u001b[1A\u001b[2KÜretilen VKN: 1255830547\n\n\u001b[1A\u001b[2KÜretilen E-posta: mlfz3pwdckbc@gmail.com\n\n\u001b[1A\u001b[2KÜretilen Telefon Numarası: +90 52 830 32 74\n\n\u001b[1A\u001b[2K✅ Başarılı: Üye İşyeri başarıyla eklendi! (507-Tüzel Mükellef)\n\n\u001b[1A\u001b[2K✅ Başarılı: Üye İşyeri başarıyla silindi!\n\n\u001b[1A\u001b[2K  1 passed (49.2s)\n",
     "stderr": "",
     "error": null,
-    "startTime": "2025-08-03T08:39:20.898Z",
-    "endTime": "2025-08-03T08:40:00.519Z",
-    "duration": 40,
-    "lastRun": "2025-08-03T08:40:00.519Z"
+    "startTime": "2025-10-21T16:19:59.570Z",
+    "endTime": "2025-10-21T16:20:50.575Z",
+    "duration": 51,
+    "lastRun": "2025-10-21T16:20:50.575Z"
   },
   "admin-login/merchant/509-gercek-mukellef-ekleme.spec.ts": {
     "success": true,
-    "output": "\nRunning 1 test using 1 worker\n\n\u001b[1A\u001b[2K[1/1] tests\\merchant\\509-gercek-mukellef-ekleme.spec.ts:9:5 › 509 Gerçek Mükellef Ekleme\n\u001b[1A\u001b[2Ktests\\merchant\\509-gercek-mukellef-ekleme.spec.ts:9:5 › 509 Gerçek Mükellef Ekleme\nÜretilen TC No: 67293219830\n\n\u001b[1A\u001b[2KÜretilen E-posta: 8t1xig@gmail.com\n\n\u001b[1A\u001b[2KÜretilen Telefon Numarası: +90 50 738 96 91\n\n\u001b[1A\u001b[2K✅ Başarılı: Üye İşyeri başarıyla eklendi! (509-Gerçek Mükellef)\n\n\u001b[1A\u001b[2K✅ Başarılı: Üye İşyeri başarıyla silindi!\n\n\u001b[1A\u001b[2K  1 passed (26.4s)\n",
+    "output": "\nRunning 1 test using 1 worker\n\n\u001b[1A\u001b[2K[1/1] tests\\admin-login\\merchant\\509-gercek-mukellef-ekleme.spec.ts:9:5 › 509 Gerçek Mükellef Ekleme\n\u001b[1A\u001b[2Ktests\\admin-login\\merchant\\509-gercek-mukellef-ekleme.spec.ts:9:5 › 509 Gerçek Mükellef Ekleme\n===>  509 Gerçek Mükellef Ekleme  <===\n\n\u001b[1A\u001b[2KAdmin ile giriş yapıldı\n\n\u001b[1A\u001b[2KÜretilen TC No: 27563597150\n\n\u001b[1A\u001b[2KÜretilen E-posta: 8zp52hxiuup@gmail.com\n\n\u001b[1A\u001b[2KÜretilen Telefon Numarası: +90 52 743 56 82\n\n\u001b[1A\u001b[2K✅ Başarılı: Üye İşyeri başarıyla eklendi! (509-Gerçek Mükellef)\n\n\u001b[1A\u001b[2K✅ Başarılı: Üye İşyeri başarıyla silindi!\n\n\u001b[1A\u001b[2K  1 passed (33.9s)\n",
     "stderr": "",
     "error": null,
-    "startTime": "2025-08-03T08:40:13.350Z",
-    "endTime": "2025-08-03T08:40:41.428Z",
-    "duration": 28,
-    "lastRun": "2025-08-03T08:40:41.428Z"
+    "startTime": "2025-10-21T16:21:44.250Z",
+    "endTime": "2025-10-21T16:22:19.975Z",
+    "duration": 36,
+    "lastRun": "2025-10-21T16:22:19.975Z"
   },
   "admin-login/merchant/509-tuzel-mukellef-ekleme.spec.ts": {
     "success": true,
-    "output": "\nRunning 1 test using 1 worker\n\n\u001b[1A\u001b[2K[1/1] tests\\merchant\\509-tuzel-mukellef-ekleme.spec.ts:10:5 › 509 Tüzel Mükellef Ekleme Testleri\n\u001b[1A\u001b[2Ktests\\merchant\\509-tuzel-mukellef-ekleme.spec.ts:10:5 › 509 Tüzel Mükellef Ekleme Testleri\nÜretilen VKN: 5173364999\n\n\u001b[1A\u001b[2KÜretilen E-posta: fazo3bj3m3@gmail.com\n\n\u001b[1A\u001b[2KÜretilen Telefon Numarası: +90 51 955 52 26\n\n\u001b[1A\u001b[2K✅ Başarılı: Üye İşyeri başarıyla eklendi! (509-Tüzel Mükellef)\n\n\u001b[1A\u001b[2K✅ Başarılı: Üye İşyeri başarıyla silindi!\n\n\u001b[1A\u001b[2K  1 passed (27.0s)\n",
+    "output": "\nRunning 1 test using 1 worker\n\n\u001b[1A\u001b[2K[1/1] tests\\admin-login\\merchant\\509-tuzel-mukellef-ekleme.spec.ts:10:5 › 509 Tüzel Mükellef Ekleme Testleri\n\u001b[1A\u001b[2Ktests\\admin-login\\merchant\\509-tuzel-mukellef-ekleme.spec.ts:10:5 › 509 Tüzel Mükellef Ekleme Testleri\n===>  509 Tüzel Mükellef Ekleme  <===\n\n\u001b[1A\u001b[2KAdmin ile giriş yapıldı\n\n\u001b[1A\u001b[2KÜretilen VKN: 1515410617\n\n\u001b[1A\u001b[2KÜretilen E-posta: b7zl85kxsk@gmail.com\n\n\u001b[1A\u001b[2KÜretilen Telefon Numarası: +90 56 219 38 24\n\n\u001b[1A\u001b[2K✅ Başarılı: Üye İşyeri başarıyla eklendi! (509-Tüzel Mükellef)\n\n\u001b[1A\u001b[2K✅ Başarılı: Üye İşyeri başarıyla silindi!\n\n\u001b[1A\u001b[2K  1 passed (30.3s)\n",
     "stderr": "",
     "error": null,
-    "startTime": "2025-08-03T08:46:22.756Z",
-    "endTime": "2025-08-03T08:46:51.418Z",
-    "duration": 29,
-    "lastRun": "2025-08-03T08:46:51.418Z"
+    "startTime": "2025-10-21T16:22:23.753Z",
+    "endTime": "2025-10-21T16:22:56.230Z",
+    "duration": 32,
+    "lastRun": "2025-10-21T16:22:56.230Z"
   },
   "admin-login/merchant/detay-belge-ekleme-guncelleme-goruntuleme-silme.spec.ts": {
     "success": true,
-    "output": "\nRunning 1 test using 1 worker\n\n\u001b[1A\u001b[2K[1/1] tests\\admin-login\\merchant\\detay-belge-ekleme-guncelleme-goruntuleme-silme.spec.ts:9:5 › Detay Belge Ekleme, Güncelleme, Görüntüleme ve Silme\n\u001b[1A\u001b[2Ktests\\admin-login\\merchant\\detay-belge-ekleme-guncelleme-goruntuleme-silme.spec.ts:9:5 › Detay Belge Ekleme, Güncelleme, Görüntüleme ve Silme\n===>  Detay Belge Ekleme, Güncelleme, Görüntüleme ve Silme  <===\n\n\u001b[1A\u001b[2KÜretilen VKN: 2294522074\n\n\u001b[1A\u001b[2KÜretilen E-posta: cldhds3m@gmail.com\n\n\u001b[1A\u001b[2KÜretilen Telefon Numarası: +90 58 615 61 18\n\n\u001b[1A\u001b[2K✅ Başarılı: Üye İşyeri başarıyla eklendi! (507-Tüzel Mükellef)\n\n\u001b[1A\u001b[2K🎯 Seçilen üye işyeri: DENEMEMI3D3\n\n\u001b[1A\u001b[2K✅ \"+ Yeni\" butonu görünüyor, belge ekleme yapılıyor...\n\n\u001b[1A\u001b[2K✅ Belge başarıyla eklendi\n\n\u001b[1A\u001b[2K✅ \"Güncelle\" butonu görünüyor, belge güncelleme, goruntuleme, silme yapılıyor...\n\n\u001b[1A\u001b[2K📄 İlk hücredeki değer:  ornek-png \n\n\u001b[1A\u001b[2K✅ Belge Güncelleme yapıldı\n\n\u001b[1A\u001b[2K✅ Belge Görüntüleme yapıldı\n\n\u001b[1A\u001b[2K✅ Belge Silme işlemi yapıldı\n\n\u001b[1A\u001b[2K✅ Başarılı: Üye İşyeri başarıyla silindi!\n\n\u001b[1A\u001b[2K  1 passed (1.1m)\n",
+    "output": "\nRunning 1 test using 1 worker\n\n\u001b[1A\u001b[2K[1/1] tests\\admin-login\\merchant\\detay-belge-ekleme-guncelleme-goruntuleme-silme.spec.ts:9:5 › Detay Belge Ekleme, Güncelleme, Görüntüleme ve Silme\n\u001b[1A\u001b[2Ktests\\admin-login\\merchant\\detay-belge-ekleme-guncelleme-goruntuleme-silme.spec.ts:9:5 › Detay Belge Ekleme, Güncelleme, Görüntüleme ve Silme\n===>  Detay Belge Ekleme, Güncelleme, Görüntüleme ve Silme  <===\n\n\u001b[1A\u001b[2KAdmin ile giriş yapıldı\n\n\u001b[1A\u001b[2KÜretilen VKN: 4339368253\n\n\u001b[1A\u001b[2KÜretilen E-posta: wmp8m8a@gmail.com\n\n\u001b[1A\u001b[2KÜretilen Telefon Numarası: +90 53 477 43 30\n\n\u001b[1A\u001b[2K✅ Başarılı: Üye İşyeri başarıyla eklendi! (507-Tüzel Mükellef)\n\n\u001b[1A\u001b[2K🎯 Seçilen üye işyeri: 4328 - DENEME3WUPL\n\n\u001b[1A\u001b[2K✅ \"+ Yeni\" butonu görünüyor, belge ekleme yapılıyor...\n\n\u001b[1A\u001b[2K✅ Belge başarıyla eklendi\n\n\u001b[1A\u001b[2K✅ \"Güncelle\" butonu görünüyor, belge güncelleme, goruntuleme, silme yapılıyor...\n\n\u001b[1A\u001b[2K📄 İlk hücredeki değer:  ornek-png \n\n\u001b[1A\u001b[2K✅ Belge Güncelleme yapıldı\n\n\u001b[1A\u001b[2K✅ Belge Görüntüleme yapıldı\n\n\u001b[1A\u001b[2K✅ Başarılı: Üye İşyeri başarıyla silindi!\n\n\u001b[1A\u001b[2K  1 passed (1.4m)\n",
     "stderr": "",
     "error": null,
-    "startTime": "2025-08-08T08:44:39.058Z",
-    "endTime": "2025-08-08T08:45:46.971Z",
-    "duration": 68,
-    "lastRun": "2025-08-08T08:45:46.971Z"
+    "startTime": "2025-10-21T18:25:35.545Z",
+    "endTime": "2025-10-21T18:27:04.340Z",
+    "duration": 89,
+    "lastRun": "2025-10-21T18:27:04.340Z"
   },
   "admin-login/merchant/detay-e-belge-ayarlari.spec.ts": {
     "success": true,
-    "output": "\nRunning 1 test using 1 worker\n\n\u001b[1A\u001b[2K[1/1] tests\\admin-login\\merchant\\detay-e-belge-ayarlari.spec.ts:6:5 › Detay E-Belge Ayarları\n\u001b[1A\u001b[2Ktests\\admin-login\\merchant\\detay-e-belge-ayarlari.spec.ts:6:5 › Detay E-Belge Ayarları\n===>  Detay E-Belge Ayarları  <===\n\n\u001b[1A\u001b[2K🎯 Rastgele seçilen satır numarası: 10\n\n\u001b[1A\u001b[2K✅ Entegratör mesajı görünmedi, E-Belge Ayarları devam ediyor...\n\n\u001b[1A\u001b[2K ❌ Belge Türü E-Belge Ayarı zaten kayıtlı\n\n\u001b[1A\u001b[2K  1 passed (16.7s)\n",
+    "output": "\nRunning 1 test using 1 worker\n\n\u001b[1A\u001b[2K[1/1] tests\\admin-login\\merchant\\detay-e-belge-ayarlari.spec.ts:6:5 › Detay E-Belge Ayarları\n\u001b[1A\u001b[2Ktests\\admin-login\\merchant\\detay-e-belge-ayarlari.spec.ts:6:5 › Detay E-Belge Ayarları\n===>  Detay E-Belge Ayarları  <===\n\n\u001b[1A\u001b[2KAdmin ile giriş yapıldı\n\n\u001b[1A\u001b[2K🎯 Rastgele seçilen satır numarası: 11\n\n\u001b[1A\u001b[2K✅ Entegratör mesajı görünmedi, E-Belge Ayarları devam ediyor...\n\n\u001b[1A\u001b[2K✅ Seçilen Belge Türü: E-MM\n\n\u001b[1A\u001b[2K✅ Üye İşyeri E-Belge Ayarları başarıyla oluşturuldu\n\n\u001b[1A\u001b[2K  1 passed (21.7s)\n",
     "stderr": "",
     "error": null,
-    "startTime": "2025-08-08T11:46:46.447Z",
-    "endTime": "2025-08-08T11:47:05.406Z",
-    "duration": 19,
-    "lastRun": "2025-08-08T11:47:05.406Z"
+    "startTime": "2025-10-21T18:27:26.689Z",
+    "endTime": "2025-10-21T18:27:51.045Z",
+    "duration": 24,
+    "lastRun": "2025-10-21T18:27:51.045Z"
   },
   "admin-login/merchant/detay-entegrator-ekleme.spec.ts": {
     "success": true,
-    "output": "\nRunning 1 test using 1 worker\n\n\u001b[1A\u001b[2K[1/1] tests\\admin-login\\merchant\\detay-entegrator-ekleme.spec.ts:5:5 › Entegratör Ekleme\n\u001b[1A\u001b[2Ktests\\admin-login\\merchant\\detay-entegrator-ekleme.spec.ts:5:5 › Entegratör Ekleme\n===>  Entegratör Ekleme  <===\n\n\u001b[1A\u001b[2K🎯 Rastgele seçilen satır numarası: 10\n\n\u001b[1A\u001b[2K🎯 Rastgele seçilen entegratör:  EDM Bilişim \n\n\u001b[1A\u001b[2K✅ Entegratör başarıyla eklendi\n\n\u001b[1A\u001b[2K  1 passed (13.8s)\n",
+    "output": "\nRunning 1 test using 1 worker\n\n\u001b[1A\u001b[2K[1/1] tests\\admin-login\\merchant\\detay-entegrator-ekleme.spec.ts:5:5 › Entegratör Ekleme\n\u001b[1A\u001b[2Ktests\\admin-login\\merchant\\detay-entegrator-ekleme.spec.ts:5:5 › Entegratör Ekleme\n===>  Entegratör Ekleme  <===\n\n\u001b[1A\u001b[2KAdmin ile giriş yapıldı\n\n\u001b[1A\u001b[2K🎯 Rastgele seçilen satır numarası: 2\n\n\u001b[1A\u001b[2K🎯 Rastgele seçilen entegratör:  Ticari1 \n\n\u001b[1A\u001b[2K✅ Entegratör başarıyla eklendi\n\n\u001b[1A\u001b[2K  1 passed (21.0s)\n",
     "stderr": "",
     "error": null,
-    "startTime": "2025-08-08T11:47:44.954Z",
-    "endTime": "2025-08-08T11:48:00.494Z",
-    "duration": 16,
-    "lastRun": "2025-08-08T11:48:00.494Z"
+    "startTime": "2025-10-21T18:27:52.503Z",
+    "endTime": "2025-10-21T18:28:16.014Z",
+    "duration": 24,
+    "lastRun": "2025-10-21T18:28:16.014Z"
   },
   "admin-login/merchant/detay-payment-type-ekleme.spec.ts": {
     "success": true,
-    "output": "\nRunning 1 test using 1 worker\n\n\u001b[1A\u001b[2K[1/1] tests\\admin-login\\merchant\\detay-payment-type-ekleme.spec.ts:5:5 › Detay Payment type Ekleme\n\u001b[1A\u001b[2Ktests\\admin-login\\merchant\\detay-payment-type-ekleme.spec.ts:5:5 › Detay Payment type Ekleme\n===>  Detay Payment Type Ekleme  <===\n\n\u001b[1A\u001b[2K✅ Başarılı: Ödeme Tipi eklendi!\n\n\u001b[1A\u001b[2K  1 passed (15.8s)\n",
+    "output": "\nRunning 1 test using 1 worker\n\n\u001b[1A\u001b[2K[1/1] tests\\admin-login\\merchant\\detay-payment-type-ekleme.spec.ts:5:5 › Detay Payment type Ekleme\n\u001b[1A\u001b[2Ktests\\admin-login\\merchant\\detay-payment-type-ekleme.spec.ts:5:5 › Detay Payment type Ekleme\n===>  Detay Payment Type Ekleme  <===\n\n\u001b[1A\u001b[2KAdmin ile giriş yapıldı\n\n\u001b[1A\u001b[2K✅ Başarılı: Ödeme Tipi eklendi!\n\n\u001b[1A\u001b[2K  1 passed (22.7s)\n",
     "stderr": "",
     "error": null,
-    "startTime": "2025-08-08T11:48:25.114Z",
-    "endTime": "2025-08-08T11:48:42.632Z",
-    "duration": 18,
-    "lastRun": "2025-08-08T11:48:42.632Z"
+    "startTime": "2025-10-21T18:28:40.073Z",
+    "endTime": "2025-10-21T18:29:05.366Z",
+    "duration": 25,
+    "lastRun": "2025-10-21T18:29:05.366Z"
   },
   "admin-login/merchant/tip-vergi-tipi-ve-yetkili-bayi-degistirme.spec.ts": {
     "success": true,
-    "output": "\nRunning 1 test using 1 worker\n\n\u001b[1A\u001b[2K[1/1] tests\\admin-login\\merchant\\tip-vergi-tipi-ve-yetkili-bayi-degistirme.spec.ts:8:5 › Tip, Vergi Tipi ve Yetkili bayi Değiştirme\n\u001b[1A\u001b[2Ktests\\admin-login\\merchant\\tip-vergi-tipi-ve-yetkili-bayi-degistirme.spec.ts:8:5 › Tip, Vergi Tipi ve Yetkili bayi Değiştirme\n===>  Tip, Vergi Tipi ve Yetkili bayi Değiştirme  <===\n\n\u001b[1A\u001b[2K🎯 Rastgele seçilen satır numarası: 10\n\n\u001b[1A\u001b[2KÜretilen TC No: 88442163972\n\n\u001b[1A\u001b[2K🎯 Dropdown'dan rastgele seçilen seçenek indeksi: 336\n\n\u001b[1A\u001b[2K✅ Başarılı! Güncelle işlemi başarıyla gerçekleştirildi\n\n\u001b[1A\u001b[2K  1 passed (20.9s)\n",
+    "output": "\nRunning 1 test using 1 worker\n\n\u001b[1A\u001b[2K[1/1] tests\\admin-login\\merchant\\tip-vergi-tipi-ve-yetkili-bayi-degistirme.spec.ts:8:5 › Tip, Vergi Tipi ve Yetkili bayi Değiştirme\n\u001b[1A\u001b[2Ktests\\admin-login\\merchant\\tip-vergi-tipi-ve-yetkili-bayi-degistirme.spec.ts:8:5 › Tip, Vergi Tipi ve Yetkili bayi Değiştirme\n===>  Tip, Vergi Tipi ve Yetkili bayi Değiştirme  <===\n\n\u001b[1A\u001b[2KAdmin ile giriş yapıldı\n\n\u001b[1A\u001b[2K🎯 Rastgele seçilen satır numarası: 3\n\n\u001b[1A\u001b[2KÜretilen TC No: 87420344440\n\n\u001b[1A\u001b[2K🎯 Dropdown'dan rastgele seçilen seçenek indeksi: 52\n\n\u001b[1A\u001b[2K✅ Başarılı! Güncelle işlemi başarıyla gerçekleştirildi\n\n\u001b[1A\u001b[2K  1 passed (31.8s)\n",
     "stderr": "",
     "error": null,
-    "startTime": "2025-08-08T11:48:46.318Z",
-    "endTime": "2025-08-08T11:49:08.979Z",
-    "duration": 23,
-    "lastRun": "2025-08-08T11:49:08.979Z"
+    "startTime": "2025-10-21T18:29:33.984Z",
+    "endTime": "2025-10-21T18:30:08.861Z",
+    "duration": 35,
+    "lastRun": "2025-10-21T18:30:08.861Z"
   },
   "admin-login/reseller/bayi-guncelle.spec.ts": {
     "success": true,
@@ -521,13 +521,13 @@
   },
   "admin-login/merchant/detay-merchant-ibans.spec.ts": {
     "success": true,
-    "output": "\nRunning 1 test using 1 worker\n\n\u001b[1A\u001b[2K[1/1] tests\\admin-login\\merchant\\detay-merchant-ibans.spec.ts:9:5 › Detay Merchant IBANs\n\u001b[1A\u001b[2Ktests\\admin-login\\merchant\\detay-merchant-ibans.spec.ts:9:5 › Detay Merchant IBANs\n===>  Detay Merchant IBANs  <===\n\n\u001b[1A\u001b[2KAdmin ile giriş yapıldı\n\n\u001b[1A\u001b[2KÜretilen TC No: 28199718926\n\n\u001b[1A\u001b[2KÜretilen E-posta: lk3tquthzdm@gmail.com\n\n\u001b[1A\u001b[2KÜretilen Telefon Numarası: +90 52 340 65 90\n\n\u001b[1A\u001b[2K✅ Başarılı: Üye İşyeri başarıyla eklendi! (507-Gerçek Mükellef)\n\n\u001b[1A\u001b[2K✅ Başarılı: IBAN başarıyla eklendi!\n\n\u001b[1A\u001b[2K✅ Başarılı: IBAN başarıyla güncellendi!\n\n\u001b[1A\u001b[2K✅ Başarılı: IBAN başarıyla silindi!\n\n\u001b[1A\u001b[2K✅ Başarılı: Üye İşyeri başarıyla silindi!\n\n\u001b[1A\u001b[2K  1 passed (1.6m)\n",
+    "output": "\nRunning 1 test using 1 worker\n\n\u001b[1A\u001b[2K[1/1] tests\\admin-login\\merchant\\detay-merchant-ibans.spec.ts:9:5 › Detay Merchant IBANs\n\u001b[1A\u001b[2Ktests\\admin-login\\merchant\\detay-merchant-ibans.spec.ts:9:5 › Detay Merchant IBANs\n===>  Detay Merchant IBANs  <===\n\n\u001b[1A\u001b[2KAdmin ile giriş yapıldı\n\n\u001b[1A\u001b[2KÜretilen TC No: 21224821394\n\n\u001b[1A\u001b[2KÜretilen E-posta: j2idbos9@gmail.com\n\n\u001b[1A\u001b[2KÜretilen Telefon Numarası: +90 58 940 16 10\n\n\u001b[1A\u001b[2K✅ Başarılı: Üye İşyeri başarıyla eklendi! (507-Gerçek Mükellef)\n\n\u001b[1A\u001b[2K✅ Başarılı: IBAN başarıyla eklendi!\n\n\u001b[1A\u001b[2K✅ Başarılı: IBAN başarıyla güncellendi!\n\n\u001b[1A\u001b[2K✅ Başarılı: IBAN başarıyla silindi!\n\n\u001b[1A\u001b[2K✅ Başarılı: Üye İşyeri başarıyla silindi!\n\n\u001b[1A\u001b[2K  1 passed (1.1m)\n",
     "stderr": "",
     "error": null,
-    "startTime": "2025-08-19T09:08:10.858Z",
-    "endTime": "2025-08-19T09:09:47.752Z",
-    "duration": 97,
-    "lastRun": "2025-08-19T09:09:47.752Z"
+    "startTime": "2025-10-21T18:44:59.127Z",
+    "endTime": "2025-10-21T18:46:06.660Z",
+    "duration": 68,
+    "lastRun": "2025-10-21T18:46:06.660Z"
   },
   "admin-login/merchant/detay-merchant-parameters.spec.ts": {
     "success": true,
