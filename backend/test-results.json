@@ -521,23 +521,23 @@
   },
   "admin-login/merchant/detay-merchant-ibans.spec.ts": {
     "success": true,
-    "output": "\nRunning 1 test using 1 worker\n\n\u001b[1A\u001b[2K[1/1] tests\\admin-login\\merchant\\detay-merchant-ibans.spec.ts:9:5 › Detay Merchant IBANs\n\u001b[1A\u001b[2Ktests\\admin-login\\merchant\\detay-merchant-ibans.spec.ts:9:5 › Detay Merchant IBANs\n===>  Detay Merchant IBANs  <===\n\n\u001b[1A\u001b[2KAdmin ile giriş yapıldı\n\n\u001b[1A\u001b[2KÜretilen TC No: 21224821394\n\n\u001b[1A\u001b[2KÜretilen E-posta: j2idbos9@gmail.com\n\n\u001b[1A\u001b[2KÜretilen Telefon Numarası: +90 58 940 16 10\n\n\u001b[1A\u001b[2K✅ Başarılı: Üye İşyeri başarıyla eklendi! (507-Gerçek Mükellef)\n\n\u001b[1A\u001b[2K✅ Başarılı: IBAN başarıyla eklendi!\n\n\u001b[1A\u001b[2K✅ Başarılı: IBAN başarıyla güncellendi!\n\n\u001b[1A\u001b[2K✅ Başarılı: IBAN başarıyla silindi!\n\n\u001b[1A\u001b[2K✅ Başarılı: Üye İşyeri başarıyla silindi!\n\n\u001b[1A\u001b[2K  1 passed (1.1m)\n",
+    "output": "\nRunning 1 test using 1 worker\n\n\u001b[1A\u001b[2K[1/1] tests\\admin-login\\merchant\\detay-merchant-ibans.spec.ts:9:5 › Detay Merchant IBANs\n\u001b[1A\u001b[2Ktests\\admin-login\\merchant\\detay-merchant-ibans.spec.ts:9:5 › Detay Merchant IBANs\n===>  Detay Merchant IBANs  <===\n\n\u001b[1A\u001b[2KAdmin ile giriş yapıldı\n\n\u001b[1A\u001b[2KÜretilen TC No: 76207170280\n\n\u001b[1A\u001b[2KÜretilen E-posta: r9y6l@gmail.com\n\n\u001b[1A\u001b[2KÜretilen Telefon Numarası: +90 53 249 28 86\n\n\u001b[1A\u001b[2K✅ Başarılı: Üye İşyeri başarıyla eklendi! (507-Gerçek Mükellef)\n\n\u001b[1A\u001b[2K✅ Başarılı: IBAN başarıyla eklendi!\n\n\u001b[1A\u001b[2K✅ Başarılı: IBAN başarıyla güncellendi!\n\n\u001b[1A\u001b[2K✅ Başarılı: IBAN başarıyla silindi!\n\n\u001b[1A\u001b[2K✅ Başarılı: Üye İşyeri başarıyla silindi!\n\n\u001b[1A\u001b[2K  1 passed (1.5m)\n",
     "stderr": "",
     "error": null,
-    "startTime": "2025-10-21T18:44:59.127Z",
-    "endTime": "2025-10-21T18:46:06.660Z",
-    "duration": 68,
-    "lastRun": "2025-10-21T18:46:06.660Z"
+    "startTime": "2025-10-22T13:06:11.447Z",
+    "endTime": "2025-10-22T13:07:43.093Z",
+    "duration": 92,
+    "lastRun": "2025-10-22T13:07:43.093Z"
   },
   "admin-login/merchant/detay-merchant-parameters.spec.ts": {
-    "success": false,
-    "output": "\nRunning 1 test using 1 worker\n\n\u001b[1A\u001b[2K[1/1] tests\\admin-login\\merchant\\detay-merchant-parameters.spec.ts:9:5 › Detay Merchant Parameters\n\u001b[1A\u001b[2Ktests\\admin-login\\merchant\\detay-merchant-parameters.spec.ts:9:5 › Detay Merchant Parameters\n===>  Detay Merchant Parameters  <===\n\n\u001b[1A\u001b[2KAdmin ile giriş yapıldı\n\n\u001b[1A\u001b[2KÜretilen TC No: 29836737140\n\n\u001b[1A\u001b[2KÜretilen E-posta: ppkocsv0c3363@gmail.com\n\n\u001b[1A\u001b[2KÜretilen Telefon Numarası: +90 52 225 07 44\n\n\u001b[1A\u001b[2K✅ Başarılı: Üye İşyeri başarıyla eklendi! (507-Gerçek Mükellef)\n\n\u001b[1A\u001b[2K  1) tests\\admin-login\\merchant\\detay-merchant-parameters.spec.ts:9:5 › Detay Merchant Parameters ──\n\n    Error: locator.click: Target page, context or browser has been closed\n    Call log:\n    \u001b[2m  - waiting for getByRole('row', { name: 'Expand Details  DENEMEHZYSE' }).getByLabel('Expand Details')\u001b[22m\n\n\n      285 |    // ===== ADIM 5: Detay Menü =====\n      286 |    const firstRowExpand = await page.getByRole('row', { name: 'Expand Details  ' + ad }).getByLabel('Expand Details');\n    > 287 |    await firstRowExpand.click();\n          |                         ^\n      288 |  \n      289 |    await page.getByText('Merchant Parameters').click();\n      290 |    await page.waitForTimeout(1000);\n        at C:\\Users\\uyary\\Desktop\\Otomasyon-Arayuz\\tests\\admin-login\\merchant\\detay-merchant-parameters.spec.ts:287:25\n\n\n\u001b[1A\u001b[2K  1 failed\n    tests\\admin-login\\merchant\\detay-merchant-parameters.spec.ts:9:5 › Detay Merchant Parameters ───\n",
+    "success": true,
+    "output": "\nRunning 1 test using 1 worker\n\n\u001b[1A\u001b[2K[1/1] tests\\admin-login\\merchant\\detay-merchant-parameters.spec.ts:9:5 › Detay Merchant Parameters\n\u001b[1A\u001b[2Ktests\\admin-login\\merchant\\detay-merchant-parameters.spec.ts:9:5 › Detay Merchant Parameters\n===>  Detay Merchant Parameters  <===\n\n\u001b[1A\u001b[2KAdmin ile giriş yapıldı\n\n\u001b[1A\u001b[2KÜretilen TC No: 33725219204\n\n\u001b[1A\u001b[2KÜretilen E-posta: er87aqrh@gmail.com\n\n\u001b[1A\u001b[2KÜretilen Telefon Numarası: +90 57 909 60 73\n\n\u001b[1A\u001b[2K✅ Başarılı: Üye İşyeri başarıyla eklendi! (507-Gerçek Mükellef)\n\n\u001b[1A\u001b[2K✅ Başarılı: Üye İşyeri parametreleri başarıyla güncellendi (Harici satış iptalini etkinleştirildi)!\n\n\u001b[1A\u001b[2K✅ Başarılı: Üye İşyeri parametreleri başarıyla kaydedildi (Harici satış tamamlamayı etkinleştir)!\n\n\u001b[1A\u001b[2K✅ Başarılı: Üye İşyeri başarıyla silindi!\n\n\u001b[1A\u001b[2K  1 passed (1.2m)\n",
     "stderr": "",
-    "error": "Command failed: npx playwright test tests/admin-login/merchant/detay-merchant-parameters.spec.ts --headed --timeout=120000 --reporter=line\n",
-    "startTime": "2025-10-21T18:47:07.424Z",
-    "endTime": "2025-10-21T18:49:10.657Z",
-    "duration": 123,
-    "lastRun": "2025-10-21T18:49:10.657Z"
+    "error": null,
+    "startTime": "2025-10-22T13:08:57.979Z",
+    "endTime": "2025-10-22T13:10:08.984Z",
+    "duration": 71,
+    "lastRun": "2025-10-22T13:10:08.984Z"
   },
   "reseller-login/merchant/detay-odeme-aracilari-1.spec.ts": {
     "success": true,

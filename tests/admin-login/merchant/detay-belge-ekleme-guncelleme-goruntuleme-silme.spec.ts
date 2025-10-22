@@ -284,14 +284,14 @@ console.log('===>  Detay Belge Ekleme, Güncelleme, Görüntüleme ve Silme  <==
      await zoom(page);
 
   await page.waitForTimeout(1000);
-  const uyeİsyeriNo = await page.locator('td:nth-child(3)').first().textContent();
+  const uyeIsyeriNo = await page.locator('td:nth-child(3)').first().textContent();
   // ===== ADIM 6: Detay Menü =====
-  console.log(`🎯 Seçilen üye işyeri: ${uyeİsyeriNo} - ${isyeriAdi}`);
+  console.log(`🎯 Seçilen üye işyeri: ${uyeIsyeriNo} - ${isyeriAdi}`);
 
   try {
-  await page.getByRole('row', { name: 'Expand Details  ' + uyeİsyeriNo }).getByLabel('Expand Details').click();
+  await page.getByRole('row', { name: 'Expand Details  ' + uyeIsyeriNo }).getByLabel('Expand Details').click();
 } catch (error) {
-  console.log(`❌ ${uyeİsyeriNo} - ${isyeriAdi} ile başlayan üye işyeri bulunamadı:`, error.message);
+  console.log(`❌ ${uyeIsyeriNo} - ${isyeriAdi} ile başlayan üye işyeri bulunamadı:`, error.message);
 }
   
   // bu satır özellikle bir detay satırını incelemek için konulmuştur. hemen yukarıdaki 3 satırı yorum satırına alarak kullanabilirsiniz.
@@ -341,9 +341,9 @@ console.log('===>  Detay Belge Ekleme, Güncelleme, Görüntüleme ve Silme  <==
       await page.getByRole('link', { name: 'Collapse Details' }).click();
 
     try {
-      await page.getByRole('row', { name: 'Expand Details  ' + uyeİsyeriNo }).getByLabel('Expand Details').click();
+      await page.getByRole('row', { name: 'Expand Details  ' + uyeIsyeriNo }).getByLabel('Expand Details').click();
     } catch (error) {
-      console.log(`❌ ${uyeİsyeriNo} - ${isyeriAdi} ile başlayan üye işyeri bulunamadı:`, error.message);
+      console.log(`❌ ${uyeIsyeriNo} - ${isyeriAdi} ile başlayan üye işyeri bulunamadı:`, error.message);
     }
 
     // "Belgeler" tıklama 
@@ -382,9 +382,9 @@ console.log('===>  Detay Belge Ekleme, Güncelleme, Görüntüleme ve Silme  <==
         await page.getByRole('link', { name: 'Collapse Details' }).click();
 
         try {
-          await page.getByRole('row', { name: 'Expand Details  ' + uyeİsyeriNo }).getByLabel('Expand Details').click();
+          await page.getByRole('row', { name: 'Expand Details  ' + uyeIsyeriNo }).getByLabel('Expand Details').click();
         } catch (error) {
-          console.log(`❌ ${uyeİsyeriNo} - ${isyeriAdi} ile başlayan üye işyeri bulunamadı:`, error.message);
+          console.log(`❌ ${uyeIsyeriNo} - ${isyeriAdi} ile başlayan üye işyeri bulunamadı:`, error.message);
         }
     
         // "Belgeler" tıklama 
