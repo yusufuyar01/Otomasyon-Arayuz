@@ -91,23 +91,23 @@
   },
   "admin-login/reseller/bayi-guncelle.spec.ts": {
     "success": true,
-    "output": "\nRunning 1 test using 1 worker\n\n\u001b[1A\u001b[2K[1/1] tests\\reseller\\bayi-guncelle.spec.ts:10:5 › Bayi Güncelleme\n\u001b[1A\u001b[2Ktests\\reseller\\bayi-guncelle.spec.ts:10:5 › Bayi Güncelleme\nÜretilen Bayi Adı: DENEMEN9AM4\n\n\u001b[1A\u001b[2KÜretilen VKN: 1178782563\n\n\u001b[1A\u001b[2KÜretilen E-posta: f28qd9@gmail.com\n\n\u001b[1A\u001b[2KÜretilen Telefon Numarası: +90 52 653 55 58\n\n\u001b[1A\u001b[2K✅ Başarılı: Bayi başarıyla eklendi! (Tüzel Kişi)\n\n\u001b[1A\u001b[2KÜretilen TC No: 90050366324\n\n\u001b[1A\u001b[2K✅ Başarılı! Bayi güncelleme işlemi başarıyla gerçekleştirildi\n\n\u001b[1A\u001b[2K✅ Başarılı: Bayi başarıyla silindi!\n\n\u001b[1A\u001b[2K  1 passed (30.8s)\n",
+    "output": "\nRunning 1 test using 1 worker\n\n\u001b[1A\u001b[2K[1/1] tests\\admin-login\\reseller\\bayi-guncelle.spec.ts:10:5 › Bayi Güncelleme\n\u001b[1A\u001b[2Ktests\\admin-login\\reseller\\bayi-guncelle.spec.ts:10:5 › Bayi Güncelleme\n===>  Bayi Güncelleme  <===\n\n\u001b[1A\u001b[2KAdmin ile giriş yapıldı\n\n\u001b[1A\u001b[2KÜretilen Bayi Adı: DENEMEE8Q62\n\n\u001b[1A\u001b[2KÜretilen VKN: 7331345025\n\n\u001b[1A\u001b[2KÜretilen E-posta: 4krqg1788@gmail.com\n\n\u001b[1A\u001b[2KÜretilen Telefon Numarası: +90 54 855 78 45\n\n\u001b[1A\u001b[2K✅ Başarılı: Bayi başarıyla eklendi! (Tüzel Kişi)\n\n\u001b[1A\u001b[2KÜretilen TC No: 67154656910\n\n\u001b[1A\u001b[2K✅ Başarılı! Bayi güncelleme işlemi başarıyla gerçekleştirildi\n\n\u001b[1A\u001b[2K✅ Başarılı: Bayi başarıyla silindi!\n\n\u001b[1A\u001b[2K  1 passed (1.6m)\n",
     "stderr": "",
     "error": null,
-    "startTime": "2025-08-03T11:52:23.112Z",
-    "endTime": "2025-08-03T11:52:55.509Z",
-    "duration": 32,
-    "lastRun": "2025-08-03T11:52:55.509Z"
+    "startTime": "2025-10-22T13:32:17.569Z",
+    "endTime": "2025-10-22T13:33:53.043Z",
+    "duration": 95,
+    "lastRun": "2025-10-22T13:33:53.043Z"
   },
   "admin-login/reseller/detay-iletisim-bilgileri-ekleme-guncelleme.spec.ts": {
     "success": true,
-    "output": "\nRunning 1 test using 1 worker\n\n\u001b[1A\u001b[2K[1/1] tests\\reseller\\detay-iletisim-bilgileri-ekleme-guncelleme.spec.ts:7:5 › Detay İletişim Bilgileri Ekleme ve Güncelleme\n\u001b[1A\u001b[2Ktests\\reseller\\detay-iletisim-bilgileri-ekleme-guncelleme.spec.ts:7:5 › Detay İletişim Bilgileri Ekleme ve Güncelleme\n🎯 Rastgele seçilen satır numarası: 8\n\n\u001b[1A\u001b[2K🎯 Ana iletişim seçilen: Web\n\n\u001b[1A\u001b[2K✅ Başarılı: İletişim bilgisi başarıyla eklendi!\n\n\u001b[1A\u001b[2KYeni web adresi: HtdmGkvwRj\n\n\u001b[1A\u001b[2K❌ İletişim bilgisi güncelleme başarı mesajı kontrol edilirken hata oluştu: locator.waitFor: Error: strict mode violation: getByText('Başarılı Bayi İletişim başarı') resolved to 2 elements:\n    1) <div toast-component=\"\" class=\"ng-tns-c2308121496-3 ng-star-inserted ng-trigger ng-trigger-flyInOut ngx-toastr toast-success\">…</div> aka getByText('Başarılı Bayi İletişim başarıyla güncellendi.')\n    2) <div toast-component=\"\" class=\"ng-tns-c2308121496-2 ng-star-inserted ng-trigger ng-trigger-flyInOut ngx-toastr toast-success\">…</div> aka getByText('Başarılı Bayi İletişim başarıyla oluşturuldu.')\n\nCall log:\n\u001b[2m  - waiting for getByText('Başarılı Bayi İletişim başarı') to be visible\u001b[22m\n\n\n\u001b[1A\u001b[2K  1 passed (19.0s)\n",
+    "output": "\nRunning 1 test using 1 worker\n\n\u001b[1A\u001b[2K[1/1] tests\\admin-login\\reseller\\detay-iletisim-bilgileri-ekleme-guncelleme.spec.ts:7:5 › Detay İletişim Bilgileri Ekleme ve Güncelleme\n\u001b[1A\u001b[2Ktests\\admin-login\\reseller\\detay-iletisim-bilgileri-ekleme-guncelleme.spec.ts:7:5 › Detay İletişim Bilgileri Ekleme ve Güncelleme\n===>  Detay İletişim Bilgileri Ekleme ve Güncelleme  <===\n\n\u001b[1A\u001b[2KAdmin ile giriş yapıldı\n\n\u001b[1A\u001b[2K🎯 Rastgele seçilen satır numarası: 10\n\n\u001b[1A\u001b[2K🎯 Ana iletişim seçilen: Telefon\n\n\u001b[1A\u001b[2K✅ Başarılı: İletişim bilgisi başarıyla eklendi!\n\n\u001b[1A\u001b[2KYeni telefon: +90 53 903 49 77\n\n\u001b[1A\u001b[2K✅ Başarılı: İletişim bilgisi başarıyla güncellendi!\n\n\u001b[1A\u001b[2K  1 passed (42.0s)\n",
     "stderr": "",
     "error": null,
-    "startTime": "2025-08-03T11:53:20.550Z",
-    "endTime": "2025-08-03T11:53:41.219Z",
-    "duration": 21,
-    "lastRun": "2025-08-03T11:53:41.219Z"
+    "startTime": "2025-10-22T13:36:20.593Z",
+    "endTime": "2025-10-22T13:37:04.706Z",
+    "duration": 44,
+    "lastRun": "2025-10-22T13:37:04.706Z"
   },
   "admin-login/reseller/detay-kullanici-ekleme-guncelleme.spec.ts": {
     "success": true,
